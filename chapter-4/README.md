@@ -7,7 +7,7 @@
 
 ## 说明
 
-复杂应用组件-Handler、多线程和自定义View.pdf: 课程讲义
+Chapter_4-Android: 课程讲义
 
 Demo: 课程演示demo
 

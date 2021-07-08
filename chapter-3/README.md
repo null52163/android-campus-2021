@@ -6,7 +6,7 @@
 
 
 ## 说明
-Chapter_3-Android_UI进阶.pdf: 课程讲义
+Chapter_4-Android: 课程讲义
 
 Demo: 课程演示demo
 
