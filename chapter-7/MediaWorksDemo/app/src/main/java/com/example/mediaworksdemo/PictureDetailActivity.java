@@ -8,6 +8,8 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
+import com.bumptech.glide.request.RequestOptions;
 
 public class PictureDetailActivity extends AppCompatActivity {
 
@@ -22,6 +24,7 @@ public class PictureDetailActivity extends AppCompatActivity {
         ImageView imageView = findViewById(R.id.iv_detail);
         Button btnSuccess = findViewById(R.id.btn_load_success);
         Button btnFail = findViewById(R.id.btn_load_fail);
+        Button btnRoundedCorners = findViewById(R.id.btn_rounded_corners);
 
         btnSuccess.setOnClickListener( v -> {
             Glide.with(this).load(mockUrl)
@@ -34,6 +37,14 @@ public class PictureDetailActivity extends AppCompatActivity {
             Glide.with(this).load(mockErrorUrl)
                     .placeholder(R.drawable.loading_green)
                     .error(R.drawable.error_red)
+                    .into(imageView);
+        });
+
+        btnRoundedCorners.setOnClickListener( v-> {
+            Glide.with(this).load(mockUrl)
+                    .placeholder(R.drawable.loading_green)
+                    .error(R.drawable.error_red)
+                    .apply(RequestOptions.bitmapTransform(new RoundedCorners(50)))
                     .into(imageView);
         });
     }
