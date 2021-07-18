@@ -25,6 +25,8 @@
         </activity>
         <activity android:name=".debug.DebugActivity" />
         <activity android:name=".NoteActivity" />
+        <activity android:name=".debug.FileDemoActivity" />
+        <activity android:name=".debug.SpDemoActivity" />
     </application>
 
 </manifest>

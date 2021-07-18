@@ -23,6 +23,8 @@ import com.byted.camp.todolist.db.TodoDbHelper;
 
 public class NoteActivity extends AppCompatActivity {
 
+    private static final String KEY_DRAFT = "note_draft";
+
     private EditText editText;
     private Button addBtn;
     private RadioGroup radioGroup;
@@ -76,6 +78,22 @@ public class NoteActivity extends AppCompatActivity {
                 finish();
             }
         });
+
+        // reset draft
+        String draftContent = getPreferences(MODE_PRIVATE).getString(KEY_DRAFT, null);
+        if (!TextUtils.isEmpty(draftContent)) {
+            editText.setText(draftContent);
+        }
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        // save draft
+        String value = editText.getText().toString();
+        if (!TextUtils.isEmpty(value)) {
+            getPreferences(MODE_PRIVATE).edit().putString(KEY_DRAFT, value).apply();
+        }
     }
 
     @Override

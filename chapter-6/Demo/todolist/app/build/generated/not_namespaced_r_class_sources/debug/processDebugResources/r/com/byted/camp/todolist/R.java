@@ -40,7 +40,6 @@ public final class R {
   }
   public static final class attr {
     /**
-     * Custom divider drawable to use for elements in the action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -48,7 +47,6 @@ public final class R {
      */
     public static final int actionBarDivider=0x7f030000;
     /**
-     * Custom item state list drawable background for action bar items.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -56,8 +54,6 @@ public final class R {
      */
     public static final int actionBarItemBackground=0x7f030001;
     /**
-     * Reference to a theme that should be used to inflate popups
-     * shown by widgets in the action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -65,8 +61,6 @@ public final class R {
      */
     public static final int actionBarPopupTheme=0x7f030002;
     /**
-     * Size of the Action Bar, including the contextual
-     * bar used to present Action Modes.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -83,10 +77,6 @@ public final class R {
      */
     public static final int actionBarSize=0x7f030003;
     /**
-     * Reference to a style for the split Action Bar. This style
-     * controls the split component that holds the menu/action
-     * buttons. actionBarStyle is still used for the primary
-     * bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -94,7 +84,6 @@ public final class R {
      */
     public static final int actionBarSplitStyle=0x7f030004;
     /**
-     * Reference to a style for the Action Bar
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -109,7 +98,6 @@ public final class R {
      */
     public static final int actionBarTabBarStyle=0x7f030006;
     /**
-     * Default style for tabs within an action bar
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -124,9 +112,6 @@ public final class R {
      */
     public static final int actionBarTabTextStyle=0x7f030008;
     /**
-     * Reference to a theme that should be used to inflate the
-     * action bar. This will be inherited by any widget inflated
-     * into the action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -134,13 +119,6 @@ public final class R {
      */
     public static final int actionBarTheme=0x7f030009;
     /**
-     * Reference to a theme that should be used to inflate widgets
-     * and layouts destined for the action bar. Most of the time
-     * this will be a reference to the current theme, but when
-     * the action bar has a significantly different contrast
-     * profile than the rest of the activity the difference
-     * can become important. If this is set to @null the current
-     * theme will be used.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -148,7 +126,6 @@ public final class R {
      */
     public static final int actionBarWidgetTheme=0x7f03000a;
     /**
-     * Default action button style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -156,7 +133,6 @@ public final class R {
      */
     public static final int actionButtonStyle=0x7f03000b;
     /**
-     * Default ActionBar dropdown style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -164,9 +140,6 @@ public final class R {
      */
     public static final int actionDropDownStyle=0x7f03000c;
     /**
-     * An optional layout to be used as an action view.
-     * See {@link android.view.MenuItem#setActionView(android.view.View)}
-     * for more info.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -174,8 +147,6 @@ public final class R {
      */
     public static final int actionLayout=0x7f03000d;
     /**
-     * TextAppearance style that will be applied to text that
-     * appears within action menu items.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -183,7 +154,6 @@ public final class R {
      */
     public static final int actionMenuTextAppearance=0x7f03000e;
     /**
-     * Color for text that appears within action menu items.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -194,7 +164,6 @@ public final class R {
      */
     public static final int actionMenuTextColor=0x7f03000f;
     /**
-     * Background drawable to use for action mode UI
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -209,7 +178,6 @@ public final class R {
      */
     public static final int actionModeCloseButtonStyle=0x7f030011;
     /**
-     * Drawable to use for the close action mode button
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -217,7 +185,6 @@ public final class R {
      */
     public static final int actionModeCloseDrawable=0x7f030012;
     /**
-     * Drawable to use for the Copy action button in Contextual Action Bar
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -225,7 +192,6 @@ public final class R {
      */
     public static final int actionModeCopyDrawable=0x7f030013;
     /**
-     * Drawable to use for the Cut action button in Contextual Action Bar
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -233,7 +199,6 @@ public final class R {
      */
     public static final int actionModeCutDrawable=0x7f030014;
     /**
-     * Drawable to use for the Find action button in WebView selection action modes
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -241,7 +206,6 @@ public final class R {
      */
     public static final int actionModeFindDrawable=0x7f030015;
     /**
-     * Drawable to use for the Paste action button in Contextual Action Bar
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -249,7 +213,6 @@ public final class R {
      */
     public static final int actionModePasteDrawable=0x7f030016;
     /**
-     * PopupWindow style to use for action modes when showing as a window overlay.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -257,7 +220,6 @@ public final class R {
      */
     public static final int actionModePopupWindowStyle=0x7f030017;
     /**
-     * Drawable to use for the Select all action button in Contextual Action Bar
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -265,7 +227,6 @@ public final class R {
      */
     public static final int actionModeSelectAllDrawable=0x7f030018;
     /**
-     * Drawable to use for the Share action button in WebView selection action modes
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -273,7 +234,6 @@ public final class R {
      */
     public static final int actionModeShareDrawable=0x7f030019;
     /**
-     * Background drawable to use for action mode UI in the lower split bar
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -288,7 +248,6 @@ public final class R {
      */
     public static final int actionModeStyle=0x7f03001b;
     /**
-     * Drawable to use for the Web Search action button in WebView selection action modes
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -310,24 +269,16 @@ public final class R {
      */
     public static final int actionOverflowMenuStyle=0x7f03001e;
     /**
-     * The name of an optional ActionProvider class to instantiate an action view
-     * and perform operations such as default action for that menu item.
-     * See {@link android.view.MenuItem#setActionProvider(android.view.ActionProvider)}
-     * for more info.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int actionProviderClass=0x7f03001f;
     /**
-     * The name of an optional View class to instantiate and use as an
-     * action view. See {@link android.view.MenuItem#setActionView(android.view.View)}
-     * for more info.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int actionViewClass=0x7f030020;
     /**
-     * Default ActivityChooserView style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -354,7 +305,6 @@ public final class R {
      */
     public static final int alertDialogStyle=0x7f030024;
     /**
-     * Theme to use for alert dialogs spawned from this theme.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -362,20 +312,15 @@ public final class R {
      */
     public static final int alertDialogTheme=0x7f030025;
     /**
-     * Whether to automatically stack the buttons when there is not
-     * enough space to lay them out side-by-side.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int allowStacking=0x7f030026;
     /**
-     * Alpha multiplier applied to the base color.
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
     public static final int alpha=0x7f030027;
     /**
-     * The alphabetic modifier key. This is the modifier when using a keyboard
-     * with alphabetic keys. The values should be kept in sync with KeyEvent
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -392,7 +337,6 @@ public final class R {
      */
     public static final int alphabeticModifiers=0x7f030028;
     /**
-     * The length of the arrow head when formed to make an arrow
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -401,7 +345,6 @@ public final class R {
      */
     public static final int arrowHeadLength=0x7f030029;
     /**
-     * The length of the shaft when formed to make an arrow
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -410,7 +353,6 @@ public final class R {
      */
     public static final int arrowShaftLength=0x7f03002a;
     /**
-     * Default AutoCompleteTextView style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -418,7 +360,6 @@ public final class R {
      */
     public static final int autoCompleteTextViewStyle=0x7f03002b;
     /**
-     * The maximum text size constraint to be used when auto-sizing text.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -427,7 +368,6 @@ public final class R {
      */
     public static final int autoSizeMaxTextSize=0x7f03002c;
     /**
-     * The minimum text size constraint to be used when auto-sizing text.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -436,9 +376,6 @@ public final class R {
      */
     public static final int autoSizeMinTextSize=0x7f03002d;
     /**
-     * Resource array of dimensions to be used in conjunction with
-     * <code>autoSizeTextType</code> set to <code>uniform</code>. Overrides
-     * <code>autoSizeStepGranularity</code> if set.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -446,9 +383,6 @@ public final class R {
      */
     public static final int autoSizePresetSizes=0x7f03002e;
     /**
-     * Specify the auto-size step size if <code>autoSizeTextType</code> is set to
-     * <code>uniform</code>. The default is 1px. Overwrites
-     * <code>autoSizePresetSizes</code> if set.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -457,22 +391,18 @@ public final class R {
      */
     public static final int autoSizeStepGranularity=0x7f03002f;
     /**
-     * Specify the type of auto-size. Note that this feature is not supported by EditText,
-     * works only for TextView.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>none</td><td>0</td><td>No auto-sizing (default).</td></tr>
-     * <tr><td>uniform</td><td>1</td><td>Uniform horizontal and vertical text size scaling to fit within the
-     * container.</td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>uniform</td><td>1</td><td></td></tr>
      * </table>
      */
     public static final int autoSizeTextType=0x7f030030;
     /**
-     * Specifies a background drawable for the action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -480,7 +410,6 @@ public final class R {
      */
     public static final int background=0x7f030031;
     /**
-     * Specifies a background drawable for the bottom component of a split action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -491,7 +420,6 @@ public final class R {
      */
     public static final int backgroundSplit=0x7f030032;
     /**
-     * Specifies a background drawable for a second stacked row of the action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -502,36 +430,28 @@ public final class R {
      */
     public static final int backgroundStacked=0x7f030033;
     /**
-     * Tint to apply to the background.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int backgroundTint=0x7f030034;
     /**
-     * Blending mode used to apply the background tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and icon color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
     public static final int backgroundTintMode=0x7f030035;
     /**
-     * The length of the bars when they are parallel to each other
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -613,7 +533,6 @@ public final class R {
      */
     public static final int borderWidth=0x7f03003f;
     /**
-     * Style for buttons without an explicit border, often used in groups.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -722,7 +641,6 @@ public final class R {
      */
     public static final int boxStrokeWidth=0x7f03004d;
     /**
-     * Style for buttons within button bars
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -730,7 +648,6 @@ public final class R {
      */
     public static final int buttonBarButtonStyle=0x7f03004e;
     /**
-     * Style for the "negative" buttons within button bars
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -738,7 +655,6 @@ public final class R {
      */
     public static final int buttonBarNegativeButtonStyle=0x7f03004f;
     /**
-     * Style for the "neutral" buttons within button bars
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -746,7 +662,6 @@ public final class R {
      */
     public static final int buttonBarNeutralButtonStyle=0x7f030050;
     /**
-     * Style for the "positive" buttons within button bars
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -754,7 +669,6 @@ public final class R {
      */
     public static final int buttonBarPositiveButtonStyle=0x7f030051;
     /**
-     * Style for button bars
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -768,8 +682,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td>Push object to the bottom of its container, not changing its size.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Push object to the top of its container, not changing its size.</td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
     public static final int buttonGravity=0x7f030053;
@@ -789,7 +703,6 @@ public final class R {
      */
     public static final int buttonPanelSideLayout=0x7f030055;
     /**
-     * Normal Button style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -797,7 +710,6 @@ public final class R {
      */
     public static final int buttonStyle=0x7f030056;
     /**
-     * Small Button style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -805,43 +717,34 @@ public final class R {
      */
     public static final int buttonStyleSmall=0x7f030057;
     /**
-     * Tint to apply to the button drawable.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int buttonTint=0x7f030058;
     /**
-     * Blending mode used to apply the button tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and icon color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
     public static final int buttonTintMode=0x7f030059;
     /**
-     * Background color for CardView.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int cardBackgroundColor=0x7f03005a;
     /**
-     * Corner radius for CardView.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -850,7 +753,6 @@ public final class R {
      */
     public static final int cardCornerRadius=0x7f03005b;
     /**
-     * Elevation for CardView.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -859,7 +761,6 @@ public final class R {
      */
     public static final int cardElevation=0x7f03005c;
     /**
-     * Maximum Elevation for CardView.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -868,13 +769,11 @@ public final class R {
      */
     public static final int cardMaxElevation=0x7f03005d;
     /**
-     * Add padding to CardView on v20 and before to prevent intersections between the Card content and rounded corners.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int cardPreventCornerOverlap=0x7f03005e;
     /**
-     * Add padding in API v21+ as well to have the same measurements with previous versions.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -892,7 +791,6 @@ public final class R {
      */
     public static final int chainUseRtl=0x7f030061;
     /**
-     * Default Checkbox style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -924,7 +822,6 @@ public final class R {
      */
     public static final int checkedIconVisible=0x7f030066;
     /**
-     * Default CheckedTextView style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1060,7 +957,6 @@ public final class R {
      */
     public static final int chipStyle=0x7f030079;
     /**
-     * Close button icon
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1108,7 +1004,6 @@ public final class R {
      */
     public static final int closeIconVisible=0x7f030080;
     /**
-     * Specifies a layout to use for the "close" item at the starting edge.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1116,13 +1011,11 @@ public final class R {
      */
     public static final int closeItemLayout=0x7f030081;
     /**
-     * Text to set as the content description for the collapse button.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int collapseContentDescription=0x7f030082;
     /**
-     * Icon drawable to use for the collapse button.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1157,58 +1050,48 @@ public final class R {
      */
     public static final int collapsedTitleTextAppearance=0x7f030085;
     /**
-     * The drawing color for the bars
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int color=0x7f030086;
     /**
-     * Bright complement to the primary branding color. By default, this is the color applied
-     * to framework controls (via colorControlActivated).
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int colorAccent=0x7f030087;
     /**
-     * Default color of background imagery for floating components, ex. dialogs, popups, and cards.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int colorBackgroundFloating=0x7f030088;
     /**
-     * The color applied to framework buttons in their normal state.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int colorButtonNormal=0x7f030089;
     /**
-     * The color applied to framework controls in their activated (ex. checked) state.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int colorControlActivated=0x7f03008a;
     /**
-     * The color applied to framework control highlights (ex. ripples, list selectors).
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int colorControlHighlight=0x7f03008b;
     /**
-     * The color applied to framework controls in their normal state.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int colorControlNormal=0x7f03008c;
     /**
-     * Color used for error states and things that need to be drawn to
-     * the user's attention.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1219,16 +1102,12 @@ public final class R {
      */
     public static final int colorError=0x7f03008d;
     /**
-     * The primary branding color for the app. By default, this is the color applied to the
-     * action bar background.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int colorPrimary=0x7f03008e;
     /**
-     * Dark variant of the primary branding color. By default, this is the color applied to
-     * the status bar (via statusBarColor) and navigation bar (via navigationBarColor).
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
@@ -1241,14 +1120,12 @@ public final class R {
      */
     public static final int colorSecondary=0x7f030090;
     /**
-     * The color applied to framework switch thumbs in their normal state.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int colorSwitchThumbNormal=0x7f030091;
     /**
-     * Commit icon shown in the query suggestion row
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1275,14 +1152,11 @@ public final class R {
      */
     public static final int content=0x7f030095;
     /**
-     * The content description associated with the item.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int contentDescription=0x7f030096;
     /**
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1291,8 +1165,6 @@ public final class R {
      */
     public static final int contentInsetEnd=0x7f030097;
     /**
-     * Minimum inset for content views within a bar when actions from a menu
-     * are present. Only valid for some themes and configurations.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1301,8 +1173,6 @@ public final class R {
      */
     public static final int contentInsetEndWithActions=0x7f030098;
     /**
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1311,8 +1181,6 @@ public final class R {
      */
     public static final int contentInsetLeft=0x7f030099;
     /**
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1321,8 +1189,6 @@ public final class R {
      */
     public static final int contentInsetRight=0x7f03009a;
     /**
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1331,8 +1197,6 @@ public final class R {
      */
     public static final int contentInsetStart=0x7f03009b;
     /**
-     * Minimum inset for content views within a bar when a navigation button
-     * is present, such as the Up button. Only valid for some themes and configurations.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1341,7 +1205,6 @@ public final class R {
      */
     public static final int contentInsetStartWithNavigation=0x7f03009c;
     /**
-     * Inner padding between the edges of the Card and children of the CardView.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1350,7 +1213,6 @@ public final class R {
      */
     public static final int contentPadding=0x7f03009d;
     /**
-     * Inner padding between the bottom edge of the Card and children of the CardView.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1359,7 +1221,6 @@ public final class R {
      */
     public static final int contentPaddingBottom=0x7f03009e;
     /**
-     * Inner padding between the left edge of the Card and children of the CardView.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1368,7 +1229,6 @@ public final class R {
      */
     public static final int contentPaddingLeft=0x7f03009f;
     /**
-     * Inner padding between the right edge of the Card and children of the CardView.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1377,7 +1237,6 @@ public final class R {
      */
     public static final int contentPaddingRight=0x7f0300a0;
     /**
-     * Inner padding between the top edge of the Card and children of the CardView.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1392,7 +1251,6 @@ public final class R {
      */
     public static final int contentScrim=0x7f0300a2;
     /**
-     * The background used by framework controls.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1438,7 +1296,6 @@ public final class R {
      */
     public static final int counterTextAppearance=0x7f0300a9;
     /**
-     * Specifies a layout for custom navigation. Overrides navigationMode.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1446,14 +1303,11 @@ public final class R {
      */
     public static final int customNavigationLayout=0x7f0300aa;
     /**
-     * Default query hint used when {@code queryHint} is undefined and
-     * the search view's {@code SearchableInfo} does not provide a hint.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int defaultQueryHint=0x7f0300ab;
     /**
-     * Preferred corner radius of dialogs.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1462,7 +1316,6 @@ public final class R {
      */
     public static final int dialogCornerRadius=0x7f0300ac;
     /**
-     * Preferred padding for dialog content.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1471,7 +1324,6 @@ public final class R {
      */
     public static final int dialogPreferredPadding=0x7f0300ad;
     /**
-     * Theme to use for dialogs spawned from this theme.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1479,7 +1331,6 @@ public final class R {
      */
     public static final int dialogTheme=0x7f0300ae;
     /**
-     * Options affecting how the action bar is displayed.
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -1497,7 +1348,6 @@ public final class R {
      */
     public static final int displayOptions=0x7f0300af;
     /**
-     * Specifies the drawable used for item dividers.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1505,7 +1355,6 @@ public final class R {
      */
     public static final int divider=0x7f0300b0;
     /**
-     * A drawable that may be used as a horizontal divider between visual elements.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1513,7 +1362,6 @@ public final class R {
      */
     public static final int dividerHorizontal=0x7f0300b1;
     /**
-     * Size of padding on either end of a divider.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1522,7 +1370,6 @@ public final class R {
      */
     public static final int dividerPadding=0x7f0300b2;
     /**
-     * A drawable that may be used as a vertical divider between visual elements.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1530,7 +1377,6 @@ public final class R {
      */
     public static final int dividerVertical=0x7f0300b3;
     /**
-     * The total size of the drawable
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1546,7 +1392,6 @@ public final class R {
      */
     public static final int drawerArrowStyle=0x7f0300b5;
     /**
-     * ListPopupWindow compatibility
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1554,7 +1399,6 @@ public final class R {
      */
     public static final int dropDownListViewStyle=0x7f0300b6;
     /**
-     * The preferred item height for dropdown lists.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1563,7 +1407,6 @@ public final class R {
      */
     public static final int dropdownListPreferredItemHeight=0x7f0300b7;
     /**
-     * EditText background drawable.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1571,7 +1414,6 @@ public final class R {
      */
     public static final int editTextBackground=0x7f0300b8;
     /**
-     * EditText text foreground color.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1582,7 +1424,6 @@ public final class R {
      */
     public static final int editTextColor=0x7f0300b9;
     /**
-     * Default EditText style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1590,7 +1431,6 @@ public final class R {
      */
     public static final int editTextStyle=0x7f0300ba;
     /**
-     * Elevation for the action bar itself
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1633,11 +1473,6 @@ public final class R {
      */
     public static final int errorTextAppearance=0x7f0300c0;
     /**
-     * The drawable to show in the button for expanding the activities overflow popup.
-     * <strong>Note:</strong> Clients would like to set this drawable
-     * as a clue about the action the chosen activity will perform. For
-     * example, if share activity is to be chosen the drawable should
-     * give a clue that sharing is to be performed.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1807,8 +1642,6 @@ public final class R {
      */
     public static final int fastScrollVerticalTrackDrawable=0x7f0300d4;
     /**
-     * Distance from the top of the TextView to the first text baseline. If set, this
-     * overrides the value set for paddingTop.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1842,8 +1675,6 @@ public final class R {
      */
     public static final int floatingActionButtonStyle=0x7f0300d6;
     /**
-     * The reference to the font file to be used. This should be a file in the res/font folder
-     * and should therefore have an R reference value. E.g. @font/myfont
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1851,23 +1682,16 @@ public final class R {
      */
     public static final int font=0x7f0300d7;
     /**
-     * The attribute for the font family.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int fontFamily=0x7f0300d8;
     /**
-     * The authority of the Font Provider to be used for the request.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int fontProviderAuthority=0x7f0300d9;
     /**
-     * The sets of hashes for the certificates the provider should be signed with. This is
-     * used to verify the identity of the provider, and is only required if the provider is not
-     * part of the system image. This value may point to one list or a list of lists, where each
-     * individual list represents one collection of signature hashes. Refer to your font provider's
-     * documentation for these values.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1875,34 +1699,18 @@ public final class R {
      */
     public static final int fontProviderCerts=0x7f0300da;
     /**
-     * The strategy to be used when fetching font data from a font provider in XML layouts.
-     * This attribute is ignored when the resource is loaded from code, as it is equivalent to the
-     * choice of API between {@link
-     * androidx.core.content.res.ResourcesCompat#getFont(Context, int)} (blocking) and
-     * {@link
-     * androidx.core.content.res.ResourcesCompat#getFont(Context, int, FontCallback, Handler)}
-     * (async).
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>async</td><td>1</td><td>The async font fetch works as follows.
-     * First, check the local cache, then if the requeted font is not cached, trigger a
-     * request the font and continue with layout inflation. Once the font fetch succeeds, the
-     * target text view will be refreshed with the downloaded font data. The
-     * fontProviderFetchTimeout will be ignored if async loading is specified.</td></tr>
-     * <tr><td>blocking</td><td>0</td><td>The blocking font fetch works as follows.
-     * First, check the local cache, then if the requested font is not cached, request the
-     * font from the provider and wait until it is finished.  You can change the length of
-     * the timeout by modifying fontProviderFetchTimeout.  If the timeout happens, the
-     * default typeface will be used instead.</td></tr>
+     * <tr><td>async</td><td>1</td><td></td></tr>
+     * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      */
     public static final int fontProviderFetchStrategy=0x7f0300db;
     /**
-     * The length of the timeout during fetching.
      * <p>May be an integer value, such as "<code>100</code>".
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1910,29 +1718,21 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>forever</td><td>ffffffff</td><td>A special value for the timeout. In this case, the blocking font fetching will not
-     * timeout and wait until a reply is received from the font provider.</td></tr>
+     * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      */
     public static final int fontProviderFetchTimeout=0x7f0300dc;
     /**
-     * The package for the Font Provider to be used for the request. This is used to verify
-     * the identity of the provider.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int fontProviderPackage=0x7f0300dd;
     /**
-     * The query to be sent over to the provider. Refer to your font provider's documentation
-     * on the format of this string.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int fontProviderQuery=0x7f0300de;
     /**
-     * The style of the given font file. This will be used when the font is being loaded into
-     * the font stack and will override any style information in the font's header tables. If
-     * unspecified, the value in the font's header tables will be used.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -1945,20 +1745,11 @@ public final class R {
      */
     public static final int fontStyle=0x7f0300df;
     /**
-     * The variation settings to be applied to the font. The string should be in the following
-     * format: "'tag1' value1, 'tag2' value2, ...". If the default variation settings should be
-     * used, or the font used does not support variation settings, this attribute needs not be
-     * specified.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int fontVariationSettings=0x7f0300e0;
     /**
-     * The weight of the given font file. This will be used when the font is being loaded into
-     * the font stack and will override any weight information in the font's header tables. Must
-     * be a positive number, a multiple of 100, and between 100 and 900, inclusive. The most
-     * common values are 400 for regular weight and 700 for bold weight. If unspecified, the value
-     * in the font's header tables will be used.
      * <p>May be an integer value, such as "<code>100</code>".
      */
     public static final int fontWeight=0x7f0300e1;
@@ -1968,7 +1759,6 @@ public final class R {
      */
     public static final int foregroundInsidePadding=0x7f0300e2;
     /**
-     * The max gap between the bars when they are parallel to each other
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1977,7 +1767,6 @@ public final class R {
      */
     public static final int gapBetweenBars=0x7f0300e3;
     /**
-     * Go button icon
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2024,7 +1813,6 @@ public final class R {
      */
     public static final int hideMotionSpec=0x7f0300ea;
     /**
-     * Set true to hide the action bar on a vertical nested scroll of content.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -2052,7 +1840,6 @@ public final class R {
      */
     public static final int hintTextAppearance=0x7f0300ef;
     /**
-     * Specifies a drawable to use for the 'home as up' indicator.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2060,7 +1847,6 @@ public final class R {
      */
     public static final int homeAsUpIndicator=0x7f0300f0;
     /**
-     * Specifies a layout to use for the "home" section of the action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2127,43 +1913,33 @@ public final class R {
      */
     public static final int iconStartPadding=0x7f0300f8;
     /**
-     * Tint to apply to the icon.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int iconTint=0x7f0300f9;
     /**
-     * Blending mode used to apply the icon tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and icon color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the icon with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the icon, but with the icon’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the icon. The icon’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the icon.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
     public static final int iconTintMode=0x7f0300fa;
     /**
-     * The default state of the SearchView. If true, it will be iconified when not in
-     * use and expanded when clicked.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int iconifiedByDefault=0x7f0300fb;
     /**
-     * ImageButton background drawable.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2171,7 +1947,6 @@ public final class R {
      */
     public static final int imageButtonStyle=0x7f0300fc;
     /**
-     * Specifies a style resource to use for an indeterminate progress spinner.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2179,7 +1954,6 @@ public final class R {
      */
     public static final int indeterminateProgressStyle=0x7f0300fd;
     /**
-     * The maximal number of items initially shown in the activity list.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
@@ -2242,8 +2016,6 @@ public final class R {
      */
     public static final int itemIconTint=0x7f030106;
     /**
-     * Specifies padding that should be applied to the left and right sides of
-     * system-provided items in the bar.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2287,11 +2059,6 @@ public final class R {
      */
     public static final int itemTextColor=0x7f03010c;
     /**
-     * A reference to an array of integers representing the
-     * locations of horizontal keylines in dp from the starting edge.
-     * Child views can refer to these keylines for alignment using
-     * layout_keyline="index" where index is a 0-based index into
-     * this array.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2313,8 +2080,6 @@ public final class R {
      */
     public static final int labelVisibilityMode=0x7f03010e;
     /**
-     * Distance from the bottom of the TextView to the last text baseline. If set, this
-     * overrides the value set for paddingBottom.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2323,7 +2088,6 @@ public final class R {
      */
     public static final int lastBaselineToBottomHeight=0x7f03010f;
     /**
-     * The layout to use for the search view.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2331,21 +2095,11 @@ public final class R {
      */
     public static final int layout=0x7f030110;
     /**
-     * Class name of the Layout Manager to be used.
-     * <p/>
-     * The class must extandroidx.recyclerview.widget.RecyclerViewView$LayoutManager
-     * and have either a default constructor or constructor with the signature
-     * (android.content.Context, android.util.AttributeSet, int, int).
-     * <p/>
-     * If the name starts with a '.', application package is prefixed.
-     * Else, if the name contains a '.', the classname is assumed to be a full class name.
-     * Else, the recycler view package naandroidx.appcompat.widgetdget) is prefixed.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int layoutManager=0x7f030111;
     /**
-     * The id of an anchor view that this view should position relative to.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2353,40 +2107,30 @@ public final class R {
      */
     public static final int layout_anchor=0x7f030112;
     /**
-     * Specifies how an object should position relative to an anchor, on both the X and Y axes,
-     * within its parent's bounds.
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td>Push object to the bottom of its container, not changing its size.</td></tr>
-     * <tr><td>center</td><td>11</td><td>Place the object in the center of its container in both the vertical and horizontal axis, not changing its size.</td></tr>
-     * <tr><td>center_horizontal</td><td>1</td><td>Place object in the horizontal center of its container, not changing its size.</td></tr>
-     * <tr><td>center_vertical</td><td>10</td><td>Place object in the vertical center of its container, not changing its size.</td></tr>
-     * <tr><td>clip_horizontal</td><td>8</td><td>Additional option that can be set to have the left and/or right edges of
-     * the child clipped to its container's bounds.
-     * The clip will be based on the horizontal gravity: a left gravity will clip the right
-     * edge, a right gravity will clip the left edge, and neither will clip both edges.</td></tr>
-     * <tr><td>clip_vertical</td><td>80</td><td>Additional option that can be set to have the top and/or bottom edges of
-     * the child clipped to its container's bounds.
-     * The clip will be based on the vertical gravity: a top gravity will clip the bottom
-     * edge, a bottom gravity will clip the top edge, and neither will clip both edges.</td></tr>
-     * <tr><td>end</td><td>800005</td><td>Push object to the end of its container, not changing its size.</td></tr>
-     * <tr><td>fill</td><td>77</td><td>Grow the horizontal and vertical size of the object if needed so it completely fills its container.</td></tr>
-     * <tr><td>fill_horizontal</td><td>7</td><td>Grow the horizontal size of the object if needed so it completely fills its container.</td></tr>
-     * <tr><td>fill_vertical</td><td>70</td><td>Grow the vertical size of the object if needed so it completely fills its container.</td></tr>
-     * <tr><td>left</td><td>3</td><td>Push object to the left of its container, not changing its size.</td></tr>
-     * <tr><td>right</td><td>5</td><td>Push object to the right of its container, not changing its size.</td></tr>
-     * <tr><td>start</td><td>800003</td><td>Push object to the beginning of its container, not changing its size.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Push object to the top of its container, not changing its size.</td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>center</td><td>11</td><td></td></tr>
+     * <tr><td>center_horizontal</td><td>1</td><td></td></tr>
+     * <tr><td>center_vertical</td><td>10</td><td></td></tr>
+     * <tr><td>clip_horizontal</td><td>8</td><td></td></tr>
+     * <tr><td>clip_vertical</td><td>80</td><td></td></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>fill</td><td>77</td><td></td></tr>
+     * <tr><td>fill_horizontal</td><td>7</td><td></td></tr>
+     * <tr><td>fill_vertical</td><td>70</td><td></td></tr>
+     * <tr><td>left</td><td>3</td><td></td></tr>
+     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
     public static final int layout_anchorGravity=0x7f030113;
     /**
-     * The class name of a Behavior class defining special runtime behavior
-     * for this child view.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
@@ -2818,21 +2562,20 @@ public final class R {
      */
     public static final int layout_constraintWidth_percent=0x7f03013f;
     /**
-     * Specifies how this view dodges the inset edges of the CoordinatorLayout.
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>all</td><td>77</td><td>Dodge all the inset edges.</td></tr>
-     * <tr><td>bottom</td><td>50</td><td>Dodge the bottom inset edge.</td></tr>
-     * <tr><td>end</td><td>800005</td><td>Dodge the end inset edge.</td></tr>
-     * <tr><td>left</td><td>3</td><td>Dodge the left inset edge.</td></tr>
-     * <tr><td>none</td><td>0</td><td>Don't dodge any edges</td></tr>
-     * <tr><td>right</td><td>5</td><td>Dodge the right inset edge.</td></tr>
-     * <tr><td>start</td><td>800003</td><td>Dodge the start inset edge.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Dodge the top inset edge.</td></tr>
+     * <tr><td>all</td><td>77</td><td></td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>left</td><td>3</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
     public static final int layout_dodgeInsetEdges=0x7f030140;
@@ -2901,28 +2644,23 @@ public final class R {
      */
     public static final int layout_goneMarginTop=0x7f030148;
     /**
-     * Specifies how this view insets the CoordinatorLayout and make some other views
-     * dodge it.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td>Inset the bottom edge.</td></tr>
-     * <tr><td>end</td><td>800005</td><td>Inset the end edge.</td></tr>
-     * <tr><td>left</td><td>3</td><td>Inset the left edge.</td></tr>
-     * <tr><td>none</td><td>0</td><td>Don't inset.</td></tr>
-     * <tr><td>right</td><td>5</td><td>Inset the right edge.</td></tr>
-     * <tr><td>start</td><td>800003</td><td>Inset the start edge.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Inset the top edge.</td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>left</td><td>3</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
     public static final int layout_insetEdge=0x7f030149;
     /**
-     * The index of a keyline this view should position relative to.
-     * android:layout_gravity will affect how the view aligns to the
-     * specified keyline.
      * <p>May be an integer value, such as "<code>100</code>".
      */
     public static final int layout_keyline=0x7f03014a;
@@ -2936,7 +2674,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
+     * <tr><td>direct</td><td>1</td><td></td></tr>
      * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>7</td><td></td></tr>
@@ -2972,8 +2710,6 @@ public final class R {
      */
     public static final int liftOnScroll=0x7f03014e;
     /**
-     * Explicit height between lines of text. If set, this will override the values set
-     * for lineSpacingExtra and lineSpacingMultiplier.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2990,7 +2726,6 @@ public final class R {
      */
     public static final int lineSpacing=0x7f030150;
     /**
-     * Drawable used as a background for selected list items.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2998,7 +2733,6 @@ public final class R {
      */
     public static final int listChoiceBackgroundIndicator=0x7f030151;
     /**
-     * The list divider used in alert dialogs.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3020,7 +2754,6 @@ public final class R {
      */
     public static final int listLayout=0x7f030154;
     /**
-     * Default menu-style ListView style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3035,7 +2768,6 @@ public final class R {
      */
     public static final int listPopupWindowStyle=0x7f030156;
     /**
-     * The preferred list item height.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3044,7 +2776,6 @@ public final class R {
      */
     public static final int listPreferredItemHeight=0x7f030157;
     /**
-     * A larger, more robust list item height.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3053,7 +2784,6 @@ public final class R {
      */
     public static final int listPreferredItemHeightLarge=0x7f030158;
     /**
-     * A smaller, sleeker list item height.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3062,7 +2792,6 @@ public final class R {
      */
     public static final int listPreferredItemHeightSmall=0x7f030159;
     /**
-     * The preferred padding along the left edge of list items.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3071,7 +2800,6 @@ public final class R {
      */
     public static final int listPreferredItemPaddingLeft=0x7f03015a;
     /**
-     * The preferred padding along the right edge of list items.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3080,7 +2808,6 @@ public final class R {
      */
     public static final int listPreferredItemPaddingRight=0x7f03015b;
     /**
-     * Specifies the drawable used for the application logo.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3088,8 +2815,6 @@ public final class R {
      */
     public static final int logo=0x7f03015c;
     /**
-     * A content description string to describe the appearance of the
-     * associated logo image.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
@@ -3133,9 +2858,6 @@ public final class R {
      */
     public static final int maxImageSize=0x7f030162;
     /**
-     * When set to true, all children with a weight will be considered having
-     * the minimum size of the largest child. If false, all children are
-     * measured normally.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -3155,15 +2877,11 @@ public final class R {
      */
     public static final int multiChoiceItemLayout=0x7f030165;
     /**
-     * Text to set as the content description for the navigation button
-     * located at the start of the toolbar.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int navigationContentDescription=0x7f030166;
     /**
-     * Icon drawable to use for the navigation button located at
-     * the start of the toolbar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3171,16 +2889,15 @@ public final class R {
      */
     public static final int navigationIcon=0x7f030167;
     /**
-     * The type of navigation to use.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>listMode</td><td>1</td><td>The action bar will use a selection list for navigation.</td></tr>
-     * <tr><td>normal</td><td>0</td><td>Normal static title text</td></tr>
-     * <tr><td>tabMode</td><td>2</td><td>The action bar will use a series of horizontal tabs for navigation.</td></tr>
+     * <tr><td>listMode</td><td>1</td><td></td></tr>
+     * <tr><td>normal</td><td>0</td><td></td></tr>
+     * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      */
     public static final int navigationMode=0x7f030168;
@@ -3192,8 +2909,6 @@ public final class R {
      */
     public static final int navigationViewStyle=0x7f030169;
     /**
-     * The numeric modifier key. This is the modifier when using a numeric (e.g., 12-key)
-     * keyboard. The values should be kept in sync with KeyEvent
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -3210,13 +2925,11 @@ public final class R {
      */
     public static final int numericModifiers=0x7f03016a;
     /**
-     * Whether the popup window should overlap its anchor view.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int overlapAnchor=0x7f03016b;
     /**
-     * Bottom padding to use when no buttons are present.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3225,7 +2938,6 @@ public final class R {
      */
     public static final int paddingBottomNoButtons=0x7f03016c;
     /**
-     * Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3234,7 +2946,6 @@ public final class R {
      */
     public static final int paddingEnd=0x7f03016d;
     /**
-     * Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3243,7 +2954,6 @@ public final class R {
      */
     public static final int paddingStart=0x7f03016e;
     /**
-     * Top padding to use when no title is present.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3252,7 +2962,6 @@ public final class R {
      */
     public static final int paddingTopNoTitle=0x7f03016f;
     /**
-     * The background of a panel when it is inset from the left and right edges of the screen.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3260,7 +2969,6 @@ public final class R {
      */
     public static final int panelBackground=0x7f030170;
     /**
-     * Default Panel Menu style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3268,7 +2976,6 @@ public final class R {
      */
     public static final int panelMenuListTheme=0x7f030171;
     /**
-     * Default Panel Menu width.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3315,7 +3022,6 @@ public final class R {
      */
     public static final int passwordToggleTintMode=0x7f030177;
     /**
-     * Default PopupMenu style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3323,8 +3029,6 @@ public final class R {
      */
     public static final int popupMenuStyle=0x7f030178;
     /**
-     * Reference to a theme that should be used to inflate popups
-     * shown by widgets in the action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3332,7 +3036,6 @@ public final class R {
      */
     public static final int popupTheme=0x7f030179;
     /**
-     * Default PopupWindow style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3340,7 +3043,6 @@ public final class R {
      */
     public static final int popupWindowStyle=0x7f03017a;
     /**
-     * Whether space should be reserved in layout when an icon is missing.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -3354,7 +3056,6 @@ public final class R {
      */
     public static final int pressedTranslationZ=0x7f03017c;
     /**
-     * Specifies the horizontal padding on either end for an embedded progress bar.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3363,7 +3064,6 @@ public final class R {
      */
     public static final int progressBarPadding=0x7f03017d;
     /**
-     * Specifies a style resource to use for an embedded progress bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3371,7 +3071,6 @@ public final class R {
      */
     public static final int progressBarStyle=0x7f03017e;
     /**
-     * Background for the section containing the search query
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3379,13 +3078,11 @@ public final class R {
      */
     public static final int queryBackground=0x7f03017f;
     /**
-     * An optional user-defined query hint string to be displayed in the empty query field.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int queryHint=0x7f030180;
     /**
-     * Default RadioButton style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3393,7 +3090,6 @@ public final class R {
      */
     public static final int radioButtonStyle=0x7f030181;
     /**
-     * Default RatingBar style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3401,7 +3097,6 @@ public final class R {
      */
     public static final int ratingBarStyle=0x7f030182;
     /**
-     * Indicator RatingBar style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3409,7 +3104,6 @@ public final class R {
      */
     public static final int ratingBarStyleIndicator=0x7f030183;
     /**
-     * Small indicator RatingBar style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3450,7 +3144,6 @@ public final class R {
      */
     public static final int scrimVisibleHeightTrigger=0x7f030189;
     /**
-     * Search icon displayed as a text field hint
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3458,7 +3151,6 @@ public final class R {
      */
     public static final int searchHintIcon=0x7f03018a;
     /**
-     * Search icon
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3466,7 +3158,6 @@ public final class R {
      */
     public static final int searchIcon=0x7f03018b;
     /**
-     * Style for the search query widget.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3474,7 +3165,6 @@ public final class R {
      */
     public static final int searchViewStyle=0x7f03018c;
     /**
-     * Default SeekBar style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3482,9 +3172,6 @@ public final class R {
      */
     public static final int seekBarStyle=0x7f03018d;
     /**
-     * A style that may be applied to buttons or other selectable items
-     * that should react to pressed and focus states, but that do not
-     * have a clear visual border along the edges.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3492,7 +3179,6 @@ public final class R {
      */
     public static final int selectableItemBackground=0x7f03018e;
     /**
-     * Background drawable for borderless standalone items that need focus/pressed states.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3500,32 +3186,21 @@ public final class R {
      */
     public static final int selectableItemBackgroundBorderless=0x7f03018f;
     /**
-     * How this item should display in the Action Bar, if present.
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>always</td><td>2</td><td>Always show this item in an actionbar, even if it would override
-     * the system's limits of how much stuff to put there. This may make
-     * your action bar look bad on some screens. In most cases you should
-     * use "ifRoom" instead. Mutually exclusive with "ifRoom" and "never".</td></tr>
-     * <tr><td>collapseActionView</td><td>8</td><td>This item's action view collapses to a normal menu
-     * item. When expanded, the action view takes over a
-     * larger segment of its container.</td></tr>
-     * <tr><td>ifRoom</td><td>1</td><td>Show this item in an action bar if there is room for it as determined
-     * by the system. Favor this option over "always" where possible.
-     * Mutually exclusive with "never" and "always".</td></tr>
-     * <tr><td>never</td><td>0</td><td>Never show this item in an action bar, show it in the overflow menu instead.
-     * Mutually exclusive with "ifRoom" and "always".</td></tr>
-     * <tr><td>withText</td><td>4</td><td>When this item is shown as an action in the action bar, show a text
-     * label with it even if it has an icon representation.</td></tr>
+     * <tr><td>always</td><td>2</td><td></td></tr>
+     * <tr><td>collapseActionView</td><td>8</td><td></td></tr>
+     * <tr><td>ifRoom</td><td>1</td><td></td></tr>
+     * <tr><td>never</td><td>0</td><td></td></tr>
+     * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      */
     public static final int showAsAction=0x7f030190;
     /**
-     * Setting for which dividers to show.
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -3547,7 +3222,6 @@ public final class R {
      */
     public static final int showMotionSpec=0x7f030192;
     /**
-     * Whether to draw on/off text.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -3593,13 +3267,11 @@ public final class R {
      */
     public static final int spanCount=0x7f03019a;
     /**
-     * Whether bars should rotate or not during transition
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int spinBars=0x7f03019b;
     /**
-     * Default Spinner style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3607,7 +3279,6 @@ public final class R {
      */
     public static final int spinnerDropDownItemStyle=0x7f03019c;
     /**
-     * Default Spinner style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3615,14 +3286,11 @@ public final class R {
      */
     public static final int spinnerStyle=0x7f03019d;
     /**
-     * Whether to split the track and leave a gap for the thumb drawable.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int splitTrack=0x7f03019e;
     /**
-     * Sets a drawable as the content of this ImageView. Allows the use of vector drawable
-     * when running on older versions of the platform.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3635,7 +3303,6 @@ public final class R {
      */
     public static final int stackFromEnd=0x7f0301a0;
     /**
-     * State identifier indicating the popup will be above the anchor.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -3661,7 +3328,6 @@ public final class R {
      */
     public static final int state_lifted=0x7f0301a5;
     /**
-     * Drawable to display behind the status bar when the view is set to draw behind it.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3692,7 +3358,6 @@ public final class R {
      */
     public static final int strokeWidth=0x7f0301a9;
     /**
-     * Drawable for the arrow icon indicating a particular item is a submenu.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3700,7 +3365,6 @@ public final class R {
      */
     public static final int subMenuArrow=0x7f0301aa;
     /**
-     * Background for the section containing the action (e.g. voice search)
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3708,7 +3372,6 @@ public final class R {
      */
     public static final int submitBackground=0x7f0301ab;
     /**
-     * Specifies subtitle text used for navigationMode="normal"
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
@@ -3721,14 +3384,12 @@ public final class R {
      */
     public static final int subtitleTextAppearance=0x7f0301ad;
     /**
-     * A color to apply to the subtitle string.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int subtitleTextColor=0x7f0301ae;
     /**
-     * Specifies a style to use for subtitle text.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3736,7 +3397,6 @@ public final class R {
      */
     public static final int subtitleTextStyle=0x7f0301af;
     /**
-     * Layout for query suggestion rows
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3744,7 +3404,6 @@ public final class R {
      */
     public static final int suggestionRowLayout=0x7f0301b0;
     /**
-     * Minimum width for the switch component
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3753,7 +3412,6 @@ public final class R {
      */
     public static final int switchMinWidth=0x7f0301b1;
     /**
-     * Minimum space between the switch and caption text
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3762,7 +3420,6 @@ public final class R {
      */
     public static final int switchPadding=0x7f0301b2;
     /**
-     * Default style for the Switch widget.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3770,7 +3427,6 @@ public final class R {
      */
     public static final int switchStyle=0x7f0301b3;
     /**
-     * TextAppearance style for text displayed on the switch thumb.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3981,7 +3637,6 @@ public final class R {
      */
     public static final int tabUnboundedRipple=0x7f0301ce;
     /**
-     * Present the text in ALL CAPS. This may use a small-caps form when available.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4061,7 +3716,6 @@ public final class R {
      */
     public static final int textAppearanceHeadline6=0x7f0301d9;
     /**
-     * Text color, typeface, size, and style for the text inside of a popup menu.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4069,7 +3723,6 @@ public final class R {
      */
     public static final int textAppearanceLargePopupMenu=0x7f0301da;
     /**
-     * The preferred TextAppearance for the primary text of list items.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4077,7 +3730,6 @@ public final class R {
      */
     public static final int textAppearanceListItem=0x7f0301db;
     /**
-     * The preferred TextAppearance for the secondary text of list items.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4085,7 +3737,6 @@ public final class R {
      */
     public static final int textAppearanceListItemSecondary=0x7f0301dc;
     /**
-     * The preferred TextAppearance for the primary text of small list items.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4100,7 +3751,6 @@ public final class R {
      */
     public static final int textAppearanceOverline=0x7f0301de;
     /**
-     * Text color, typeface, size, and style for header text inside of a popup menu.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4108,7 +3758,6 @@ public final class R {
      */
     public static final int textAppearancePopupMenuHeader=0x7f0301df;
     /**
-     * Text color, typeface, size, and style for system search result subtitle. Defaults to primary inverse text color.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4116,7 +3765,6 @@ public final class R {
      */
     public static final int textAppearanceSearchResultSubtitle=0x7f0301e0;
     /**
-     * Text color, typeface, size, and style for system search result title. Defaults to primary inverse text color.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4124,7 +3772,6 @@ public final class R {
      */
     public static final int textAppearanceSearchResultTitle=0x7f0301e1;
     /**
-     * Text color, typeface, size, and style for small text inside of a popup menu.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4146,7 +3793,6 @@ public final class R {
      */
     public static final int textAppearanceSubtitle2=0x7f0301e4;
     /**
-     * Color of list item text in alert dialogs.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4157,7 +3803,6 @@ public final class R {
      */
     public static final int textColorAlertDialogListItem=0x7f0301e5;
     /**
-     * Text color for urls in search suggestions, used by things like global search
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4191,7 +3836,6 @@ public final class R {
      */
     public static final int textStartPadding=0x7f0301e9;
     /**
-     * Deprecated.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4199,7 +3843,6 @@ public final class R {
      */
     public static final int theme=0x7f0301ea;
     /**
-     * The thickness (stroke size) for the bar paint
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -4208,7 +3851,6 @@ public final class R {
      */
     public static final int thickness=0x7f0301eb;
     /**
-     * Amount of padding on either side of text within the switch thumb.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -4217,36 +3859,28 @@ public final class R {
      */
     public static final int thumbTextPadding=0x7f0301ec;
     /**
-     * Tint to apply to the thumb drawable.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int thumbTint=0x7f0301ed;
     /**
-     * Blending mode used to apply the thumb tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and drawable color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
     public static final int thumbTintMode=0x7f0301ee;
     /**
-     * Drawable displayed at each progress position on a seekbar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4254,60 +3888,46 @@ public final class R {
      */
     public static final int tickMark=0x7f0301ef;
     /**
-     * Tint to apply to the tick mark drawable.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int tickMarkTint=0x7f0301f0;
     /**
-     * Blending mode used to apply the tick mark tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and drawable color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
     public static final int tickMarkTintMode=0x7f0301f1;
     /**
-     * Tint to apply to the image source.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int tint=0x7f0301f2;
     /**
-     * Blending mode used to apply the image source tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and icon color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
     public static final int tintMode=0x7f0301f3;
@@ -4322,8 +3942,6 @@ public final class R {
      */
     public static final int titleEnabled=0x7f0301f5;
     /**
-     * Specifies extra space on the left, start, right and end sides
-     * of the toolbar's title. Margin values should be positive.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -4332,9 +3950,6 @@ public final class R {
      */
     public static final int titleMargin=0x7f0301f6;
     /**
-     * Specifies extra space on the bottom side of the toolbar's title.
-     * If both this attribute and titleMargin are specified, then this
-     * attribute takes precedence. Margin values should be positive.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -4343,9 +3958,6 @@ public final class R {
      */
     public static final int titleMarginBottom=0x7f0301f7;
     /**
-     * Specifies extra space on the end side of the toolbar's title.
-     * If both this attribute and titleMargin are specified, then this
-     * attribute takes precedence. Margin values should be positive.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -4354,9 +3966,6 @@ public final class R {
      */
     public static final int titleMarginEnd=0x7f0301f8;
     /**
-     * Specifies extra space on the start side of the toolbar's title.
-     * If both this attribute and titleMargin are specified, then this
-     * attribute takes precedence. Margin values should be positive.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -4365,9 +3974,6 @@ public final class R {
      */
     public static final int titleMarginStart=0x7f0301f9;
     /**
-     * Specifies extra space on the top side of the toolbar's title.
-     * If both this attribute and titleMargin are specified, then this
-     * attribute takes precedence. Margin values should be positive.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -4376,14 +3982,12 @@ public final class R {
      */
     public static final int titleMarginTop=0x7f0301fa;
     /**
-     * {@deprecated Use titleMargin}
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    @Deprecated
     public static final int titleMargins=0x7f0301fb;
     /**
      * <p>May be a reference to another resource, in the form
@@ -4393,14 +3997,12 @@ public final class R {
      */
     public static final int titleTextAppearance=0x7f0301fc;
     /**
-     * A color to apply to the title string.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int titleTextColor=0x7f0301fd;
     /**
-     * Specifies a style to use for title text.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4415,7 +4017,6 @@ public final class R {
      */
     public static final int toolbarId=0x7f0301ff;
     /**
-     * Default Toolar NavigationButtonStyle
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4423,7 +4024,6 @@ public final class R {
      */
     public static final int toolbarNavigationButtonStyle=0x7f030200;
     /**
-     * Default Toolbar style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4431,7 +4031,6 @@ public final class R {
      */
     public static final int toolbarStyle=0x7f030201;
     /**
-     * Foreground color to use for tooltips
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4442,7 +4041,6 @@ public final class R {
      */
     public static final int tooltipForegroundColor=0x7f030202;
     /**
-     * Background to use for tooltips
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4450,13 +4048,11 @@ public final class R {
      */
     public static final int tooltipFrameBackground=0x7f030203;
     /**
-     * The tooltip text associated with the item.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int tooltipText=0x7f030204;
     /**
-     * Drawable to use as the "track" that the switch thumb slides within.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4464,37 +4060,28 @@ public final class R {
      */
     public static final int track=0x7f030205;
     /**
-     * Tint to apply to the track.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int trackTint=0x7f030206;
     /**
-     * Blending mode used to apply the track tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and drawable color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
     public static final int trackTintMode=0x7f030207;
     /**
-     * The index of the font in the tcc font file. If the font file referenced is not in the
-     * tcc format, this attribute needs not be specified.
      * <p>May be an integer value, such as "<code>100</code>".
      */
     public static final int ttcIndex=0x7f030208;
@@ -4509,7 +4096,6 @@ public final class R {
      */
     public static final int viewInflaterClass=0x7f03020a;
     /**
-     * Voice button icon
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4517,31 +4103,21 @@ public final class R {
      */
     public static final int voiceIcon=0x7f03020b;
     /**
-     * Flag indicating whether this window should have an Action Bar
-     * in place of the usual title bar.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int windowActionBar=0x7f03020c;
     /**
-     * Flag indicating whether this window's Action Bar should overlay
-     * application content. Does nothing if the window would not
-     * have an Action Bar.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int windowActionBarOverlay=0x7f03020d;
     /**
-     * Flag indicating whether action modes should overlay window content
-     * when there is not reserved space for their UI (such as an Action Bar).
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int windowActionModeOverlay=0x7f03020e;
     /**
-     * A fixed height for the window along the major axis of the screen,
-     * that is, when in portrait. Can be either an absolute dimension
-     * or a fraction of the screen size in that dimension.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -4554,9 +4130,6 @@ public final class R {
      */
     public static final int windowFixedHeightMajor=0x7f03020f;
     /**
-     * A fixed height for the window along the minor axis of the screen,
-     * that is, when in landscape. Can be either an absolute dimension
-     * or a fraction of the screen size in that dimension.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -4569,9 +4142,6 @@ public final class R {
      */
     public static final int windowFixedHeightMinor=0x7f030210;
     /**
-     * A fixed width for the window along the major axis of the screen,
-     * that is, when in landscape. Can be either an absolute dimension
-     * or a fraction of the screen size in that dimension.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -4584,9 +4154,6 @@ public final class R {
      */
     public static final int windowFixedWidthMajor=0x7f030211;
     /**
-     * A fixed width for the window along the minor axis of the screen,
-     * that is, when in portrait. Can be either an absolute dimension
-     * or a fraction of the screen size in that dimension.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -4599,10 +4166,6 @@ public final class R {
      */
     public static final int windowFixedWidthMinor=0x7f030212;
     /**
-     * The minimum width the window is allowed to be, along the major
-     * axis of the screen.  That is, when in landscape.  Can be either
-     * an absolute dimension or a fraction of the screen size in that
-     * dimension.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -4615,10 +4178,6 @@ public final class R {
      */
     public static final int windowMinWidthMajor=0x7f030213;
     /**
-     * The minimum width the window is allowed to be, along the minor
-     * axis of the screen.  That is, when in portrait.  Can be either
-     * an absolute dimension or a fraction of the screen size in that
-     * dimension.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -4631,7 +4190,6 @@ public final class R {
      */
     public static final int windowMinWidthMinor=0x7f030214;
     /**
-     * Flag indicating whether there should be no title on this window.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -5132,205 +4690,214 @@ public final class R {
     public static final int action_context_bar=0x7f08000e;
     public static final int action_debug=0x7f08000f;
     public static final int action_divider=0x7f080010;
-    public static final int action_image=0x7f080011;
-    public static final int action_menu_divider=0x7f080012;
-    public static final int action_menu_presenter=0x7f080013;
-    public static final int action_mode_bar=0x7f080014;
-    public static final int action_mode_bar_stub=0x7f080015;
-    public static final int action_mode_close_button=0x7f080016;
-    public static final int action_settings=0x7f080017;
-    public static final int action_text=0x7f080018;
-    public static final int actions=0x7f080019;
-    public static final int activity_chooser_view_content=0x7f08001a;
-    public static final int add=0x7f08001b;
-    public static final int alertTitle=0x7f08001c;
-    public static final int all=0x7f08001d;
-    public static final int always=0x7f08001e;
-    public static final int async=0x7f08001f;
-    public static final int auto=0x7f080020;
-    public static final int barrier=0x7f080021;
-    public static final int beginning=0x7f080022;
-    public static final int blocking=0x7f080023;
-    public static final int bottom=0x7f080024;
-    public static final int btn_add=0x7f080025;
-    public static final int btn_delete=0x7f080026;
-    public static final int btn_high=0x7f080027;
-    public static final int btn_low=0x7f080028;
-    public static final int btn_medium=0x7f080029;
-    public static final int btn_print_path=0x7f08002a;
-    public static final int btn_request_permission=0x7f08002b;
-    public static final int buttonPanel=0x7f08002c;
-    public static final int center=0x7f08002d;
-    public static final int center_horizontal=0x7f08002e;
-    public static final int center_vertical=0x7f08002f;
-    public static final int chains=0x7f080030;
-    public static final int checkbox=0x7f080031;
-    public static final int chronometer=0x7f080032;
-    public static final int clip_horizontal=0x7f080033;
-    public static final int clip_vertical=0x7f080034;
-    public static final int collapseActionView=0x7f080035;
-    public static final int container=0x7f080036;
-    public static final int content=0x7f080037;
-    public static final int contentPanel=0x7f080038;
-    public static final int coordinator=0x7f080039;
-    public static final int custom=0x7f08003a;
-    public static final int customPanel=0x7f08003b;
-    public static final int decor_content_parent=0x7f08003c;
-    public static final int default_activity_button=0x7f08003d;
-    public static final int design_bottom_sheet=0x7f08003e;
-    public static final int design_menu_item_action_area=0x7f08003f;
-    public static final int design_menu_item_action_area_stub=0x7f080040;
-    public static final int design_menu_item_text=0x7f080041;
-    public static final int design_navigation_view=0x7f080042;
-    public static final int dimensions=0x7f080043;
-    public static final int direct=0x7f080044;
-    public static final int disableHome=0x7f080045;
-    public static final int edit_query=0x7f080046;
-    public static final int edit_text=0x7f080047;
-    public static final int end=0x7f080048;
-    public static final int enterAlways=0x7f080049;
-    public static final int enterAlwaysCollapsed=0x7f08004a;
-    public static final int exitUntilCollapsed=0x7f08004b;
-    public static final int expand_activities_button=0x7f08004c;
-    public static final int expanded_menu=0x7f08004d;
-    public static final int fab=0x7f08004e;
-    public static final int fill=0x7f08004f;
-    public static final int fill_horizontal=0x7f080050;
-    public static final int fill_vertical=0x7f080051;
-    public static final int filled=0x7f080052;
-    public static final int fixed=0x7f080053;
-    public static final int forever=0x7f080054;
-    public static final int ghost_view=0x7f080055;
-    public static final int gone=0x7f080056;
-    public static final int group_divider=0x7f080057;
-    public static final int groups=0x7f080058;
-    public static final int home=0x7f080059;
-    public static final int homeAsUp=0x7f08005a;
-    public static final int icon=0x7f08005b;
-    public static final int icon_group=0x7f08005c;
-    public static final int ifRoom=0x7f08005d;
-    public static final int image=0x7f08005e;
-    public static final int info=0x7f08005f;
-    public static final int invisible=0x7f080060;
-    public static final int italic=0x7f080061;
-    public static final int item_touch_helper_previous_elevation=0x7f080062;
-    public static final int labeled=0x7f080063;
-    public static final int largeLabel=0x7f080064;
-    public static final int left=0x7f080065;
-    public static final int line1=0x7f080066;
-    public static final int line3=0x7f080067;
-    public static final int listMode=0x7f080068;
-    public static final int list_item=0x7f080069;
-    public static final int list_todo=0x7f08006a;
-    public static final int masked=0x7f08006b;
-    public static final int message=0x7f08006c;
-    public static final int middle=0x7f08006d;
-    public static final int mini=0x7f08006e;
-    public static final int mtrl_child_content_container=0x7f08006f;
-    public static final int mtrl_internal_children_alpha_tag=0x7f080070;
-    public static final int multiply=0x7f080071;
-    public static final int navigation_header_container=0x7f080072;
-    public static final int never=0x7f080073;
-    public static final int none=0x7f080074;
-    public static final int normal=0x7f080075;
-    public static final int notification_background=0x7f080076;
-    public static final int notification_main_column=0x7f080077;
-    public static final int notification_main_column_container=0x7f080078;
-    public static final int outline=0x7f080079;
-    public static final int packed=0x7f08007a;
-    public static final int parallax=0x7f08007b;
-    public static final int parent=0x7f08007c;
-    public static final int parentPanel=0x7f08007d;
-    public static final int parent_matrix=0x7f08007e;
-    public static final int percent=0x7f08007f;
-    public static final int pin=0x7f080080;
-    public static final int progress_circular=0x7f080081;
-    public static final int progress_horizontal=0x7f080082;
-    public static final int radio=0x7f080083;
-    public static final int radio_group=0x7f080084;
-    public static final int right=0x7f080085;
-    public static final int right_icon=0x7f080086;
-    public static final int right_side=0x7f080087;
-    public static final int save_image_matrix=0x7f080088;
-    public static final int save_non_transition_alpha=0x7f080089;
-    public static final int save_scale_type=0x7f08008a;
-    public static final int screen=0x7f08008b;
-    public static final int scroll=0x7f08008c;
-    public static final int scrollIndicatorDown=0x7f08008d;
-    public static final int scrollIndicatorUp=0x7f08008e;
-    public static final int scrollView=0x7f08008f;
-    public static final int scrollable=0x7f080090;
-    public static final int search_badge=0x7f080091;
-    public static final int search_bar=0x7f080092;
-    public static final int search_button=0x7f080093;
-    public static final int search_close_btn=0x7f080094;
-    public static final int search_edit_frame=0x7f080095;
-    public static final int search_go_btn=0x7f080096;
-    public static final int search_mag_icon=0x7f080097;
-    public static final int search_plate=0x7f080098;
-    public static final int search_src_text=0x7f080099;
-    public static final int search_voice_btn=0x7f08009a;
-    public static final int select_dialog_listview=0x7f08009b;
-    public static final int selected=0x7f08009c;
-    public static final int shortcut=0x7f08009d;
-    public static final int showCustom=0x7f08009e;
-    public static final int showHome=0x7f08009f;
-    public static final int showTitle=0x7f0800a0;
-    public static final int smallLabel=0x7f0800a1;
-    public static final int snackbar_action=0x7f0800a2;
-    public static final int snackbar_text=0x7f0800a3;
-    public static final int snap=0x7f0800a4;
-    public static final int snapMargins=0x7f0800a5;
-    public static final int spacer=0x7f0800a6;
-    public static final int split_action_bar=0x7f0800a7;
-    public static final int spread=0x7f0800a8;
-    public static final int spread_inside=0x7f0800a9;
-    public static final int src_atop=0x7f0800aa;
-    public static final int src_in=0x7f0800ab;
-    public static final int src_over=0x7f0800ac;
-    public static final int standard=0x7f0800ad;
-    public static final int start=0x7f0800ae;
-    public static final int stretch=0x7f0800af;
-    public static final int submenuarrow=0x7f0800b0;
-    public static final int submit_area=0x7f0800b1;
-    public static final int tabMode=0x7f0800b2;
-    public static final int tag_transition_group=0x7f0800b3;
-    public static final int tag_unhandled_key_event_manager=0x7f0800b4;
-    public static final int tag_unhandled_key_listeners=0x7f0800b5;
-    public static final int text=0x7f0800b6;
-    public static final int text2=0x7f0800b7;
-    public static final int textSpacerNoButtons=0x7f0800b8;
-    public static final int textSpacerNoTitle=0x7f0800b9;
-    public static final int textStart=0x7f0800ba;
-    public static final int text_content=0x7f0800bb;
-    public static final int text_date=0x7f0800bc;
-    public static final int text_input_password_toggle=0x7f0800bd;
-    public static final int text_path=0x7f0800be;
-    public static final int textinput_counter=0x7f0800bf;
-    public static final int textinput_error=0x7f0800c0;
-    public static final int textinput_helper_text=0x7f0800c1;
-    public static final int time=0x7f0800c2;
-    public static final int title=0x7f0800c3;
-    public static final int titleDividerNoCustom=0x7f0800c4;
-    public static final int title_template=0x7f0800c5;
-    public static final int toolbar=0x7f0800c6;
-    public static final int top=0x7f0800c7;
-    public static final int topPanel=0x7f0800c8;
-    public static final int touch_outside=0x7f0800c9;
-    public static final int transition_current_scene=0x7f0800ca;
-    public static final int transition_layout_save=0x7f0800cb;
-    public static final int transition_position=0x7f0800cc;
-    public static final int transition_scene_layoutid_cache=0x7f0800cd;
-    public static final int transition_transform=0x7f0800ce;
-    public static final int uniform=0x7f0800cf;
-    public static final int unlabeled=0x7f0800d0;
-    public static final int up=0x7f0800d1;
-    public static final int useLogo=0x7f0800d2;
-    public static final int view_offset_helper=0x7f0800d3;
-    public static final int visible=0x7f0800d4;
-    public static final int withText=0x7f0800d5;
-    public static final int wrap=0x7f0800d6;
-    public static final int wrap_content=0x7f0800d7;
+    public static final int action_file=0x7f080011;
+    public static final int action_image=0x7f080012;
+    public static final int action_menu_divider=0x7f080013;
+    public static final int action_menu_presenter=0x7f080014;
+    public static final int action_mode_bar=0x7f080015;
+    public static final int action_mode_bar_stub=0x7f080016;
+    public static final int action_mode_close_button=0x7f080017;
+    public static final int action_settings=0x7f080018;
+    public static final int action_sp=0x7f080019;
+    public static final int action_text=0x7f08001a;
+    public static final int actions=0x7f08001b;
+    public static final int activity_chooser_view_content=0x7f08001c;
+    public static final int add=0x7f08001d;
+    public static final int alertTitle=0x7f08001e;
+    public static final int all=0x7f08001f;
+    public static final int always=0x7f080020;
+    public static final int async=0x7f080021;
+    public static final int auto=0x7f080022;
+    public static final int barrier=0x7f080023;
+    public static final int beginning=0x7f080024;
+    public static final int blocking=0x7f080025;
+    public static final int bottom=0x7f080026;
+    public static final int btn_add=0x7f080027;
+    public static final int btn_delete=0x7f080028;
+    public static final int btn_high=0x7f080029;
+    public static final int btn_low=0x7f08002a;
+    public static final int btn_medium=0x7f08002b;
+    public static final int btn_print_path=0x7f08002c;
+    public static final int btn_read=0x7f08002d;
+    public static final int btn_request_permission=0x7f08002e;
+    public static final int btn_save=0x7f08002f;
+    public static final int buttonPanel=0x7f080030;
+    public static final int center=0x7f080031;
+    public static final int center_horizontal=0x7f080032;
+    public static final int center_vertical=0x7f080033;
+    public static final int chains=0x7f080034;
+    public static final int checkbox=0x7f080035;
+    public static final int chronometer=0x7f080036;
+    public static final int clip_horizontal=0x7f080037;
+    public static final int clip_vertical=0x7f080038;
+    public static final int collapseActionView=0x7f080039;
+    public static final int container=0x7f08003a;
+    public static final int content=0x7f08003b;
+    public static final int contentPanel=0x7f08003c;
+    public static final int coordinator=0x7f08003d;
+    public static final int custom=0x7f08003e;
+    public static final int customPanel=0x7f08003f;
+    public static final int decor_content_parent=0x7f080040;
+    public static final int default_activity_button=0x7f080041;
+    public static final int design_bottom_sheet=0x7f080042;
+    public static final int design_menu_item_action_area=0x7f080043;
+    public static final int design_menu_item_action_area_stub=0x7f080044;
+    public static final int design_menu_item_text=0x7f080045;
+    public static final int design_navigation_view=0x7f080046;
+    public static final int dimensions=0x7f080047;
+    public static final int direct=0x7f080048;
+    public static final int disableHome=0x7f080049;
+    public static final int edit_key=0x7f08004a;
+    public static final int edit_query=0x7f08004b;
+    public static final int edit_read_key=0x7f08004c;
+    public static final int edit_text=0x7f08004d;
+    public static final int edit_value=0x7f08004e;
+    public static final int end=0x7f08004f;
+    public static final int enterAlways=0x7f080050;
+    public static final int enterAlwaysCollapsed=0x7f080051;
+    public static final int exitUntilCollapsed=0x7f080052;
+    public static final int expand_activities_button=0x7f080053;
+    public static final int expanded_menu=0x7f080054;
+    public static final int fab=0x7f080055;
+    public static final int fill=0x7f080056;
+    public static final int fill_horizontal=0x7f080057;
+    public static final int fill_vertical=0x7f080058;
+    public static final int filled=0x7f080059;
+    public static final int fixed=0x7f08005a;
+    public static final int forever=0x7f08005b;
+    public static final int ghost_view=0x7f08005c;
+    public static final int gone=0x7f08005d;
+    public static final int group_divider=0x7f08005e;
+    public static final int groups=0x7f08005f;
+    public static final int home=0x7f080060;
+    public static final int homeAsUp=0x7f080061;
+    public static final int icon=0x7f080062;
+    public static final int icon_group=0x7f080063;
+    public static final int ifRoom=0x7f080064;
+    public static final int image=0x7f080065;
+    public static final int info=0x7f080066;
+    public static final int invisible=0x7f080067;
+    public static final int italic=0x7f080068;
+    public static final int item_touch_helper_previous_elevation=0x7f080069;
+    public static final int labeled=0x7f08006a;
+    public static final int largeLabel=0x7f08006b;
+    public static final int left=0x7f08006c;
+    public static final int line1=0x7f08006d;
+    public static final int line3=0x7f08006e;
+    public static final int listMode=0x7f08006f;
+    public static final int list_item=0x7f080070;
+    public static final int list_todo=0x7f080071;
+    public static final int masked=0x7f080072;
+    public static final int message=0x7f080073;
+    public static final int middle=0x7f080074;
+    public static final int mini=0x7f080075;
+    public static final int mtrl_child_content_container=0x7f080076;
+    public static final int mtrl_internal_children_alpha_tag=0x7f080077;
+    public static final int multiply=0x7f080078;
+    public static final int navigation_header_container=0x7f080079;
+    public static final int never=0x7f08007a;
+    public static final int none=0x7f08007b;
+    public static final int normal=0x7f08007c;
+    public static final int notification_background=0x7f08007d;
+    public static final int notification_main_column=0x7f08007e;
+    public static final int notification_main_column_container=0x7f08007f;
+    public static final int outline=0x7f080080;
+    public static final int packed=0x7f080081;
+    public static final int parallax=0x7f080082;
+    public static final int parent=0x7f080083;
+    public static final int parentPanel=0x7f080084;
+    public static final int parent_matrix=0x7f080085;
+    public static final int percent=0x7f080086;
+    public static final int pin=0x7f080087;
+    public static final int progress_circular=0x7f080088;
+    public static final int progress_horizontal=0x7f080089;
+    public static final int radio=0x7f08008a;
+    public static final int radio_group=0x7f08008b;
+    public static final int right=0x7f08008c;
+    public static final int right_icon=0x7f08008d;
+    public static final int right_side=0x7f08008e;
+    public static final int save_image_matrix=0x7f08008f;
+    public static final int save_non_transition_alpha=0x7f080090;
+    public static final int save_scale_type=0x7f080091;
+    public static final int screen=0x7f080092;
+    public static final int scroll=0x7f080093;
+    public static final int scrollIndicatorDown=0x7f080094;
+    public static final int scrollIndicatorUp=0x7f080095;
+    public static final int scrollView=0x7f080096;
+    public static final int scrollable=0x7f080097;
+    public static final int search_badge=0x7f080098;
+    public static final int search_bar=0x7f080099;
+    public static final int search_button=0x7f08009a;
+    public static final int search_close_btn=0x7f08009b;
+    public static final int search_edit_frame=0x7f08009c;
+    public static final int search_go_btn=0x7f08009d;
+    public static final int search_mag_icon=0x7f08009e;
+    public static final int search_plate=0x7f08009f;
+    public static final int search_src_text=0x7f0800a0;
+    public static final int search_voice_btn=0x7f0800a1;
+    public static final int select_dialog_listview=0x7f0800a2;
+    public static final int selected=0x7f0800a3;
+    public static final int shortcut=0x7f0800a4;
+    public static final int showCustom=0x7f0800a5;
+    public static final int showHome=0x7f0800a6;
+    public static final int showTitle=0x7f0800a7;
+    public static final int smallLabel=0x7f0800a8;
+    public static final int snackbar_action=0x7f0800a9;
+    public static final int snackbar_text=0x7f0800aa;
+    public static final int snap=0x7f0800ab;
+    public static final int snapMargins=0x7f0800ac;
+    public static final int spacer=0x7f0800ad;
+    public static final int split_action_bar=0x7f0800ae;
+    public static final int spread=0x7f0800af;
+    public static final int spread_inside=0x7f0800b0;
+    public static final int src_atop=0x7f0800b1;
+    public static final int src_in=0x7f0800b2;
+    public static final int src_over=0x7f0800b3;
+    public static final int standard=0x7f0800b4;
+    public static final int start=0x7f0800b5;
+    public static final int stretch=0x7f0800b6;
+    public static final int submenuarrow=0x7f0800b7;
+    public static final int submit_area=0x7f0800b8;
+    public static final int tabMode=0x7f0800b9;
+    public static final int tag_transition_group=0x7f0800ba;
+    public static final int tag_unhandled_key_event_manager=0x7f0800bb;
+    public static final int tag_unhandled_key_listeners=0x7f0800bc;
+    public static final int text=0x7f0800bd;
+    public static final int text2=0x7f0800be;
+    public static final int textSpacerNoButtons=0x7f0800bf;
+    public static final int textSpacerNoTitle=0x7f0800c0;
+    public static final int textStart=0x7f0800c1;
+    public static final int text_content=0x7f0800c2;
+    public static final int text_date=0x7f0800c3;
+    public static final int text_input_password_toggle=0x7f0800c4;
+    public static final int text_path=0x7f0800c5;
+    public static final int textinput_counter=0x7f0800c6;
+    public static final int textinput_error=0x7f0800c7;
+    public static final int textinput_helper_text=0x7f0800c8;
+    public static final int time=0x7f0800c9;
+    public static final int title=0x7f0800ca;
+    public static final int titleDividerNoCustom=0x7f0800cb;
+    public static final int title_template=0x7f0800cc;
+    public static final int toolbar=0x7f0800cd;
+    public static final int top=0x7f0800ce;
+    public static final int topPanel=0x7f0800cf;
+    public static final int touch_outside=0x7f0800d0;
+    public static final int transition_current_scene=0x7f0800d1;
+    public static final int transition_layout_save=0x7f0800d2;
+    public static final int transition_position=0x7f0800d3;
+    public static final int transition_scene_layoutid_cache=0x7f0800d4;
+    public static final int transition_transform=0x7f0800d5;
+    public static final int tv_file=0x7f0800d6;
+    public static final int tv_read=0x7f0800d7;
+    public static final int uniform=0x7f0800d8;
+    public static final int unlabeled=0x7f0800d9;
+    public static final int up=0x7f0800da;
+    public static final int useLogo=0x7f0800db;
+    public static final int view_offset_helper=0x7f0800dc;
+    public static final int visible=0x7f0800dd;
+    public static final int withText=0x7f0800de;
+    public static final int wrap=0x7f0800df;
+    public static final int wrap_content=0x7f0800e0;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f090000;
@@ -5385,36 +4952,38 @@ public final class R {
     public static final int abc_select_dialog_material=0x7f0b001a;
     public static final int abc_tooltip=0x7f0b001b;
     public static final int activity_debug=0x7f0b001c;
-    public static final int activity_main=0x7f0b001d;
-    public static final int activity_note=0x7f0b001e;
-    public static final int content_main=0x7f0b001f;
-    public static final int design_bottom_navigation_item=0x7f0b0020;
-    public static final int design_bottom_sheet_dialog=0x7f0b0021;
-    public static final int design_layout_snackbar=0x7f0b0022;
-    public static final int design_layout_snackbar_include=0x7f0b0023;
-    public static final int design_layout_tab_icon=0x7f0b0024;
-    public static final int design_layout_tab_text=0x7f0b0025;
-    public static final int design_menu_item_action_area=0x7f0b0026;
-    public static final int design_navigation_item=0x7f0b0027;
-    public static final int design_navigation_item_header=0x7f0b0028;
-    public static final int design_navigation_item_separator=0x7f0b0029;
-    public static final int design_navigation_item_subheader=0x7f0b002a;
-    public static final int design_navigation_menu=0x7f0b002b;
-    public static final int design_navigation_menu_item=0x7f0b002c;
-    public static final int design_text_input_password_icon=0x7f0b002d;
-    public static final int item_note=0x7f0b002e;
-    public static final int mtrl_layout_snackbar=0x7f0b002f;
-    public static final int mtrl_layout_snackbar_include=0x7f0b0030;
-    public static final int notification_action=0x7f0b0031;
-    public static final int notification_action_tombstone=0x7f0b0032;
-    public static final int notification_template_custom_big=0x7f0b0033;
-    public static final int notification_template_icon_group=0x7f0b0034;
-    public static final int notification_template_part_chronometer=0x7f0b0035;
-    public static final int notification_template_part_time=0x7f0b0036;
-    public static final int select_dialog_item_material=0x7f0b0037;
-    public static final int select_dialog_multichoice_material=0x7f0b0038;
-    public static final int select_dialog_singlechoice_material=0x7f0b0039;
-    public static final int support_simple_spinner_dropdown_item=0x7f0b003a;
+    public static final int activity_file_demo=0x7f0b001d;
+    public static final int activity_main=0x7f0b001e;
+    public static final int activity_note=0x7f0b001f;
+    public static final int activity_sp_demo=0x7f0b0020;
+    public static final int content_main=0x7f0b0021;
+    public static final int design_bottom_navigation_item=0x7f0b0022;
+    public static final int design_bottom_sheet_dialog=0x7f0b0023;
+    public static final int design_layout_snackbar=0x7f0b0024;
+    public static final int design_layout_snackbar_include=0x7f0b0025;
+    public static final int design_layout_tab_icon=0x7f0b0026;
+    public static final int design_layout_tab_text=0x7f0b0027;
+    public static final int design_menu_item_action_area=0x7f0b0028;
+    public static final int design_navigation_item=0x7f0b0029;
+    public static final int design_navigation_item_header=0x7f0b002a;
+    public static final int design_navigation_item_separator=0x7f0b002b;
+    public static final int design_navigation_item_subheader=0x7f0b002c;
+    public static final int design_navigation_menu=0x7f0b002d;
+    public static final int design_navigation_menu_item=0x7f0b002e;
+    public static final int design_text_input_password_icon=0x7f0b002f;
+    public static final int item_note=0x7f0b0030;
+    public static final int mtrl_layout_snackbar=0x7f0b0031;
+    public static final int mtrl_layout_snackbar_include=0x7f0b0032;
+    public static final int notification_action=0x7f0b0033;
+    public static final int notification_action_tombstone=0x7f0b0034;
+    public static final int notification_template_custom_big=0x7f0b0035;
+    public static final int notification_template_icon_group=0x7f0b0036;
+    public static final int notification_template_part_chronometer=0x7f0b0037;
+    public static final int notification_template_part_time=0x7f0b0038;
+    public static final int select_dialog_item_material=0x7f0b0039;
+    public static final int select_dialog_multichoice_material=0x7f0b003a;
+    public static final int select_dialog_singlechoice_material=0x7f0b003b;
+    public static final int support_simple_spinner_dropdown_item=0x7f0b003c;
   }
   public static final class menu {
     public static final int menu_main=0x7f0c0000;
@@ -5463,33 +5032,38 @@ public final class R {
     public static final int abc_shareactionprovider_share_with=0x7f0e0024;
     public static final int abc_shareactionprovider_share_with_application=0x7f0e0025;
     public static final int abc_toolbar_collapse_description=0x7f0e0026;
-    public static final int action_debug=0x7f0e0027;
-    public static final int action_settings=0x7f0e0028;
-    public static final int app_name=0x7f0e0029;
-    public static final int appbar_scrolling_view_behavior=0x7f0e002a;
-    public static final int bottom_sheet_behavior=0x7f0e002b;
-    public static final int character_counter_content_description=0x7f0e002c;
-    public static final int character_counter_pattern=0x7f0e002d;
-    public static final int confirm=0x7f0e002e;
-    public static final int fab_transformation_scrim_behavior=0x7f0e002f;
-    public static final int fab_transformation_sheet_behavior=0x7f0e0030;
-    public static final int hide_bottom_view_on_scroll_behavior=0x7f0e0031;
-    public static final int mtrl_chip_close_icon_content_description=0x7f0e0032;
-    public static final int password_toggle_content_description=0x7f0e0033;
-    public static final int path_password_eye=0x7f0e0034;
-    public static final int path_password_eye_mask_strike_through=0x7f0e0035;
-    public static final int path_password_eye_mask_visible=0x7f0e0036;
-    public static final int path_password_strike_through=0x7f0e0037;
-    public static final int print_absolute_path=0x7f0e0038;
-    public static final int priority_high=0x7f0e0039;
-    public static final int priority_low=0x7f0e003a;
-    public static final int priority_medium=0x7f0e003b;
-    public static final int request_storage_permission=0x7f0e003c;
-    public static final int search_menu_title=0x7f0e003d;
-    public static final int status_bar_notification_info_overflow=0x7f0e003e;
-    public static final int take_a_note=0x7f0e003f;
-    public static final int write_to_file=0x7f0e0040;
-    public static final int write_to_file_hint=0x7f0e0041;
+    public static final int action_database_demo=0x7f0e0027;
+    public static final int action_debug=0x7f0e0028;
+    public static final int action_file_demo=0x7f0e0029;
+    public static final int action_settings=0x7f0e002a;
+    public static final int action_sp_demo=0x7f0e002b;
+    public static final int app_name=0x7f0e002c;
+    public static final int appbar_scrolling_view_behavior=0x7f0e002d;
+    public static final int bottom_sheet_behavior=0x7f0e002e;
+    public static final int character_counter_content_description=0x7f0e002f;
+    public static final int character_counter_pattern=0x7f0e0030;
+    public static final int confirm=0x7f0e0031;
+    public static final int demo_read=0x7f0e0032;
+    public static final int demo_save=0x7f0e0033;
+    public static final int fab_transformation_scrim_behavior=0x7f0e0034;
+    public static final int fab_transformation_sheet_behavior=0x7f0e0035;
+    public static final int hide_bottom_view_on_scroll_behavior=0x7f0e0036;
+    public static final int mtrl_chip_close_icon_content_description=0x7f0e0037;
+    public static final int password_toggle_content_description=0x7f0e0038;
+    public static final int path_password_eye=0x7f0e0039;
+    public static final int path_password_eye_mask_strike_through=0x7f0e003a;
+    public static final int path_password_eye_mask_visible=0x7f0e003b;
+    public static final int path_password_strike_through=0x7f0e003c;
+    public static final int print_absolute_path=0x7f0e003d;
+    public static final int priority_high=0x7f0e003e;
+    public static final int priority_low=0x7f0e003f;
+    public static final int priority_medium=0x7f0e0040;
+    public static final int request_storage_permission=0x7f0e0041;
+    public static final int search_menu_title=0x7f0e0042;
+    public static final int status_bar_notification_info_overflow=0x7f0e0043;
+    public static final int take_a_note=0x7f0e0044;
+    public static final int write_to_file=0x7f0e0045;
+    public static final int write_to_file_hint=0x7f0e0046;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0f0000;
@@ -6000,39 +5574,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background com.byted.camp.todolist:background}</code></td><td>Specifies a background drawable for the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit com.byted.camp.todolist:backgroundSplit}</code></td><td>Specifies a background drawable for the bottom component of a split action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked com.byted.camp.todolist:backgroundStacked}</code></td><td>Specifies a background drawable for a second stacked row of the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.byted.camp.todolist:contentInsetEnd}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.byted.camp.todolist:contentInsetEndWithActions}</code></td><td>Minimum inset for content views within a bar when actions from a menu
-     * are present.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.byted.camp.todolist:contentInsetLeft}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight com.byted.camp.todolist:contentInsetRight}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart com.byted.camp.todolist:contentInsetStart}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.byted.camp.todolist:contentInsetStartWithNavigation}</code></td><td>Minimum inset for content views within a bar when a navigation button
-     * is present, such as the Up button.</td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.byted.camp.todolist:customNavigationLayout}</code></td><td>Specifies a layout for custom navigation.</td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions com.byted.camp.todolist:displayOptions}</code></td><td>Options affecting how the action bar is displayed.</td></tr>
-     * <tr><td><code>{@link #ActionBar_divider com.byted.camp.todolist:divider}</code></td><td>Specifies the drawable used for item dividers.</td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation com.byted.camp.todolist:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
-     * <tr><td><code>{@link #ActionBar_height com.byted.camp.todolist:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.byted.camp.todolist:hideOnContentScroll}</code></td><td>Set true to hide the action bar on a vertical nested scroll of content.</td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.byted.camp.todolist:homeAsUpIndicator}</code></td><td>Specifies a drawable to use for the 'home as up' indicator.</td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout com.byted.camp.todolist:homeLayout}</code></td><td>Specifies a layout to use for the "home" section of the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_icon com.byted.camp.todolist:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.byted.camp.todolist:indeterminateProgressStyle}</code></td><td>Specifies a style resource to use for an indeterminate progress spinner.</td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding com.byted.camp.todolist:itemPadding}</code></td><td>Specifies padding that should be applied to the left and right sides of
-     * system-provided items in the bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_logo com.byted.camp.todolist:logo}</code></td><td>Specifies the drawable used for the application logo.</td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode com.byted.camp.todolist:navigationMode}</code></td><td>The type of navigation to use.</td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme com.byted.camp.todolist:popupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
-     * shown by widgets in the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding com.byted.camp.todolist:progressBarPadding}</code></td><td>Specifies the horizontal padding on either end for an embedded progress bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle com.byted.camp.todolist:progressBarStyle}</code></td><td>Specifies a style resource to use for an embedded progress bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle com.byted.camp.todolist:subtitle}</code></td><td>Specifies subtitle text used for navigationMode="normal"</td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.byted.camp.todolist:subtitleTextStyle}</code></td><td>Specifies a style to use for subtitle text.</td></tr>
-     * <tr><td><code>{@link #ActionBar_title com.byted.camp.todolist:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle com.byted.camp.todolist:titleTextStyle}</code></td><td>Specifies a style to use for title text.</td></tr>
+     * <tr><td><code>{@link #ActionBar_background app.byted.camp.todolist:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit app.byted.camp.todolist:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked app.byted.camp.todolist:backgroundStacked}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd app.byted.camp.todolist:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions app.byted.camp.todolist:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft app.byted.camp.todolist:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight app.byted.camp.todolist:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart app.byted.camp.todolist:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation app.byted.camp.todolist:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout app.byted.camp.todolist:customNavigationLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions app.byted.camp.todolist:displayOptions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_divider app.byted.camp.todolist:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation app.byted.camp.todolist:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_height app.byted.camp.todolist:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll app.byted.camp.todolist:hideOnContentScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator app.byted.camp.todolist:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout app.byted.camp.todolist:homeLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_icon app.byted.camp.todolist:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle app.byted.camp.todolist:indeterminateProgressStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding app.byted.camp.todolist:itemPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_logo app.byted.camp.todolist:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode app.byted.camp.todolist:navigationMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme app.byted.camp.todolist:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding app.byted.camp.todolist:progressBarPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle app.byted.camp.todolist:progressBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle app.byted.camp.todolist:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle app.byted.camp.todolist:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_title app.byted.camp.todolist:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle app.byted.camp.todolist:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -6075,22 +5645,20 @@ public final class R {
       0x7f0301fe
     };
     /**
-     * <p>
-     * @attr description
-     * Specifies a background drawable for the action bar.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#background}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:background
+     * @attr name app.byted.camp.todolist:background
      */
     public static final int ActionBar_background=0;
     /**
-     * <p>
-     * @attr description
-     * Specifies a background drawable for the bottom component of a split action bar.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#backgroundSplit}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -6100,13 +5668,12 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:backgroundSplit
+     * @attr name app.byted.camp.todolist:backgroundSplit
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
-     * <p>
-     * @attr description
-     * Specifies a background drawable for a second stacked row of the action bar.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#backgroundStacked}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -6116,14 +5683,12 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:backgroundStacked
+     * @attr name app.byted.camp.todolist:backgroundStacked
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#contentInsetEnd}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -6131,14 +5696,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:contentInsetEnd
+     * @attr name app.byted.camp.todolist:contentInsetEnd
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar when actions from a menu
-     * are present. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#contentInsetEndWithActions}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -6146,14 +5709,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:contentInsetEndWithActions
+     * @attr name app.byted.camp.todolist:contentInsetEndWithActions
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#contentInsetLeft}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -6161,14 +5722,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:contentInsetLeft
+     * @attr name app.byted.camp.todolist:contentInsetLeft
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#contentInsetRight}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -6176,14 +5735,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:contentInsetRight
+     * @attr name app.byted.camp.todolist:contentInsetRight
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#contentInsetStart}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -6191,14 +5748,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:contentInsetStart
+     * @attr name app.byted.camp.todolist:contentInsetStart
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar when a navigation button
-     * is present, such as the Up button. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#contentInsetStartWithNavigation}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -6206,26 +5761,24 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:contentInsetStartWithNavigation
+     * @attr name app.byted.camp.todolist:contentInsetStartWithNavigation
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
-     * <p>
-     * @attr description
-     * Specifies a layout for custom navigation. Overrides navigationMode.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#customNavigationLayout}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:customNavigationLayout
+     * @attr name app.byted.camp.todolist:customNavigationLayout
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
-     * <p>
-     * @attr description
-     * Options affecting how the action bar is displayed.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#displayOptions}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -6242,26 +5795,24 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:displayOptions
+     * @attr name app.byted.camp.todolist:displayOptions
      */
     public static final int ActionBar_displayOptions=10;
     /**
-     * <p>
-     * @attr description
-     * Specifies the drawable used for item dividers.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#divider}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:divider
+     * @attr name app.byted.camp.todolist:divider
      */
     public static final int ActionBar_divider=11;
     /**
-     * <p>
-     * @attr description
-     * Elevation for the action bar itself
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#elevation}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -6269,13 +5820,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:elevation
+     * @attr name app.byted.camp.todolist:elevation
      */
     public static final int ActionBar_elevation=12;
     /**
-     * <p>
-     * @attr description
-     * Specifies a fixed height.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#height}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -6283,77 +5833,70 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:height
+     * @attr name app.byted.camp.todolist:height
      */
     public static final int ActionBar_height=13;
     /**
-     * <p>
-     * @attr description
-     * Set true to hide the action bar on a vertical nested scroll of content.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#hideOnContentScroll}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:hideOnContentScroll
+     * @attr name app.byted.camp.todolist:hideOnContentScroll
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
-     * <p>
-     * @attr description
-     * Up navigation glyph
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#homeAsUpIndicator}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:homeAsUpIndicator
+     * @attr name app.byted.camp.todolist:homeAsUpIndicator
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
-     * <p>
-     * @attr description
-     * Specifies a layout to use for the "home" section of the action bar.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#homeLayout}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:homeLayout
+     * @attr name app.byted.camp.todolist:homeLayout
      */
     public static final int ActionBar_homeLayout=16;
     /**
-     * <p>
-     * @attr description
-     * Specifies the drawable used for the application icon.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#icon}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:icon
+     * @attr name app.byted.camp.todolist:icon
      */
     public static final int ActionBar_icon=17;
     /**
-     * <p>
-     * @attr description
-     * Specifies a style resource to use for an indeterminate progress spinner.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#indeterminateProgressStyle}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:indeterminateProgressStyle
+     * @attr name app.byted.camp.todolist:indeterminateProgressStyle
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
-     * <p>
-     * @attr description
-     * Specifies padding that should be applied to the left and right sides of
-     * system-provided items in the bar.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#itemPadding}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -6361,26 +5904,24 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:itemPadding
+     * @attr name app.byted.camp.todolist:itemPadding
      */
     public static final int ActionBar_itemPadding=19;
     /**
-     * <p>
-     * @attr description
-     * Specifies the drawable used for the application logo.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#logo}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:logo
+     * @attr name app.byted.camp.todolist:logo
      */
     public static final int ActionBar_logo=20;
     /**
-     * <p>
-     * @attr description
-     * The type of navigation to use.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#navigationMode}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -6388,32 +5929,29 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>listMode</td><td>1</td><td>The action bar will use a selection list for navigation.</td></tr>
-     * <tr><td>normal</td><td>0</td><td>Normal static title text</td></tr>
-     * <tr><td>tabMode</td><td>2</td><td>The action bar will use a series of horizontal tabs for navigation.</td></tr>
+     * <tr><td>listMode</td><td>1</td><td></td></tr>
+     * <tr><td>normal</td><td>0</td><td></td></tr>
+     * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:navigationMode
+     * @attr name app.byted.camp.todolist:navigationMode
      */
     public static final int ActionBar_navigationMode=21;
     /**
-     * <p>
-     * @attr description
-     * Reference to a theme that should be used to inflate popups
-     * shown by widgets in the action bar.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#popupTheme}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:popupTheme
+     * @attr name app.byted.camp.todolist:popupTheme
      */
     public static final int ActionBar_popupTheme=22;
     /**
-     * <p>
-     * @attr description
-     * Specifies the horizontal padding on either end for an embedded progress bar.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#progressBarPadding}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -6421,68 +5959,63 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:progressBarPadding
+     * @attr name app.byted.camp.todolist:progressBarPadding
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
-     * <p>
-     * @attr description
-     * Specifies a style resource to use for an embedded progress bar.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#progressBarStyle}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:progressBarStyle
+     * @attr name app.byted.camp.todolist:progressBarStyle
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
-     * <p>
-     * @attr description
-     * Specifies subtitle text used for navigationMode="normal"
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#subtitle}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.byted.camp.todolist:subtitle
+     * @attr name app.byted.camp.todolist:subtitle
      */
     public static final int ActionBar_subtitle=25;
     /**
-     * <p>
-     * @attr description
-     * Specifies a style to use for subtitle text.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#subtitleTextStyle}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:subtitleTextStyle
+     * @attr name app.byted.camp.todolist:subtitleTextStyle
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
-     * <p>
-     * @attr description
-     * Specifies title text used for navigationMode="normal"
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#title}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.byted.camp.todolist:title
+     * @attr name app.byted.camp.todolist:title
      */
     public static final int ActionBar_title=27;
     /**
-     * <p>
-     * @attr description
-     * Specifies a style to use for title text.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#titleTextStyle}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:titleTextStyle
+     * @attr name app.byted.camp.todolist:titleTextStyle
      */
     public static final int ActionBar_titleTextStyle=28;
     /**
@@ -6564,12 +6097,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background com.byted.camp.todolist:background}</code></td><td>Specifies a background drawable for the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit com.byted.camp.todolist:backgroundSplit}</code></td><td>Specifies a background drawable for the bottom component of a split action bar.</td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout com.byted.camp.todolist:closeItemLayout}</code></td><td>Specifies a layout to use for the "close" item at the starting edge.</td></tr>
-     * <tr><td><code>{@link #ActionMode_height com.byted.camp.todolist:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.byted.camp.todolist:subtitleTextStyle}</code></td><td>Specifies a style to use for subtitle text.</td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle com.byted.camp.todolist:titleTextStyle}</code></td><td>Specifies a style to use for title text.</td></tr>
+     * <tr><td><code>{@link #ActionMode_background app.byted.camp.todolist:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit app.byted.camp.todolist:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout app.byted.camp.todolist:closeItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_height app.byted.camp.todolist:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle app.byted.camp.todolist:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle app.byted.camp.todolist:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -6583,22 +6116,20 @@ public final class R {
       0x7f0301af, 0x7f0301fe
     };
     /**
-     * <p>
-     * @attr description
-     * Specifies a background for the action mode bar.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#background}
+     * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:background
+     * @attr name app.byted.camp.todolist:background
      */
     public static final int ActionMode_background=0;
     /**
-     * <p>
-     * @attr description
-     * Specifies a background for the split action mode bar.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#backgroundSplit}
+     * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -6608,26 +6139,24 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:backgroundSplit
+     * @attr name app.byted.camp.todolist:backgroundSplit
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
-     * <p>
-     * @attr description
-     * Specifies a layout to use for the "close" item at the starting edge.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#closeItemLayout}
+     * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:closeItemLayout
+     * @attr name app.byted.camp.todolist:closeItemLayout
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
-     * <p>
-     * @attr description
-     * Specifies a fixed height for the action mode bar.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#height}
+     * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -6635,33 +6164,31 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:height
+     * @attr name app.byted.camp.todolist:height
      */
     public static final int ActionMode_height=3;
     /**
-     * <p>
-     * @attr description
-     * Specifies a style to use for subtitle text.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#subtitleTextStyle}
+     * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:subtitleTextStyle
+     * @attr name app.byted.camp.todolist:subtitleTextStyle
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
-     * <p>
-     * @attr description
-     * Specifies a style to use for title text.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#titleTextStyle}
+     * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:titleTextStyle
+     * @attr name app.byted.camp.todolist:titleTextStyle
      */
     public static final int ActionMode_titleTextStyle=5;
     /**
@@ -6671,8 +6198,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.byted.camp.todolist:expandActivityOverflowButtonDrawable}</code></td><td>The drawable to show in the button for expanding the activities overflow popup.</td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.byted.camp.todolist:initialActivityCount}</code></td><td>The maximal number of items initially shown in the activity list.</td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable app.byted.camp.todolist:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount app.byted.camp.todolist:initialActivityCount}</code></td><td></td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
@@ -6681,31 +6208,25 @@ public final class R {
       0x7f0300c1, 0x7f0300fe
     };
     /**
-     * <p>
-     * @attr description
-     * The drawable to show in the button for expanding the activities overflow popup.
-     * <strong>Note:</strong> Clients would like to set this drawable
-     * as a clue about the action the chosen activity will perform. For
-     * example, if share activity is to be chosen the drawable should
-     * give a clue that sharing is to be performed.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#expandActivityOverflowButtonDrawable}
+     * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:expandActivityOverflowButtonDrawable
+     * @attr name app.byted.camp.todolist:expandActivityOverflowButtonDrawable
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
-     * <p>
-     * @attr description
-     * The maximal number of items initially shown in the activity list.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#initialActivityCount}
+     * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.byted.camp.todolist:initialActivityCount
+     * @attr name app.byted.camp.todolist:initialActivityCount
      */
     public static final int ActivityChooserView_initialActivityCount=1;
     /**
@@ -6716,13 +6237,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonIconDimen com.byted.camp.todolist:buttonIconDimen}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.byted.camp.todolist:buttonPanelSideLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listItemLayout com.byted.camp.todolist:listItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listLayout com.byted.camp.todolist:listLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.byted.camp.todolist:multiChoiceItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_showTitle com.byted.camp.todolist:showTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.byted.camp.todolist:singleChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonIconDimen app.byted.camp.todolist:buttonIconDimen}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout app.byted.camp.todolist:buttonPanelSideLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listItemLayout app.byted.camp.todolist:listItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listLayout app.byted.camp.todolist:listLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout app.byted.camp.todolist:multiChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_showTitle app.byted.camp.todolist:showTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout app.byted.camp.todolist:singleChoiceItemLayout}</code></td><td></td></tr>
      * </table>
      * @see #AlertDialog_android_layout
      * @see #AlertDialog_buttonIconDimen
@@ -6750,7 +6271,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#buttonIconDimen}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#buttonIconDimen}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6759,11 +6280,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:buttonIconDimen
+     * @attr name app.byted.camp.todolist:buttonIconDimen
      */
     public static final int AlertDialog_buttonIconDimen=1;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6771,11 +6292,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:buttonPanelSideLayout
+     * @attr name app.byted.camp.todolist:buttonPanelSideLayout
      */
     public static final int AlertDialog_buttonPanelSideLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6783,11 +6304,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:listItemLayout
+     * @attr name app.byted.camp.todolist:listItemLayout
      */
     public static final int AlertDialog_listItemLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6795,11 +6316,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:listLayout
+     * @attr name app.byted.camp.todolist:listLayout
      */
     public static final int AlertDialog_listLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6807,21 +6328,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:multiChoiceItemLayout
+     * @attr name app.byted.camp.todolist:multiChoiceItemLayout
      */
     public static final int AlertDialog_multiChoiceItemLayout=5;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#showTitle}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#showTitle}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:showTitle
+     * @attr name app.byted.camp.todolist:showTitle
      */
     public static final int AlertDialog_showTitle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6829,7 +6350,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:singleChoiceItemLayout
+     * @attr name app.byted.camp.todolist:singleChoiceItemLayout
      */
     public static final int AlertDialog_singleChoiceItemLayout=7;
     /**
@@ -6858,11 +6379,8 @@ public final class R {
       0x0101030c, 0x0101030d
     };
     /**
-     * <p>
-     * @attr description
-     * Enables or disables dithering of the bitmap if the bitmap does not have the
-     * same pixel configuration as the screen (for instance: a ARGB 8888 bitmap with
-     * an RGB 565 screen).
+     * <p>This symbol is the offset where the {@link android.R.attr#dither}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -6871,9 +6389,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableCompat_android_dither=0;
     /**
-     * <p>
-     * @attr description
-     * Indicates whether the drawable should be initially visible.
+     * <p>This symbol is the offset where the {@link android.R.attr#visible}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -6882,14 +6399,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableCompat_android_visible=1;
     /**
-     * <p>
-     * @attr description
-     * If true, allows the drawable's padding to change based on the
-     * current state that is selected.  If false, the padding will
-     * stay the same (based on the maximum padding of all the states).
-     * Enabling this feature requires that the owner of the drawable
-     * deal with performing layout when the state changes, which is
-     * often not supported.
+     * <p>This symbol is the offset where the {@link android.R.attr#variablePadding}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -6898,12 +6409,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableCompat_android_variablePadding=2;
     /**
-     * <p>
-     * @attr description
-     * If true, the drawable's reported internal size will remain
-     * constant as the state changes; the size is the maximum of all
-     * of the states.  If false, the size will vary based on the
-     * current state.
+     * <p>This symbol is the offset where the {@link android.R.attr#constantSize}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -6912,9 +6419,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableCompat_android_constantSize=3;
     /**
-     * <p>
-     * @attr description
-     * Amount of time (in milliseconds) to fade in a new state drawable.
+     * <p>This symbol is the offset where the {@link android.R.attr#enterFadeDuration}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -6922,9 +6428,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableCompat_android_enterFadeDuration=4;
     /**
-     * <p>
-     * @attr description
-     * Amount of time (in milliseconds) to fade out an old state drawable.
+     * <p>This symbol is the offset where the {@link android.R.attr#exitFadeDuration}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -6948,9 +6453,8 @@ public final class R {
       0x010100d0, 0x01010199
     };
     /**
-     * <p>
-     * @attr description
-     * Keyframe identifier for use in specifying transitions.
+     * <p>This symbol is the offset where the {@link android.R.attr#id}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableItem} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -6961,10 +6465,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableItem_android_id=0;
     /**
-     * <p>
-     * @attr description
-     * Reference to a drawable resource to use for the frame.  If not
-     * given, the drawable must be defined by the first child tag.
+     * <p>This symbol is the offset where the {@link android.R.attr#drawable}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableItem} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -6995,10 +6497,8 @@ public final class R {
       0x01010199, 0x01010449, 0x0101044a, 0x0101044b
     };
     /**
-     * <p>
-     * @attr description
-     * Reference to a animation drawable resource to use for the frame.  If not
-     * given, the animation drawable must be defined by the first child tag.
+     * <p>This symbol is the offset where the {@link android.R.attr#drawable}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableTransition} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -7009,9 +6509,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableTransition_android_drawable=0;
     /**
-     * <p>
-     * @attr description
-     * Keyframe identifier for the ending state.
+     * <p>This symbol is the offset where the {@link android.R.attr#toId}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableTransition} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -7022,9 +6521,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableTransition_android_toId=1;
     /**
-     * <p>
-     * @attr description
-     * Keyframe identifier for the starting state.
+     * <p>This symbol is the offset where the {@link android.R.attr#fromId}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableTransition} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -7035,9 +6533,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableTransition_android_fromId=2;
     /**
-     * <p>
-     * @attr description
-     * Whether this transition is reversible.
+     * <p>This symbol is the offset where the {@link android.R.attr#reversible}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableTransition} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -7055,9 +6552,9 @@ public final class R {
      * <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppBarLayout_android_touchscreenBlocksFocus android:touchscreenBlocksFocus}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppBarLayout_android_keyboardNavigationCluster android:keyboardNavigationCluster}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_elevation com.byted.camp.todolist:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
-     * <tr><td><code>{@link #AppBarLayout_expanded com.byted.camp.todolist:expanded}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_liftOnScroll com.byted.camp.todolist:liftOnScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_elevation app.byted.camp.todolist:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_expanded app.byted.camp.todolist:expanded}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_liftOnScroll app.byted.camp.todolist:liftOnScroll}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayout_android_background
      * @see #AppBarLayout_android_touchscreenBlocksFocus
@@ -7106,9 +6603,8 @@ public final class R {
      */
     public static final int AppBarLayout_android_keyboardNavigationCluster=2;
     /**
-     * <p>
-     * @attr description
-     * Elevation for the action bar itself
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#elevation}
+     * attribute's value can be found in the {@link #AppBarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -7116,27 +6612,27 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:elevation
+     * @attr name app.byted.camp.todolist:elevation
      */
     public static final int AppBarLayout_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#expanded}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#expanded}
      * attribute's value can be found in the {@link #AppBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:expanded
+     * @attr name app.byted.camp.todolist:expanded
      */
     public static final int AppBarLayout_expanded=4;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#liftOnScroll}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#liftOnScroll}
      * attribute's value can be found in the {@link #AppBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:liftOnScroll
+     * @attr name app.byted.camp.todolist:liftOnScroll
      */
     public static final int AppBarLayout_liftOnScroll=5;
     /**
@@ -7146,10 +6642,10 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsed com.byted.camp.todolist:state_collapsed}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsible com.byted.camp.todolist:state_collapsible}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_liftable com.byted.camp.todolist:state_liftable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_lifted com.byted.camp.todolist:state_lifted}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsed app.byted.camp.todolist:state_collapsed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsible app.byted.camp.todolist:state_collapsible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_liftable app.byted.camp.todolist:state_liftable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_lifted app.byted.camp.todolist:state_lifted}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayoutStates_state_collapsed
      * @see #AppBarLayoutStates_state_collapsible
@@ -7160,43 +6656,43 @@ public final class R {
       0x7f0301a2, 0x7f0301a3, 0x7f0301a4, 0x7f0301a5
     };
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#state_collapsed}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#state_collapsed}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:state_collapsed
+     * @attr name app.byted.camp.todolist:state_collapsed
      */
     public static final int AppBarLayoutStates_state_collapsed=0;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#state_collapsible}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#state_collapsible}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:state_collapsible
+     * @attr name app.byted.camp.todolist:state_collapsible
      */
     public static final int AppBarLayoutStates_state_collapsible=1;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#state_liftable}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#state_liftable}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:state_liftable
+     * @attr name app.byted.camp.todolist:state_liftable
      */
     public static final int AppBarLayoutStates_state_liftable=2;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#state_lifted}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#state_lifted}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:state_lifted
+     * @attr name app.byted.camp.todolist:state_lifted
      */
     public static final int AppBarLayoutStates_state_lifted=3;
     /**
@@ -7206,8 +6702,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags com.byted.camp.todolist:layout_scrollFlags}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator com.byted.camp.todolist:layout_scrollInterpolator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags app.byted.camp.todolist:layout_scrollFlags}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator app.byted.camp.todolist:layout_scrollInterpolator}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayout_Layout_layout_scrollFlags
      * @see #AppBarLayout_Layout_layout_scrollInterpolator
@@ -7216,7 +6712,7 @@ public final class R {
       0x7f03014c, 0x7f03014d
     };
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_scrollFlags}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_scrollFlags}
      * attribute's value can be found in the {@link #AppBarLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -7233,11 +6729,11 @@ public final class R {
      * <tr><td>snapMargins</td><td>20</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_scrollFlags
+     * @attr name app.byted.camp.todolist:layout_scrollFlags
      */
     public static final int AppBarLayout_Layout_layout_scrollFlags=0;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_scrollInterpolator}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_scrollInterpolator}
      * attribute's value can be found in the {@link #AppBarLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7245,7 +6741,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:layout_scrollInterpolator
+     * @attr name app.byted.camp.todolist:layout_scrollInterpolator
      */
     public static final int AppBarLayout_Layout_layout_scrollInterpolator=1;
     /**
@@ -7256,9 +6752,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.byted.camp.todolist:srcCompat}</code></td><td>Sets a drawable as the content of this ImageView.</td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tint com.byted.camp.todolist:tint}</code></td><td>Tint to apply to the image source.</td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tintMode com.byted.camp.todolist:tintMode}</code></td><td>Blending mode used to apply the image source tint.</td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat app.byted.camp.todolist:srcCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tint app.byted.camp.todolist:tint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tintMode app.byted.camp.todolist:tintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
@@ -7284,35 +6780,31 @@ public final class R {
      */
     public static final int AppCompatImageView_android_src=0;
     /**
-     * <p>
-     * @attr description
-     * Sets a drawable as the content of this ImageView. Allows the use of vector drawable
-     * when running on older versions of the platform.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#srcCompat}
+     * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:srcCompat
+     * @attr name app.byted.camp.todolist:srcCompat
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the image source.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tint}
+     * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:tint
+     * @attr name app.byted.camp.todolist:tint
      */
     public static final int AppCompatImageView_tint=2;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the image source tint.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tintMode}
+     * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -7320,20 +6812,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and icon color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:tintMode
+     * @attr name app.byted.camp.todolist:tintMode
      */
     public static final int AppCompatImageView_tintMode=3;
     /**
@@ -7344,9 +6831,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.byted.camp.todolist:tickMark}</code></td><td>Drawable displayed at each progress position on a seekbar.</td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.byted.camp.todolist:tickMarkTint}</code></td><td>Tint to apply to the tick mark drawable.</td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.byted.camp.todolist:tickMarkTintMode}</code></td><td>Blending mode used to apply the tick mark tint.</td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark app.byted.camp.todolist:tickMark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint app.byted.camp.todolist:tickMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode app.byted.camp.todolist:tickMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -7369,34 +6856,31 @@ public final class R {
      */
     public static final int AppCompatSeekBar_android_thumb=0;
     /**
-     * <p>
-     * @attr description
-     * Drawable displayed at each progress position on a seekbar.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tickMark}
+     * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:tickMark
+     * @attr name app.byted.camp.todolist:tickMark
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the tick mark drawable.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tickMarkTint}
+     * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:tickMarkTint
+     * @attr name app.byted.camp.todolist:tickMarkTint
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the tick mark tint.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tickMarkTintMode}
+     * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -7404,20 +6888,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and drawable color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:tickMarkTintMode
+     * @attr name app.byted.camp.todolist:tickMarkTintMode
      */
     public static final int AppCompatSeekBar_tickMarkTintMode=3;
     /**
@@ -7557,18 +7036,16 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.byted.camp.todolist:autoSizeMaxTextSize}</code></td><td>The maximum text size constraint to be used when auto-sizing text.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.byted.camp.todolist:autoSizeMinTextSize}</code></td><td>The minimum text size constraint to be used when auto-sizing text.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.byted.camp.todolist:autoSizePresetSizes}</code></td><td>Resource array of dimensions to be used in conjunction with
-     * <code>autoSizeTextType</code> set to <code>uniform</code>.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.byted.camp.todolist:autoSizeStepGranularity}</code></td><td>Specify the auto-size step size if <code>autoSizeTextType</code> is set to
-     * <code>uniform</code>.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.byted.camp.todolist:autoSizeTextType}</code></td><td>Specify the type of auto-size.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_firstBaselineToTopHeight com.byted.camp.todolist:firstBaselineToTopHeight}</code></td><td>Distance from the top of the TextView to the first text baseline.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.byted.camp.todolist:fontFamily}</code></td><td>The attribute for the font family.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_lastBaselineToBottomHeight com.byted.camp.todolist:lastBaselineToBottomHeight}</code></td><td>Distance from the bottom of the TextView to the last text baseline.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_lineHeight com.byted.camp.todolist:lineHeight}</code></td><td>Explicit height between lines of text.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.byted.camp.todolist:textAllCaps}</code></td><td>Present the text in ALL CAPS.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize app.byted.camp.todolist:autoSizeMaxTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize app.byted.camp.todolist:autoSizeMinTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes app.byted.camp.todolist:autoSizePresetSizes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity app.byted.camp.todolist:autoSizeStepGranularity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType app.byted.camp.todolist:autoSizeTextType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_firstBaselineToTopHeight app.byted.camp.todolist:firstBaselineToTopHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontFamily app.byted.camp.todolist:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_lastBaselineToBottomHeight app.byted.camp.todolist:lastBaselineToBottomHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_lineHeight app.byted.camp.todolist:lineHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps app.byted.camp.todolist:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_autoSizeMaxTextSize
@@ -7600,9 +7077,8 @@ public final class R {
      */
     public static final int AppCompatTextView_android_textAppearance=0;
     /**
-     * <p>
-     * @attr description
-     * The maximum text size constraint to be used when auto-sizing text.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#autoSizeMaxTextSize}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -7610,13 +7086,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:autoSizeMaxTextSize
+     * @attr name app.byted.camp.todolist:autoSizeMaxTextSize
      */
     public static final int AppCompatTextView_autoSizeMaxTextSize=1;
     /**
-     * <p>
-     * @attr description
-     * The minimum text size constraint to be used when auto-sizing text.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#autoSizeMinTextSize}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -7624,30 +7099,24 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:autoSizeMinTextSize
+     * @attr name app.byted.camp.todolist:autoSizeMinTextSize
      */
     public static final int AppCompatTextView_autoSizeMinTextSize=2;
     /**
-     * <p>
-     * @attr description
-     * Resource array of dimensions to be used in conjunction with
-     * <code>autoSizeTextType</code> set to <code>uniform</code>. Overrides
-     * <code>autoSizeStepGranularity</code> if set.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#autoSizePresetSizes}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:autoSizePresetSizes
+     * @attr name app.byted.camp.todolist:autoSizePresetSizes
      */
     public static final int AppCompatTextView_autoSizePresetSizes=3;
     /**
-     * <p>
-     * @attr description
-     * Specify the auto-size step size if <code>autoSizeTextType</code> is set to
-     * <code>uniform</code>. The default is 1px. Overwrites
-     * <code>autoSizePresetSizes</code> if set.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#autoSizeStepGranularity}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -7655,14 +7124,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:autoSizeStepGranularity
+     * @attr name app.byted.camp.todolist:autoSizeStepGranularity
      */
     public static final int AppCompatTextView_autoSizeStepGranularity=4;
     /**
-     * <p>
-     * @attr description
-     * Specify the type of auto-size. Note that this feature is not supported by EditText,
-     * works only for TextView.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#autoSizeTextType}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -7670,19 +7137,16 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>none</td><td>0</td><td>No auto-sizing (default).</td></tr>
-     * <tr><td>uniform</td><td>1</td><td>Uniform horizontal and vertical text size scaling to fit within the
-     * container.</td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>uniform</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:autoSizeTextType
+     * @attr name app.byted.camp.todolist:autoSizeTextType
      */
     public static final int AppCompatTextView_autoSizeTextType=5;
     /**
-     * <p>
-     * @attr description
-     * Distance from the top of the TextView to the first text baseline. If set, this
-     * overrides the value set for paddingTop.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#firstBaselineToTopHeight}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -7690,25 +7154,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:firstBaselineToTopHeight
+     * @attr name app.byted.camp.todolist:firstBaselineToTopHeight
      */
     public static final int AppCompatTextView_firstBaselineToTopHeight=6;
     /**
-     * <p>
-     * @attr description
-     * The attribute for the font family.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#fontFamily}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.byted.camp.todolist:fontFamily
+     * @attr name app.byted.camp.todolist:fontFamily
      */
     public static final int AppCompatTextView_fontFamily=7;
     /**
-     * <p>
-     * @attr description
-     * Distance from the bottom of the TextView to the last text baseline. If set, this
-     * overrides the value set for paddingBottom.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#lastBaselineToBottomHeight}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -7716,14 +7177,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:lastBaselineToBottomHeight
+     * @attr name app.byted.camp.todolist:lastBaselineToBottomHeight
      */
     public static final int AppCompatTextView_lastBaselineToBottomHeight=8;
     /**
-     * <p>
-     * @attr description
-     * Explicit height between lines of text. If set, this will override the values set
-     * for lineSpacingExtra and lineSpacingMultiplier.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#lineHeight}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -7731,13 +7190,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:lineHeight
+     * @attr name app.byted.camp.todolist:lineHeight
      */
     public static final int AppCompatTextView_lineHeight=9;
     /**
-     * <p>
-     * @attr description
-     * Present the text in ALL CAPS. This may use a small-caps form when available.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#textAllCaps}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -7746,7 +7204,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:textAllCaps
+     * @attr name app.byted.camp.todolist:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=10;
     /**
@@ -7758,142 +7216,125 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.byted.camp.todolist:actionBarDivider}</code></td><td>Custom divider drawable to use for elements in the action bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.byted.camp.todolist:actionBarItemBackground}</code></td><td>Custom item state list drawable background for action bar items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.byted.camp.todolist:actionBarPopupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
-     * shown by widgets in the action bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.byted.camp.todolist:actionBarSize}</code></td><td>Size of the Action Bar, including the contextual
-     * bar used to present Action Modes.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.byted.camp.todolist:actionBarSplitStyle}</code></td><td>Reference to a style for the split Action Bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.byted.camp.todolist:actionBarStyle}</code></td><td>Reference to a style for the Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.byted.camp.todolist:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.byted.camp.todolist:actionBarTabStyle}</code></td><td>Default style for tabs within an action bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.byted.camp.todolist:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.byted.camp.todolist:actionBarTheme}</code></td><td>Reference to a theme that should be used to inflate the
-     * action bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.byted.camp.todolist:actionBarWidgetTheme}</code></td><td>Reference to a theme that should be used to inflate widgets
-     * and layouts destined for the action bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.byted.camp.todolist:actionButtonStyle}</code></td><td>Default action button style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.byted.camp.todolist:actionDropDownStyle}</code></td><td>Default ActionBar dropdown style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.byted.camp.todolist:actionMenuTextAppearance}</code></td><td>TextAppearance style that will be applied to text that
-     * appears within action menu items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.byted.camp.todolist:actionMenuTextColor}</code></td><td>Color for text that appears within action menu items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.byted.camp.todolist:actionModeBackground}</code></td><td>Background drawable to use for action mode UI</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.byted.camp.todolist:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.byted.camp.todolist:actionModeCloseDrawable}</code></td><td>Drawable to use for the close action mode button</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.byted.camp.todolist:actionModeCopyDrawable}</code></td><td>Drawable to use for the Copy action button in Contextual Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.byted.camp.todolist:actionModeCutDrawable}</code></td><td>Drawable to use for the Cut action button in Contextual Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.byted.camp.todolist:actionModeFindDrawable}</code></td><td>Drawable to use for the Find action button in WebView selection action modes</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.byted.camp.todolist:actionModePasteDrawable}</code></td><td>Drawable to use for the Paste action button in Contextual Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.byted.camp.todolist:actionModePopupWindowStyle}</code></td><td>PopupWindow style to use for action modes when showing as a window overlay.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.byted.camp.todolist:actionModeSelectAllDrawable}</code></td><td>Drawable to use for the Select all action button in Contextual Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.byted.camp.todolist:actionModeShareDrawable}</code></td><td>Drawable to use for the Share action button in WebView selection action modes</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.byted.camp.todolist:actionModeSplitBackground}</code></td><td>Background drawable to use for action mode UI in the lower split bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.byted.camp.todolist:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.byted.camp.todolist:actionModeWebSearchDrawable}</code></td><td>Drawable to use for the Web Search action button in WebView selection action modes</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.byted.camp.todolist:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.byted.camp.todolist:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.byted.camp.todolist:activityChooserViewStyle}</code></td><td>Default ActivityChooserView style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.byted.camp.todolist:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.byted.camp.todolist:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.byted.camp.todolist:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.byted.camp.todolist:alertDialogTheme}</code></td><td>Theme to use for alert dialogs spawned from this theme.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.byted.camp.todolist:autoCompleteTextViewStyle}</code></td><td>Default AutoCompleteTextView style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.byted.camp.todolist:borderlessButtonStyle}</code></td><td>Style for buttons without an explicit border, often used in groups.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.byted.camp.todolist:buttonBarButtonStyle}</code></td><td>Style for buttons within button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.byted.camp.todolist:buttonBarNegativeButtonStyle}</code></td><td>Style for the "negative" buttons within button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.byted.camp.todolist:buttonBarNeutralButtonStyle}</code></td><td>Style for the "neutral" buttons within button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.byted.camp.todolist:buttonBarPositiveButtonStyle}</code></td><td>Style for the "positive" buttons within button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.byted.camp.todolist:buttonBarStyle}</code></td><td>Style for button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.byted.camp.todolist:buttonStyle}</code></td><td>Normal Button style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.byted.camp.todolist:buttonStyleSmall}</code></td><td>Small Button style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.byted.camp.todolist:checkboxStyle}</code></td><td>Default Checkbox style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.byted.camp.todolist:checkedTextViewStyle}</code></td><td>Default CheckedTextView style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.byted.camp.todolist:colorAccent}</code></td><td>Bright complement to the primary branding color.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.byted.camp.todolist:colorBackgroundFloating}</code></td><td>Default color of background imagery for floating components, ex.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.byted.camp.todolist:colorButtonNormal}</code></td><td>The color applied to framework buttons in their normal state.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.byted.camp.todolist:colorControlActivated}</code></td><td>The color applied to framework controls in their activated (ex.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.byted.camp.todolist:colorControlHighlight}</code></td><td>The color applied to framework control highlights (ex.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.byted.camp.todolist:colorControlNormal}</code></td><td>The color applied to framework controls in their normal state.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorError com.byted.camp.todolist:colorError}</code></td><td>Color used for error states and things that need to be drawn to
-     * the user's attention.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.byted.camp.todolist:colorPrimary}</code></td><td>The primary branding color for the app.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.byted.camp.todolist:colorPrimaryDark}</code></td><td>Dark variant of the primary branding color.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.byted.camp.todolist:colorSwitchThumbNormal}</code></td><td>The color applied to framework switch thumbs in their normal state.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.byted.camp.todolist:controlBackground}</code></td><td>The background used by framework controls.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogCornerRadius com.byted.camp.todolist:dialogCornerRadius}</code></td><td>Preferred corner radius of dialogs.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.byted.camp.todolist:dialogPreferredPadding}</code></td><td>Preferred padding for dialog content.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.byted.camp.todolist:dialogTheme}</code></td><td>Theme to use for dialogs spawned from this theme.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.byted.camp.todolist:dividerHorizontal}</code></td><td>A drawable that may be used as a horizontal divider between visual elements.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.byted.camp.todolist:dividerVertical}</code></td><td>A drawable that may be used as a vertical divider between visual elements.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.byted.camp.todolist:dropDownListViewStyle}</code></td><td>ListPopupWindow compatibility</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.byted.camp.todolist:dropdownListPreferredItemHeight}</code></td><td>The preferred item height for dropdown lists.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.byted.camp.todolist:editTextBackground}</code></td><td>EditText background drawable.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.byted.camp.todolist:editTextColor}</code></td><td>EditText text foreground color.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.byted.camp.todolist:editTextStyle}</code></td><td>Default EditText style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.byted.camp.todolist:homeAsUpIndicator}</code></td><td>Specifies a drawable to use for the 'home as up' indicator.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.byted.camp.todolist:imageButtonStyle}</code></td><td>ImageButton background drawable.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.byted.camp.todolist:listChoiceBackgroundIndicator}</code></td><td>Drawable used as a background for selected list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.byted.camp.todolist:listDividerAlertDialog}</code></td><td>The list divider used in alert dialogs.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.byted.camp.todolist:listMenuViewStyle}</code></td><td>Default menu-style ListView style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.byted.camp.todolist:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.byted.camp.todolist:listPreferredItemHeight}</code></td><td>The preferred list item height.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.byted.camp.todolist:listPreferredItemHeightLarge}</code></td><td>A larger, more robust list item height.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.byted.camp.todolist:listPreferredItemHeightSmall}</code></td><td>A smaller, sleeker list item height.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.byted.camp.todolist:listPreferredItemPaddingLeft}</code></td><td>The preferred padding along the left edge of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.byted.camp.todolist:listPreferredItemPaddingRight}</code></td><td>The preferred padding along the right edge of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.byted.camp.todolist:panelBackground}</code></td><td>The background of a panel when it is inset from the left and right edges of the screen.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.byted.camp.todolist:panelMenuListTheme}</code></td><td>Default Panel Menu style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.byted.camp.todolist:panelMenuListWidth}</code></td><td>Default Panel Menu width.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.byted.camp.todolist:popupMenuStyle}</code></td><td>Default PopupMenu style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.byted.camp.todolist:popupWindowStyle}</code></td><td>Default PopupWindow style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.byted.camp.todolist:radioButtonStyle}</code></td><td>Default RadioButton style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.byted.camp.todolist:ratingBarStyle}</code></td><td>Default RatingBar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.byted.camp.todolist:ratingBarStyleIndicator}</code></td><td>Indicator RatingBar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.byted.camp.todolist:ratingBarStyleSmall}</code></td><td>Small indicator RatingBar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.byted.camp.todolist:searchViewStyle}</code></td><td>Style for the search query widget.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.byted.camp.todolist:seekBarStyle}</code></td><td>Default SeekBar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.byted.camp.todolist:selectableItemBackground}</code></td><td>A style that may be applied to buttons or other selectable items
-     * that should react to pressed and focus states, but that do not
-     * have a clear visual border along the edges.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.byted.camp.todolist:selectableItemBackgroundBorderless}</code></td><td>Background drawable for borderless standalone items that need focus/pressed states.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.byted.camp.todolist:spinnerDropDownItemStyle}</code></td><td>Default Spinner style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.byted.camp.todolist:spinnerStyle}</code></td><td>Default Spinner style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.byted.camp.todolist:switchStyle}</code></td><td>Default style for the Switch widget.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.byted.camp.todolist:textAppearanceLargePopupMenu}</code></td><td>Text color, typeface, size, and style for the text inside of a popup menu.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.byted.camp.todolist:textAppearanceListItem}</code></td><td>The preferred TextAppearance for the primary text of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.byted.camp.todolist:textAppearanceListItemSecondary}</code></td><td>The preferred TextAppearance for the secondary text of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.byted.camp.todolist:textAppearanceListItemSmall}</code></td><td>The preferred TextAppearance for the primary text of small list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.byted.camp.todolist:textAppearancePopupMenuHeader}</code></td><td>Text color, typeface, size, and style for header text inside of a popup menu.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.byted.camp.todolist:textAppearanceSearchResultSubtitle}</code></td><td>Text color, typeface, size, and style for system search result subtitle.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.byted.camp.todolist:textAppearanceSearchResultTitle}</code></td><td>Text color, typeface, size, and style for system search result title.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.byted.camp.todolist:textAppearanceSmallPopupMenu}</code></td><td>Text color, typeface, size, and style for small text inside of a popup menu.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.byted.camp.todolist:textColorAlertDialogListItem}</code></td><td>Color of list item text in alert dialogs.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.byted.camp.todolist:textColorSearchUrl}</code></td><td>Text color for urls in search suggestions, used by things like global search</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.byted.camp.todolist:toolbarNavigationButtonStyle}</code></td><td>Default Toolar NavigationButtonStyle</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.byted.camp.todolist:toolbarStyle}</code></td><td>Default Toolbar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.byted.camp.todolist:tooltipForegroundColor}</code></td><td>Foreground color to use for tooltips</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.byted.camp.todolist:tooltipFrameBackground}</code></td><td>Background to use for tooltips</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass com.byted.camp.todolist:viewInflaterClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.byted.camp.todolist:windowActionBar}</code></td><td>Flag indicating whether this window should have an Action Bar
-     * in place of the usual title bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.byted.camp.todolist:windowActionBarOverlay}</code></td><td>Flag indicating whether this window's Action Bar should overlay
-     * application content.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.byted.camp.todolist:windowActionModeOverlay}</code></td><td>Flag indicating whether action modes should overlay window content
-     * when there is not reserved space for their UI (such as an Action Bar).</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.byted.camp.todolist:windowFixedHeightMajor}</code></td><td>A fixed height for the window along the major axis of the screen,
-     * that is, when in portrait.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.byted.camp.todolist:windowFixedHeightMinor}</code></td><td>A fixed height for the window along the minor axis of the screen,
-     * that is, when in landscape.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.byted.camp.todolist:windowFixedWidthMajor}</code></td><td>A fixed width for the window along the major axis of the screen,
-     * that is, when in landscape.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.byted.camp.todolist:windowFixedWidthMinor}</code></td><td>A fixed width for the window along the minor axis of the screen,
-     * that is, when in portrait.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.byted.camp.todolist:windowMinWidthMajor}</code></td><td>The minimum width the window is allowed to be, along the major
-     * axis of the screen.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.byted.camp.todolist:windowMinWidthMinor}</code></td><td>The minimum width the window is allowed to be, along the minor
-     * axis of the screen.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.byted.camp.todolist:windowNoTitle}</code></td><td>Flag indicating whether there should be no title on this window.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider app.byted.camp.todolist:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground app.byted.camp.todolist:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme app.byted.camp.todolist:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize app.byted.camp.todolist:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle app.byted.camp.todolist:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle app.byted.camp.todolist:actionBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle app.byted.camp.todolist:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle app.byted.camp.todolist:actionBarTabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle app.byted.camp.todolist:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme app.byted.camp.todolist:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme app.byted.camp.todolist:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle app.byted.camp.todolist:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle app.byted.camp.todolist:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance app.byted.camp.todolist:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor app.byted.camp.todolist:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground app.byted.camp.todolist:actionModeBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle app.byted.camp.todolist:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable app.byted.camp.todolist:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable app.byted.camp.todolist:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable app.byted.camp.todolist:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable app.byted.camp.todolist:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable app.byted.camp.todolist:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle app.byted.camp.todolist:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable app.byted.camp.todolist:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable app.byted.camp.todolist:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground app.byted.camp.todolist:actionModeSplitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle app.byted.camp.todolist:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable app.byted.camp.todolist:actionModeWebSearchDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle app.byted.camp.todolist:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle app.byted.camp.todolist:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle app.byted.camp.todolist:activityChooserViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle app.byted.camp.todolist:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons app.byted.camp.todolist:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle app.byted.camp.todolist:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme app.byted.camp.todolist:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle app.byted.camp.todolist:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle app.byted.camp.todolist:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle app.byted.camp.todolist:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle app.byted.camp.todolist:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle app.byted.camp.todolist:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle app.byted.camp.todolist:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle app.byted.camp.todolist:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle app.byted.camp.todolist:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall app.byted.camp.todolist:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle app.byted.camp.todolist:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle app.byted.camp.todolist:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent app.byted.camp.todolist:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating app.byted.camp.todolist:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal app.byted.camp.todolist:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated app.byted.camp.todolist:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight app.byted.camp.todolist:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal app.byted.camp.todolist:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorError app.byted.camp.todolist:colorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary app.byted.camp.todolist:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark app.byted.camp.todolist:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal app.byted.camp.todolist:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground app.byted.camp.todolist:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogCornerRadius app.byted.camp.todolist:dialogCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding app.byted.camp.todolist:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme app.byted.camp.todolist:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal app.byted.camp.todolist:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical app.byted.camp.todolist:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle app.byted.camp.todolist:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight app.byted.camp.todolist:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground app.byted.camp.todolist:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor app.byted.camp.todolist:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle app.byted.camp.todolist:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator app.byted.camp.todolist:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle app.byted.camp.todolist:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator app.byted.camp.todolist:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog app.byted.camp.todolist:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle app.byted.camp.todolist:listMenuViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle app.byted.camp.todolist:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight app.byted.camp.todolist:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge app.byted.camp.todolist:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall app.byted.camp.todolist:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft app.byted.camp.todolist:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight app.byted.camp.todolist:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground app.byted.camp.todolist:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme app.byted.camp.todolist:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth app.byted.camp.todolist:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle app.byted.camp.todolist:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle app.byted.camp.todolist:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle app.byted.camp.todolist:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle app.byted.camp.todolist:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator app.byted.camp.todolist:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall app.byted.camp.todolist:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle app.byted.camp.todolist:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle app.byted.camp.todolist:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground app.byted.camp.todolist:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless app.byted.camp.todolist:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle app.byted.camp.todolist:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle app.byted.camp.todolist:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle app.byted.camp.todolist:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu app.byted.camp.todolist:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem app.byted.camp.todolist:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary app.byted.camp.todolist:textAppearanceListItemSecondary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall app.byted.camp.todolist:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader app.byted.camp.todolist:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle app.byted.camp.todolist:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle app.byted.camp.todolist:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu app.byted.camp.todolist:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem app.byted.camp.todolist:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl app.byted.camp.todolist:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle app.byted.camp.todolist:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle app.byted.camp.todolist:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor app.byted.camp.todolist:tooltipForegroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground app.byted.camp.todolist:tooltipFrameBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass app.byted.camp.todolist:viewInflaterClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar app.byted.camp.todolist:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay app.byted.camp.todolist:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay app.byted.camp.todolist:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor app.byted.camp.todolist:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor app.byted.camp.todolist:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor app.byted.camp.todolist:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor app.byted.camp.todolist:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor app.byted.camp.todolist:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor app.byted.camp.todolist:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle app.byted.camp.todolist:windowNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -8073,50 +7514,44 @@ public final class R {
      */
     public static final int AppCompatTheme_android_windowAnimationStyle=1;
     /**
-     * <p>
-     * @attr description
-     * Custom divider drawable to use for elements in the action bar.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionBarDivider}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:actionBarDivider
+     * @attr name app.byted.camp.todolist:actionBarDivider
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
-     * <p>
-     * @attr description
-     * Custom item state list drawable background for action bar items.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionBarItemBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:actionBarItemBackground
+     * @attr name app.byted.camp.todolist:actionBarItemBackground
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
-     * <p>
-     * @attr description
-     * Reference to a theme that should be used to inflate popups
-     * shown by widgets in the action bar.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionBarPopupTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:actionBarPopupTheme
+     * @attr name app.byted.camp.todolist:actionBarPopupTheme
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
-     * <p>
-     * @attr description
-     * Size of the Action Bar, including the contextual
-     * bar used to present Action Modes.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionBarSize}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -8132,40 +7567,35 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:actionBarSize
+     * @attr name app.byted.camp.todolist:actionBarSize
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
-     * <p>
-     * @attr description
-     * Reference to a style for the split Action Bar. This style
-     * controls the split component that holds the menu/action
-     * buttons. actionBarStyle is still used for the primary
-     * bar.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionBarSplitStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:actionBarSplitStyle
+     * @attr name app.byted.camp.todolist:actionBarSplitStyle
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
-     * <p>
-     * @attr description
-     * Reference to a style for the Action Bar
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionBarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:actionBarStyle
+     * @attr name app.byted.camp.todolist:actionBarStyle
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8173,24 +7603,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:actionBarTabBarStyle
+     * @attr name app.byted.camp.todolist:actionBarTabBarStyle
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
-     * <p>
-     * @attr description
-     * Default style for tabs within an action bar
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:actionBarTabStyle
-     */
-    public static final int AppCompatTheme_actionBarTabStyle=9;
-    /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionBarTabStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8198,87 +7615,84 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:actionBarTabTextStyle
+     * @attr name app.byted.camp.todolist:actionBarTabStyle
+     */
+    public static final int AppCompatTheme_actionBarTabStyle=9;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionBarTabTextStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:actionBarTabTextStyle
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
-     * <p>
-     * @attr description
-     * Reference to a theme that should be used to inflate the
-     * action bar. This will be inherited by any widget inflated
-     * into the action bar.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionBarTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:actionBarTheme
+     * @attr name app.byted.camp.todolist:actionBarTheme
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
-     * <p>
-     * @attr description
-     * Reference to a theme that should be used to inflate widgets
-     * and layouts destined for the action bar. Most of the time
-     * this will be a reference to the current theme, but when
-     * the action bar has a significantly different contrast
-     * profile than the rest of the activity the difference
-     * can become important. If this is set to @null the current
-     * theme will be used.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionBarWidgetTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:actionBarWidgetTheme
+     * @attr name app.byted.camp.todolist:actionBarWidgetTheme
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
-     * <p>
-     * @attr description
-     * Default action button style.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:actionButtonStyle
+     * @attr name app.byted.camp.todolist:actionButtonStyle
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
-     * <p>
-     * @attr description
-     * Default ActionBar dropdown style.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionDropDownStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:actionDropDownStyle
+     * @attr name app.byted.camp.todolist:actionDropDownStyle
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
-     * <p>
-     * @attr description
-     * TextAppearance style that will be applied to text that
-     * appears within action menu items.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionMenuTextAppearance}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:actionMenuTextAppearance
+     * @attr name app.byted.camp.todolist:actionMenuTextAppearance
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
-     * <p>
-     * @attr description
-     * Color for text that appears within action menu items.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionMenuTextColor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -8288,24 +7702,23 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:actionMenuTextColor
+     * @attr name app.byted.camp.todolist:actionMenuTextColor
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
-     * <p>
-     * @attr description
-     * Background drawable to use for action mode UI
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionModeBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:actionModeBackground
+     * @attr name app.byted.camp.todolist:actionModeBackground
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8313,128 +7726,119 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:actionModeCloseButtonStyle
+     * @attr name app.byted.camp.todolist:actionModeCloseButtonStyle
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use for the close action mode button
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionModeCloseDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:actionModeCloseDrawable
+     * @attr name app.byted.camp.todolist:actionModeCloseDrawable
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use for the Copy action button in Contextual Action Bar
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionModeCopyDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:actionModeCopyDrawable
+     * @attr name app.byted.camp.todolist:actionModeCopyDrawable
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use for the Cut action button in Contextual Action Bar
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionModeCutDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:actionModeCutDrawable
+     * @attr name app.byted.camp.todolist:actionModeCutDrawable
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use for the Find action button in WebView selection action modes
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionModeFindDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:actionModeFindDrawable
+     * @attr name app.byted.camp.todolist:actionModeFindDrawable
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use for the Paste action button in Contextual Action Bar
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionModePasteDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:actionModePasteDrawable
+     * @attr name app.byted.camp.todolist:actionModePasteDrawable
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
-     * <p>
-     * @attr description
-     * PopupWindow style to use for action modes when showing as a window overlay.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionModePopupWindowStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:actionModePopupWindowStyle
+     * @attr name app.byted.camp.todolist:actionModePopupWindowStyle
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use for the Select all action button in Contextual Action Bar
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionModeSelectAllDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:actionModeSelectAllDrawable
+     * @attr name app.byted.camp.todolist:actionModeSelectAllDrawable
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use for the Share action button in WebView selection action modes
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionModeShareDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:actionModeShareDrawable
+     * @attr name app.byted.camp.todolist:actionModeShareDrawable
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
-     * <p>
-     * @attr description
-     * Background drawable to use for action mode UI in the lower split bar
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionModeSplitBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:actionModeSplitBackground
+     * @attr name app.byted.camp.todolist:actionModeSplitBackground
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8442,24 +7846,23 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:actionModeStyle
+     * @attr name app.byted.camp.todolist:actionModeStyle
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use for the Web Search action button in WebView selection action modes
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionModeWebSearchDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:actionModeWebSearchDrawable
+     * @attr name app.byted.camp.todolist:actionModeWebSearchDrawable
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8467,11 +7870,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:actionOverflowButtonStyle
+     * @attr name app.byted.camp.todolist:actionOverflowButtonStyle
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8479,24 +7882,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:actionOverflowMenuStyle
+     * @attr name app.byted.camp.todolist:actionOverflowMenuStyle
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
-     * <p>
-     * @attr description
-     * Default ActivityChooserView style.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:activityChooserViewStyle
-     */
-    public static final int AppCompatTheme_activityChooserViewStyle=32;
-    /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#activityChooserViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8504,21 +7894,33 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:alertDialogButtonGroupStyle
+     * @attr name app.byted.camp.todolist:activityChooserViewStyle
+     */
+    public static final int AppCompatTheme_activityChooserViewStyle=32;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#alertDialogButtonGroupStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:alertDialogButtonGroupStyle
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:alertDialogCenterButtons
+     * @attr name app.byted.camp.todolist:alertDialogCenterButtons
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8526,509 +7928,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:alertDialogStyle
+     * @attr name app.byted.camp.todolist:alertDialogStyle
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
-     * <p>
-     * @attr description
-     * Theme to use for alert dialogs spawned from this theme.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:alertDialogTheme
-     */
-    public static final int AppCompatTheme_alertDialogTheme=36;
-    /**
-     * <p>
-     * @attr description
-     * Default AutoCompleteTextView style.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:autoCompleteTextViewStyle
-     */
-    public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
-    /**
-     * <p>
-     * @attr description
-     * Style for buttons without an explicit border, often used in groups.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:borderlessButtonStyle
-     */
-    public static final int AppCompatTheme_borderlessButtonStyle=38;
-    /**
-     * <p>
-     * @attr description
-     * Style for buttons within button bars
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:buttonBarButtonStyle
-     */
-    public static final int AppCompatTheme_buttonBarButtonStyle=39;
-    /**
-     * <p>
-     * @attr description
-     * Style for the "negative" buttons within button bars
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:buttonBarNegativeButtonStyle
-     */
-    public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
-    /**
-     * <p>
-     * @attr description
-     * Style for the "neutral" buttons within button bars
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:buttonBarNeutralButtonStyle
-     */
-    public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
-    /**
-     * <p>
-     * @attr description
-     * Style for the "positive" buttons within button bars
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:buttonBarPositiveButtonStyle
-     */
-    public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
-    /**
-     * <p>
-     * @attr description
-     * Style for button bars
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:buttonBarStyle
-     */
-    public static final int AppCompatTheme_buttonBarStyle=43;
-    /**
-     * <p>
-     * @attr description
-     * Normal Button style.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:buttonStyle
-     */
-    public static final int AppCompatTheme_buttonStyle=44;
-    /**
-     * <p>
-     * @attr description
-     * Small Button style.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:buttonStyleSmall
-     */
-    public static final int AppCompatTheme_buttonStyleSmall=45;
-    /**
-     * <p>
-     * @attr description
-     * Default Checkbox style.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:checkboxStyle
-     */
-    public static final int AppCompatTheme_checkboxStyle=46;
-    /**
-     * <p>
-     * @attr description
-     * Default CheckedTextView style.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:checkedTextViewStyle
-     */
-    public static final int AppCompatTheme_checkedTextViewStyle=47;
-    /**
-     * <p>
-     * @attr description
-     * Bright complement to the primary branding color. By default, this is the color applied
-     * to framework controls (via colorControlActivated).
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:colorAccent
-     */
-    public static final int AppCompatTheme_colorAccent=48;
-    /**
-     * <p>
-     * @attr description
-     * Default color of background imagery for floating components, ex. dialogs, popups, and cards.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:colorBackgroundFloating
-     */
-    public static final int AppCompatTheme_colorBackgroundFloating=49;
-    /**
-     * <p>
-     * @attr description
-     * The color applied to framework buttons in their normal state.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:colorButtonNormal
-     */
-    public static final int AppCompatTheme_colorButtonNormal=50;
-    /**
-     * <p>
-     * @attr description
-     * The color applied to framework controls in their activated (ex. checked) state.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:colorControlActivated
-     */
-    public static final int AppCompatTheme_colorControlActivated=51;
-    /**
-     * <p>
-     * @attr description
-     * The color applied to framework control highlights (ex. ripples, list selectors).
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:colorControlHighlight
-     */
-    public static final int AppCompatTheme_colorControlHighlight=52;
-    /**
-     * <p>
-     * @attr description
-     * The color applied to framework controls in their normal state.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:colorControlNormal
-     */
-    public static final int AppCompatTheme_colorControlNormal=53;
-    /**
-     * <p>
-     * @attr description
-     * Color used for error states and things that need to be drawn to
-     * the user's attention.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:colorError
-     */
-    public static final int AppCompatTheme_colorError=54;
-    /**
-     * <p>
-     * @attr description
-     * The primary branding color for the app. By default, this is the color applied to the
-     * action bar background.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:colorPrimary
-     */
-    public static final int AppCompatTheme_colorPrimary=55;
-    /**
-     * <p>
-     * @attr description
-     * Dark variant of the primary branding color. By default, this is the color applied to
-     * the status bar (via statusBarColor) and navigation bar (via navigationBarColor).
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:colorPrimaryDark
-     */
-    public static final int AppCompatTheme_colorPrimaryDark=56;
-    /**
-     * <p>
-     * @attr description
-     * The color applied to framework switch thumbs in their normal state.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:colorSwitchThumbNormal
-     */
-    public static final int AppCompatTheme_colorSwitchThumbNormal=57;
-    /**
-     * <p>
-     * @attr description
-     * The background used by framework controls.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:controlBackground
-     */
-    public static final int AppCompatTheme_controlBackground=58;
-    /**
-     * <p>
-     * @attr description
-     * Preferred corner radius of dialogs.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.byted.camp.todolist:dialogCornerRadius
-     */
-    public static final int AppCompatTheme_dialogCornerRadius=59;
-    /**
-     * <p>
-     * @attr description
-     * Preferred padding for dialog content.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.byted.camp.todolist:dialogPreferredPadding
-     */
-    public static final int AppCompatTheme_dialogPreferredPadding=60;
-    /**
-     * <p>
-     * @attr description
-     * Theme to use for dialogs spawned from this theme.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:dialogTheme
-     */
-    public static final int AppCompatTheme_dialogTheme=61;
-    /**
-     * <p>
-     * @attr description
-     * A drawable that may be used as a horizontal divider between visual elements.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:dividerHorizontal
-     */
-    public static final int AppCompatTheme_dividerHorizontal=62;
-    /**
-     * <p>
-     * @attr description
-     * A drawable that may be used as a vertical divider between visual elements.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:dividerVertical
-     */
-    public static final int AppCompatTheme_dividerVertical=63;
-    /**
-     * <p>
-     * @attr description
-     * ListPopupWindow compatibility
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:dropDownListViewStyle
-     */
-    public static final int AppCompatTheme_dropDownListViewStyle=64;
-    /**
-     * <p>
-     * @attr description
-     * The preferred item height for dropdown lists.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.byted.camp.todolist:dropdownListPreferredItemHeight
-     */
-    public static final int AppCompatTheme_dropdownListPreferredItemHeight=65;
-    /**
-     * <p>
-     * @attr description
-     * EditText background drawable.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:editTextBackground
-     */
-    public static final int AppCompatTheme_editTextBackground=66;
-    /**
-     * <p>
-     * @attr description
-     * EditText text foreground color.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:editTextColor
-     */
-    public static final int AppCompatTheme_editTextColor=67;
-    /**
-     * <p>
-     * @attr description
-     * Default EditText style.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:editTextStyle
-     */
-    public static final int AppCompatTheme_editTextStyle=68;
-    /**
-     * <p>
-     * @attr description
-     * Specifies a drawable to use for the 'home as up' indicator.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:homeAsUpIndicator
-     */
-    public static final int AppCompatTheme_homeAsUpIndicator=69;
-    /**
-     * <p>
-     * @attr description
-     * ImageButton background drawable.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:imageButtonStyle
-     */
-    public static final int AppCompatTheme_imageButtonStyle=70;
-    /**
-     * <p>
-     * @attr description
-     * Drawable used as a background for selected list items.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:listChoiceBackgroundIndicator
-     */
-    public static final int AppCompatTheme_listChoiceBackgroundIndicator=71;
-    /**
-     * <p>
-     * @attr description
-     * The list divider used in alert dialogs.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:listDividerAlertDialog
-     */
-    public static final int AppCompatTheme_listDividerAlertDialog=72;
-    /**
-     * <p>
-     * @attr description
-     * Default menu-style ListView style.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:listMenuViewStyle
-     */
-    public static final int AppCompatTheme_listMenuViewStyle=73;
-    /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#listPopupWindowStyle}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#alertDialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9036,13 +7940,468 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:listPopupWindowStyle
+     * @attr name app.byted.camp.todolist:alertDialogTheme
+     */
+    public static final int AppCompatTheme_alertDialogTheme=36;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#autoCompleteTextViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:autoCompleteTextViewStyle
+     */
+    public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#borderlessButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:borderlessButtonStyle
+     */
+    public static final int AppCompatTheme_borderlessButtonStyle=38;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#buttonBarButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:buttonBarButtonStyle
+     */
+    public static final int AppCompatTheme_buttonBarButtonStyle=39;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#buttonBarNegativeButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:buttonBarNegativeButtonStyle
+     */
+    public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#buttonBarNeutralButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:buttonBarNeutralButtonStyle
+     */
+    public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#buttonBarPositiveButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:buttonBarPositiveButtonStyle
+     */
+    public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#buttonBarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:buttonBarStyle
+     */
+    public static final int AppCompatTheme_buttonBarStyle=43;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#buttonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:buttonStyle
+     */
+    public static final int AppCompatTheme_buttonStyle=44;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#buttonStyleSmall}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:buttonStyleSmall
+     */
+    public static final int AppCompatTheme_buttonStyleSmall=45;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#checkboxStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:checkboxStyle
+     */
+    public static final int AppCompatTheme_checkboxStyle=46;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#checkedTextViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:checkedTextViewStyle
+     */
+    public static final int AppCompatTheme_checkedTextViewStyle=47;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#colorAccent}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:colorAccent
+     */
+    public static final int AppCompatTheme_colorAccent=48;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#colorBackgroundFloating}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:colorBackgroundFloating
+     */
+    public static final int AppCompatTheme_colorBackgroundFloating=49;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#colorButtonNormal}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:colorButtonNormal
+     */
+    public static final int AppCompatTheme_colorButtonNormal=50;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#colorControlActivated}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:colorControlActivated
+     */
+    public static final int AppCompatTheme_colorControlActivated=51;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#colorControlHighlight}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:colorControlHighlight
+     */
+    public static final int AppCompatTheme_colorControlHighlight=52;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#colorControlNormal}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:colorControlNormal
+     */
+    public static final int AppCompatTheme_colorControlNormal=53;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#colorError}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:colorError
+     */
+    public static final int AppCompatTheme_colorError=54;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#colorPrimary}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:colorPrimary
+     */
+    public static final int AppCompatTheme_colorPrimary=55;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#colorPrimaryDark}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:colorPrimaryDark
+     */
+    public static final int AppCompatTheme_colorPrimaryDark=56;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#colorSwitchThumbNormal}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:colorSwitchThumbNormal
+     */
+    public static final int AppCompatTheme_colorSwitchThumbNormal=57;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#controlBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:controlBackground
+     */
+    public static final int AppCompatTheme_controlBackground=58;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#dialogCornerRadius}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.byted.camp.todolist:dialogCornerRadius
+     */
+    public static final int AppCompatTheme_dialogCornerRadius=59;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#dialogPreferredPadding}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.byted.camp.todolist:dialogPreferredPadding
+     */
+    public static final int AppCompatTheme_dialogPreferredPadding=60;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#dialogTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:dialogTheme
+     */
+    public static final int AppCompatTheme_dialogTheme=61;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#dividerHorizontal}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:dividerHorizontal
+     */
+    public static final int AppCompatTheme_dividerHorizontal=62;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#dividerVertical}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:dividerVertical
+     */
+    public static final int AppCompatTheme_dividerVertical=63;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#dropDownListViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:dropDownListViewStyle
+     */
+    public static final int AppCompatTheme_dropDownListViewStyle=64;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#dropdownListPreferredItemHeight}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.byted.camp.todolist:dropdownListPreferredItemHeight
+     */
+    public static final int AppCompatTheme_dropdownListPreferredItemHeight=65;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#editTextBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:editTextBackground
+     */
+    public static final int AppCompatTheme_editTextBackground=66;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#editTextColor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:editTextColor
+     */
+    public static final int AppCompatTheme_editTextColor=67;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#editTextStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:editTextStyle
+     */
+    public static final int AppCompatTheme_editTextStyle=68;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#homeAsUpIndicator}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:homeAsUpIndicator
+     */
+    public static final int AppCompatTheme_homeAsUpIndicator=69;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#imageButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:imageButtonStyle
+     */
+    public static final int AppCompatTheme_imageButtonStyle=70;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#listChoiceBackgroundIndicator}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:listChoiceBackgroundIndicator
+     */
+    public static final int AppCompatTheme_listChoiceBackgroundIndicator=71;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#listDividerAlertDialog}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:listDividerAlertDialog
+     */
+    public static final int AppCompatTheme_listDividerAlertDialog=72;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#listMenuViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:listMenuViewStyle
+     */
+    public static final int AppCompatTheme_listMenuViewStyle=73;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#listPopupWindowStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:listPopupWindowStyle
      */
     public static final int AppCompatTheme_listPopupWindowStyle=74;
     /**
-     * <p>
-     * @attr description
-     * The preferred list item height.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#listPreferredItemHeight}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -9050,13 +8409,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:listPreferredItemHeight
+     * @attr name app.byted.camp.todolist:listPreferredItemHeight
      */
     public static final int AppCompatTheme_listPreferredItemHeight=75;
     /**
-     * <p>
-     * @attr description
-     * A larger, more robust list item height.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#listPreferredItemHeightLarge}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -9064,13 +8422,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:listPreferredItemHeightLarge
+     * @attr name app.byted.camp.todolist:listPreferredItemHeightLarge
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=76;
     /**
-     * <p>
-     * @attr description
-     * A smaller, sleeker list item height.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#listPreferredItemHeightSmall}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -9078,13 +8435,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:listPreferredItemHeightSmall
+     * @attr name app.byted.camp.todolist:listPreferredItemHeightSmall
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=77;
     /**
-     * <p>
-     * @attr description
-     * The preferred padding along the left edge of list items.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#listPreferredItemPaddingLeft}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -9092,13 +8448,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:listPreferredItemPaddingLeft
+     * @attr name app.byted.camp.todolist:listPreferredItemPaddingLeft
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=78;
     /**
-     * <p>
-     * @attr description
-     * The preferred padding along the right edge of list items.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#listPreferredItemPaddingRight}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -9106,39 +8461,36 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:listPreferredItemPaddingRight
+     * @attr name app.byted.camp.todolist:listPreferredItemPaddingRight
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=79;
     /**
-     * <p>
-     * @attr description
-     * The background of a panel when it is inset from the left and right edges of the screen.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#panelBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:panelBackground
+     * @attr name app.byted.camp.todolist:panelBackground
      */
     public static final int AppCompatTheme_panelBackground=80;
     /**
-     * <p>
-     * @attr description
-     * Default Panel Menu style.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#panelMenuListTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:panelMenuListTheme
+     * @attr name app.byted.camp.todolist:panelMenuListTheme
      */
     public static final int AppCompatTheme_panelMenuListTheme=81;
     /**
-     * <p>
-     * @attr description
-     * Default Panel Menu width.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#panelMenuListWidth}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -9146,288 +8498,264 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:panelMenuListWidth
+     * @attr name app.byted.camp.todolist:panelMenuListWidth
      */
     public static final int AppCompatTheme_panelMenuListWidth=82;
     /**
-     * <p>
-     * @attr description
-     * Default PopupMenu style.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#popupMenuStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:popupMenuStyle
+     * @attr name app.byted.camp.todolist:popupMenuStyle
      */
     public static final int AppCompatTheme_popupMenuStyle=83;
     /**
-     * <p>
-     * @attr description
-     * Default PopupWindow style.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#popupWindowStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:popupWindowStyle
+     * @attr name app.byted.camp.todolist:popupWindowStyle
      */
     public static final int AppCompatTheme_popupWindowStyle=84;
     /**
-     * <p>
-     * @attr description
-     * Default RadioButton style.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#radioButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:radioButtonStyle
+     * @attr name app.byted.camp.todolist:radioButtonStyle
      */
     public static final int AppCompatTheme_radioButtonStyle=85;
     /**
-     * <p>
-     * @attr description
-     * Default RatingBar style.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#ratingBarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:ratingBarStyle
+     * @attr name app.byted.camp.todolist:ratingBarStyle
      */
     public static final int AppCompatTheme_ratingBarStyle=86;
     /**
-     * <p>
-     * @attr description
-     * Indicator RatingBar style.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#ratingBarStyleIndicator}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:ratingBarStyleIndicator
+     * @attr name app.byted.camp.todolist:ratingBarStyleIndicator
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=87;
     /**
-     * <p>
-     * @attr description
-     * Small indicator RatingBar style.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#ratingBarStyleSmall}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:ratingBarStyleSmall
+     * @attr name app.byted.camp.todolist:ratingBarStyleSmall
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=88;
     /**
-     * <p>
-     * @attr description
-     * Style for the search query widget.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#searchViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:searchViewStyle
+     * @attr name app.byted.camp.todolist:searchViewStyle
      */
     public static final int AppCompatTheme_searchViewStyle=89;
     /**
-     * <p>
-     * @attr description
-     * Default SeekBar style.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#seekBarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:seekBarStyle
+     * @attr name app.byted.camp.todolist:seekBarStyle
      */
     public static final int AppCompatTheme_seekBarStyle=90;
     /**
-     * <p>
-     * @attr description
-     * A style that may be applied to buttons or other selectable items
-     * that should react to pressed and focus states, but that do not
-     * have a clear visual border along the edges.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#selectableItemBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:selectableItemBackground
+     * @attr name app.byted.camp.todolist:selectableItemBackground
      */
     public static final int AppCompatTheme_selectableItemBackground=91;
     /**
-     * <p>
-     * @attr description
-     * Background drawable for borderless standalone items that need focus/pressed states.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#selectableItemBackgroundBorderless}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:selectableItemBackgroundBorderless
+     * @attr name app.byted.camp.todolist:selectableItemBackgroundBorderless
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=92;
     /**
-     * <p>
-     * @attr description
-     * Default Spinner style.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#spinnerDropDownItemStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:spinnerDropDownItemStyle
+     * @attr name app.byted.camp.todolist:spinnerDropDownItemStyle
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=93;
     /**
-     * <p>
-     * @attr description
-     * Default Spinner style.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#spinnerStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:spinnerStyle
+     * @attr name app.byted.camp.todolist:spinnerStyle
      */
     public static final int AppCompatTheme_spinnerStyle=94;
     /**
-     * <p>
-     * @attr description
-     * Default style for the Switch widget.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#switchStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:switchStyle
+     * @attr name app.byted.camp.todolist:switchStyle
      */
     public static final int AppCompatTheme_switchStyle=95;
     /**
-     * <p>
-     * @attr description
-     * Text color, typeface, size, and style for the text inside of a popup menu.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#textAppearanceLargePopupMenu}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:textAppearanceLargePopupMenu
+     * @attr name app.byted.camp.todolist:textAppearanceLargePopupMenu
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=96;
     /**
-     * <p>
-     * @attr description
-     * The preferred TextAppearance for the primary text of list items.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#textAppearanceListItem}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:textAppearanceListItem
+     * @attr name app.byted.camp.todolist:textAppearanceListItem
      */
     public static final int AppCompatTheme_textAppearanceListItem=97;
     /**
-     * <p>
-     * @attr description
-     * The preferred TextAppearance for the secondary text of list items.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#textAppearanceListItemSecondary}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:textAppearanceListItemSecondary
+     * @attr name app.byted.camp.todolist:textAppearanceListItemSecondary
      */
     public static final int AppCompatTheme_textAppearanceListItemSecondary=98;
     /**
-     * <p>
-     * @attr description
-     * The preferred TextAppearance for the primary text of small list items.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#textAppearanceListItemSmall}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:textAppearanceListItemSmall
+     * @attr name app.byted.camp.todolist:textAppearanceListItemSmall
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=99;
     /**
-     * <p>
-     * @attr description
-     * Text color, typeface, size, and style for header text inside of a popup menu.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#textAppearancePopupMenuHeader}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:textAppearancePopupMenuHeader
+     * @attr name app.byted.camp.todolist:textAppearancePopupMenuHeader
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=100;
     /**
-     * <p>
-     * @attr description
-     * Text color, typeface, size, and style for system search result subtitle. Defaults to primary inverse text color.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#textAppearanceSearchResultSubtitle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:textAppearanceSearchResultSubtitle
+     * @attr name app.byted.camp.todolist:textAppearanceSearchResultSubtitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=101;
     /**
-     * <p>
-     * @attr description
-     * Text color, typeface, size, and style for system search result title. Defaults to primary inverse text color.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#textAppearanceSearchResultTitle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:textAppearanceSearchResultTitle
+     * @attr name app.byted.camp.todolist:textAppearanceSearchResultTitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=102;
     /**
-     * <p>
-     * @attr description
-     * Text color, typeface, size, and style for small text inside of a popup menu.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#textAppearanceSmallPopupMenu}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:textAppearanceSmallPopupMenu
+     * @attr name app.byted.camp.todolist:textAppearanceSmallPopupMenu
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=103;
     /**
-     * <p>
-     * @attr description
-     * Color of list item text in alert dialogs.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#textColorAlertDialogListItem}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -9437,13 +8765,12 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:textColorAlertDialogListItem
+     * @attr name app.byted.camp.todolist:textColorAlertDialogListItem
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=104;
     /**
-     * <p>
-     * @attr description
-     * Text color for urls in search suggestions, used by things like global search
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#textColorSearchUrl}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -9453,39 +8780,36 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:textColorSearchUrl
+     * @attr name app.byted.camp.todolist:textColorSearchUrl
      */
     public static final int AppCompatTheme_textColorSearchUrl=105;
     /**
-     * <p>
-     * @attr description
-     * Default Toolar NavigationButtonStyle
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#toolbarNavigationButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:toolbarNavigationButtonStyle
+     * @attr name app.byted.camp.todolist:toolbarNavigationButtonStyle
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=106;
     /**
-     * <p>
-     * @attr description
-     * Default Toolbar style.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#toolbarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:toolbarStyle
+     * @attr name app.byted.camp.todolist:toolbarStyle
      */
     public static final int AppCompatTheme_toolbarStyle=107;
     /**
-     * <p>
-     * @attr description
-     * Foreground color to use for tooltips
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tooltipForegroundColor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -9495,75 +8819,64 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:tooltipForegroundColor
+     * @attr name app.byted.camp.todolist:tooltipForegroundColor
      */
     public static final int AppCompatTheme_tooltipForegroundColor=108;
     /**
-     * <p>
-     * @attr description
-     * Background to use for tooltips
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tooltipFrameBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:tooltipFrameBackground
+     * @attr name app.byted.camp.todolist:tooltipFrameBackground
      */
     public static final int AppCompatTheme_tooltipFrameBackground=109;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#viewInflaterClass}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#viewInflaterClass}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.byted.camp.todolist:viewInflaterClass
+     * @attr name app.byted.camp.todolist:viewInflaterClass
      */
     public static final int AppCompatTheme_viewInflaterClass=110;
     /**
-     * <p>
-     * @attr description
-     * Flag indicating whether this window should have an Action Bar
-     * in place of the usual title bar.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#windowActionBar}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:windowActionBar
+     * @attr name app.byted.camp.todolist:windowActionBar
      */
     public static final int AppCompatTheme_windowActionBar=111;
     /**
-     * <p>
-     * @attr description
-     * Flag indicating whether this window's Action Bar should overlay
-     * application content. Does nothing if the window would not
-     * have an Action Bar.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#windowActionBarOverlay}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:windowActionBarOverlay
+     * @attr name app.byted.camp.todolist:windowActionBarOverlay
      */
     public static final int AppCompatTheme_windowActionBarOverlay=112;
     /**
-     * <p>
-     * @attr description
-     * Flag indicating whether action modes should overlay window content
-     * when there is not reserved space for their UI (such as an Action Bar).
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#windowActionModeOverlay}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:windowActionModeOverlay
+     * @attr name app.byted.camp.todolist:windowActionModeOverlay
      */
     public static final int AppCompatTheme_windowActionModeOverlay=113;
     /**
-     * <p>
-     * @attr description
-     * A fixed height for the window along the major axis of the screen,
-     * that is, when in portrait. Can be either an absolute dimension
-     * or a fraction of the screen size in that dimension.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#windowFixedHeightMajor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -9575,15 +8888,12 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.byted.camp.todolist:windowFixedHeightMajor
+     * @attr name app.byted.camp.todolist:windowFixedHeightMajor
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=114;
     /**
-     * <p>
-     * @attr description
-     * A fixed height for the window along the minor axis of the screen,
-     * that is, when in landscape. Can be either an absolute dimension
-     * or a fraction of the screen size in that dimension.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#windowFixedHeightMinor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -9595,15 +8905,12 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.byted.camp.todolist:windowFixedHeightMinor
+     * @attr name app.byted.camp.todolist:windowFixedHeightMinor
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=115;
     /**
-     * <p>
-     * @attr description
-     * A fixed width for the window along the major axis of the screen,
-     * that is, when in landscape. Can be either an absolute dimension
-     * or a fraction of the screen size in that dimension.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#windowFixedWidthMajor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -9615,15 +8922,12 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.byted.camp.todolist:windowFixedWidthMajor
+     * @attr name app.byted.camp.todolist:windowFixedWidthMajor
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=116;
     /**
-     * <p>
-     * @attr description
-     * A fixed width for the window along the minor axis of the screen,
-     * that is, when in portrait. Can be either an absolute dimension
-     * or a fraction of the screen size in that dimension.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#windowFixedWidthMinor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -9635,16 +8939,12 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.byted.camp.todolist:windowFixedWidthMinor
+     * @attr name app.byted.camp.todolist:windowFixedWidthMinor
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=117;
     /**
-     * <p>
-     * @attr description
-     * The minimum width the window is allowed to be, along the major
-     * axis of the screen.  That is, when in landscape.  Can be either
-     * an absolute dimension or a fraction of the screen size in that
-     * dimension.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#windowMinWidthMajor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -9656,16 +8956,12 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.byted.camp.todolist:windowMinWidthMajor
+     * @attr name app.byted.camp.todolist:windowMinWidthMajor
      */
     public static final int AppCompatTheme_windowMinWidthMajor=118;
     /**
-     * <p>
-     * @attr description
-     * The minimum width the window is allowed to be, along the minor
-     * axis of the screen.  That is, when in portrait.  Can be either
-     * an absolute dimension or a fraction of the screen size in that
-     * dimension.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#windowMinWidthMinor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -9677,18 +8973,17 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.byted.camp.todolist:windowMinWidthMinor
+     * @attr name app.byted.camp.todolist:windowMinWidthMinor
      */
     public static final int AppCompatTheme_windowMinWidthMinor=119;
     /**
-     * <p>
-     * @attr description
-     * Flag indicating whether there should be no title on this window.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#windowNoTitle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:windowNoTitle
+     * @attr name app.byted.camp.todolist:windowNoTitle
      */
     public static final int AppCompatTheme_windowNoTitle=120;
     /**
@@ -9698,12 +8993,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomAppBar_backgroundTint com.byted.camp.todolist:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
-     * <tr><td><code>{@link #BottomAppBar_fabAlignmentMode com.byted.camp.todolist:fabAlignmentMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomAppBar_fabCradleMargin com.byted.camp.todolist:fabCradleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomAppBar_fabCradleRoundedCornerRadius com.byted.camp.todolist:fabCradleRoundedCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomAppBar_fabCradleVerticalOffset com.byted.camp.todolist:fabCradleVerticalOffset}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomAppBar_hideOnScroll com.byted.camp.todolist:hideOnScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_backgroundTint app.byted.camp.todolist:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_fabAlignmentMode app.byted.camp.todolist:fabAlignmentMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_fabCradleMargin app.byted.camp.todolist:fabCradleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_fabCradleRoundedCornerRadius app.byted.camp.todolist:fabCradleRoundedCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_fabCradleVerticalOffset app.byted.camp.todolist:fabCradleVerticalOffset}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_hideOnScroll app.byted.camp.todolist:hideOnScroll}</code></td><td></td></tr>
      * </table>
      * @see #BottomAppBar_backgroundTint
      * @see #BottomAppBar_fabAlignmentMode
@@ -9717,19 +9012,18 @@ public final class R {
       0x7f0300cd, 0x7f0300ec
     };
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the background.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#backgroundTint}
+     * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:backgroundTint
+     * @attr name app.byted.camp.todolist:backgroundTint
      */
     public static final int BottomAppBar_backgroundTint=0;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#fabAlignmentMode}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#fabAlignmentMode}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9742,11 +9036,11 @@ public final class R {
      * <tr><td>end</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:fabAlignmentMode
+     * @attr name app.byted.camp.todolist:fabAlignmentMode
      */
     public static final int BottomAppBar_fabAlignmentMode=1;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#fabCradleMargin}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#fabCradleMargin}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9755,11 +9049,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:fabCradleMargin
+     * @attr name app.byted.camp.todolist:fabCradleMargin
      */
     public static final int BottomAppBar_fabCradleMargin=2;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#fabCradleRoundedCornerRadius}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#fabCradleRoundedCornerRadius}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9768,11 +9062,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:fabCradleRoundedCornerRadius
+     * @attr name app.byted.camp.todolist:fabCradleRoundedCornerRadius
      */
     public static final int BottomAppBar_fabCradleRoundedCornerRadius=3;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#fabCradleVerticalOffset}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#fabCradleVerticalOffset}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9781,17 +9075,17 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:fabCradleVerticalOffset
+     * @attr name app.byted.camp.todolist:fabCradleVerticalOffset
      */
     public static final int BottomAppBar_fabCradleVerticalOffset=4;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#hideOnScroll}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#hideOnScroll}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:hideOnScroll
+     * @attr name app.byted.camp.todolist:hideOnScroll
      */
     public static final int BottomAppBar_hideOnScroll=5;
     /**
@@ -9801,16 +9095,16 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomNavigationView_elevation com.byted.camp.todolist:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemBackground com.byted.camp.todolist:itemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemHorizontalTranslationEnabled com.byted.camp.todolist:itemHorizontalTranslationEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemIconSize com.byted.camp.todolist:itemIconSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemIconTint com.byted.camp.todolist:itemIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemTextAppearanceActive com.byted.camp.todolist:itemTextAppearanceActive}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemTextAppearanceInactive com.byted.camp.todolist:itemTextAppearanceInactive}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemTextColor com.byted.camp.todolist:itemTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_labelVisibilityMode com.byted.camp.todolist:labelVisibilityMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_menu com.byted.camp.todolist:menu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_elevation app.byted.camp.todolist:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemBackground app.byted.camp.todolist:itemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemHorizontalTranslationEnabled app.byted.camp.todolist:itemHorizontalTranslationEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemIconSize app.byted.camp.todolist:itemIconSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemIconTint app.byted.camp.todolist:itemIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemTextAppearanceActive app.byted.camp.todolist:itemTextAppearanceActive}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemTextAppearanceInactive app.byted.camp.todolist:itemTextAppearanceInactive}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemTextColor app.byted.camp.todolist:itemTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_labelVisibilityMode app.byted.camp.todolist:labelVisibilityMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_menu app.byted.camp.todolist:menu}</code></td><td></td></tr>
      * </table>
      * @see #BottomNavigationView_elevation
      * @see #BottomNavigationView_itemBackground
@@ -9829,9 +9123,8 @@ public final class R {
       0x7f03010e, 0x7f030164
     };
     /**
-     * <p>
-     * @attr description
-     * Elevation for the action bar itself
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#elevation}
+     * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -9839,11 +9132,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:elevation
+     * @attr name app.byted.camp.todolist:elevation
      */
     public static final int BottomNavigationView_elevation=0;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#itemBackground}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#itemBackground}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9851,21 +9144,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:itemBackground
+     * @attr name app.byted.camp.todolist:itemBackground
      */
     public static final int BottomNavigationView_itemBackground=1;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#itemHorizontalTranslationEnabled}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#itemHorizontalTranslationEnabled}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:itemHorizontalTranslationEnabled
+     * @attr name app.byted.camp.todolist:itemHorizontalTranslationEnabled
      */
     public static final int BottomNavigationView_itemHorizontalTranslationEnabled=2;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#itemIconSize}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#itemIconSize}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9874,22 +9167,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:itemIconSize
+     * @attr name app.byted.camp.todolist:itemIconSize
      */
     public static final int BottomNavigationView_itemIconSize=3;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#itemIconTint}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#itemIconTint}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:itemIconTint
+     * @attr name app.byted.camp.todolist:itemIconTint
      */
     public static final int BottomNavigationView_itemIconTint=4;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#itemTextAppearanceActive}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#itemTextAppearanceActive}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9897,11 +9190,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:itemTextAppearanceActive
+     * @attr name app.byted.camp.todolist:itemTextAppearanceActive
      */
     public static final int BottomNavigationView_itemTextAppearanceActive=5;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#itemTextAppearanceInactive}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#itemTextAppearanceInactive}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9909,22 +9202,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:itemTextAppearanceInactive
+     * @attr name app.byted.camp.todolist:itemTextAppearanceInactive
      */
     public static final int BottomNavigationView_itemTextAppearanceInactive=6;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#itemTextColor}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#itemTextColor}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:itemTextColor
+     * @attr name app.byted.camp.todolist:itemTextColor
      */
     public static final int BottomNavigationView_itemTextColor=7;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#labelVisibilityMode}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#labelVisibilityMode}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9939,11 +9232,11 @@ public final class R {
      * <tr><td>unlabeled</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:labelVisibilityMode
+     * @attr name app.byted.camp.todolist:labelVisibilityMode
      */
     public static final int BottomNavigationView_labelVisibilityMode=8;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#menu}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#menu}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9951,7 +9244,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:menu
+     * @attr name app.byted.camp.todolist:menu
      */
     public static final int BottomNavigationView_menu=9;
     /**
@@ -9961,10 +9254,10 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_fitToContents com.byted.camp.todolist:behavior_fitToContents}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable com.byted.camp.todolist:behavior_hideable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight com.byted.camp.todolist:behavior_peekHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed com.byted.camp.todolist:behavior_skipCollapsed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_fitToContents app.byted.camp.todolist:behavior_fitToContents}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable app.byted.camp.todolist:behavior_hideable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight app.byted.camp.todolist:behavior_peekHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed app.byted.camp.todolist:behavior_skipCollapsed}</code></td><td></td></tr>
      * </table>
      * @see #BottomSheetBehavior_Layout_behavior_fitToContents
      * @see #BottomSheetBehavior_Layout_behavior_hideable
@@ -9975,27 +9268,27 @@ public final class R {
       0x7f03003a, 0x7f03003b, 0x7f03003d, 0x7f03003e
     };
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#behavior_fitToContents}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#behavior_fitToContents}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:behavior_fitToContents
+     * @attr name app.byted.camp.todolist:behavior_fitToContents
      */
     public static final int BottomSheetBehavior_Layout_behavior_fitToContents=0;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#behavior_hideable}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#behavior_hideable}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:behavior_hideable
+     * @attr name app.byted.camp.todolist:behavior_hideable
      */
     public static final int BottomSheetBehavior_Layout_behavior_hideable=1;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#behavior_peekHeight}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#behavior_peekHeight}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10012,17 +9305,17 @@ public final class R {
      * <tr><td>auto</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:behavior_peekHeight
+     * @attr name app.byted.camp.todolist:behavior_peekHeight
      */
     public static final int BottomSheetBehavior_Layout_behavior_peekHeight=2;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#behavior_skipCollapsed}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#behavior_skipCollapsed}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:behavior_skipCollapsed
+     * @attr name app.byted.camp.todolist:behavior_skipCollapsed
      */
     public static final int BottomSheetBehavior_Layout_behavior_skipCollapsed=3;
     /**
@@ -10032,8 +9325,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.byted.camp.todolist:allowStacking}</code></td><td>Whether to automatically stack the buttons when there is not
-     * enough space to lay them out side-by-side.</td></tr>
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking app.byted.camp.todolist:allowStacking}</code></td><td></td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
      */
@@ -10041,15 +9333,13 @@ public final class R {
       0x7f030026
     };
     /**
-     * <p>
-     * @attr description
-     * Whether to automatically stack the buttons when there is not
-     * enough space to lay them out side-by-side.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#allowStacking}
+     * attribute's value can be found in the {@link #ButtonBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:allowStacking
+     * @attr name app.byted.camp.todolist:allowStacking
      */
     public static final int ButtonBarLayout_allowStacking=0;
     /**
@@ -10061,17 +9351,17 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CardView_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #CardView_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardBackgroundColor com.byted.camp.todolist:cardBackgroundColor}</code></td><td>Background color for CardView.</td></tr>
-     * <tr><td><code>{@link #CardView_cardCornerRadius com.byted.camp.todolist:cardCornerRadius}</code></td><td>Corner radius for CardView.</td></tr>
-     * <tr><td><code>{@link #CardView_cardElevation com.byted.camp.todolist:cardElevation}</code></td><td>Elevation for CardView.</td></tr>
-     * <tr><td><code>{@link #CardView_cardMaxElevation com.byted.camp.todolist:cardMaxElevation}</code></td><td>Maximum Elevation for CardView.</td></tr>
-     * <tr><td><code>{@link #CardView_cardPreventCornerOverlap com.byted.camp.todolist:cardPreventCornerOverlap}</code></td><td>Add padding to CardView on v20 and before to prevent intersections between the Card content and rounded corners.</td></tr>
-     * <tr><td><code>{@link #CardView_cardUseCompatPadding com.byted.camp.todolist:cardUseCompatPadding}</code></td><td>Add padding in API v21+ as well to have the same measurements with previous versions.</td></tr>
-     * <tr><td><code>{@link #CardView_contentPadding com.byted.camp.todolist:contentPadding}</code></td><td>Inner padding between the edges of the Card and children of the CardView.</td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingBottom com.byted.camp.todolist:contentPaddingBottom}</code></td><td>Inner padding between the bottom edge of the Card and children of the CardView.</td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingLeft com.byted.camp.todolist:contentPaddingLeft}</code></td><td>Inner padding between the left edge of the Card and children of the CardView.</td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingRight com.byted.camp.todolist:contentPaddingRight}</code></td><td>Inner padding between the right edge of the Card and children of the CardView.</td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingTop com.byted.camp.todolist:contentPaddingTop}</code></td><td>Inner padding between the top edge of the Card and children of the CardView.</td></tr>
+     * <tr><td><code>{@link #CardView_cardBackgroundColor app.byted.camp.todolist:cardBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardCornerRadius app.byted.camp.todolist:cardCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardElevation app.byted.camp.todolist:cardElevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardMaxElevation app.byted.camp.todolist:cardMaxElevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardPreventCornerOverlap app.byted.camp.todolist:cardPreventCornerOverlap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardUseCompatPadding app.byted.camp.todolist:cardUseCompatPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPadding app.byted.camp.todolist:contentPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingBottom app.byted.camp.todolist:contentPaddingBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingLeft app.byted.camp.todolist:contentPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingRight app.byted.camp.todolist:contentPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingTop app.byted.camp.todolist:contentPaddingTop}</code></td><td></td></tr>
      * </table>
      * @see #CardView_android_minWidth
      * @see #CardView_android_minHeight
@@ -10094,9 +9384,8 @@ public final class R {
       0x7f0300a1
     };
     /**
-     * <p>
-     * @attr description
-     * Workaround to read user defined minimum width
+     * <p>This symbol is the offset where the {@link android.R.attr#minWidth}
+     * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -10108,9 +9397,8 @@ public final class R {
      */
     public static final int CardView_android_minWidth=0;
     /**
-     * <p>
-     * @attr description
-     * Workaround to read user defined minimum height
+     * <p>This symbol is the offset where the {@link android.R.attr#minHeight}
+     * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -10122,21 +9410,19 @@ public final class R {
      */
     public static final int CardView_android_minHeight=1;
     /**
-     * <p>
-     * @attr description
-     * Background color for CardView.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#cardBackgroundColor}
+     * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:cardBackgroundColor
+     * @attr name app.byted.camp.todolist:cardBackgroundColor
      */
     public static final int CardView_cardBackgroundColor=2;
     /**
-     * <p>
-     * @attr description
-     * Corner radius for CardView.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#cardCornerRadius}
+     * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -10144,13 +9430,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:cardCornerRadius
+     * @attr name app.byted.camp.todolist:cardCornerRadius
      */
     public static final int CardView_cardCornerRadius=3;
     /**
-     * <p>
-     * @attr description
-     * Elevation for CardView.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#cardElevation}
+     * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -10158,13 +9443,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:cardElevation
+     * @attr name app.byted.camp.todolist:cardElevation
      */
     public static final int CardView_cardElevation=4;
     /**
-     * <p>
-     * @attr description
-     * Maximum Elevation for CardView.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#cardMaxElevation}
+     * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -10172,35 +9456,32 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:cardMaxElevation
+     * @attr name app.byted.camp.todolist:cardMaxElevation
      */
     public static final int CardView_cardMaxElevation=5;
     /**
-     * <p>
-     * @attr description
-     * Add padding to CardView on v20 and before to prevent intersections between the Card content and rounded corners.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#cardPreventCornerOverlap}
+     * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:cardPreventCornerOverlap
+     * @attr name app.byted.camp.todolist:cardPreventCornerOverlap
      */
     public static final int CardView_cardPreventCornerOverlap=6;
     /**
-     * <p>
-     * @attr description
-     * Add padding in API v21+ as well to have the same measurements with previous versions.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#cardUseCompatPadding}
+     * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:cardUseCompatPadding
+     * @attr name app.byted.camp.todolist:cardUseCompatPadding
      */
     public static final int CardView_cardUseCompatPadding=7;
     /**
-     * <p>
-     * @attr description
-     * Inner padding between the edges of the Card and children of the CardView.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#contentPadding}
+     * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -10208,13 +9489,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:contentPadding
+     * @attr name app.byted.camp.todolist:contentPadding
      */
     public static final int CardView_contentPadding=8;
     /**
-     * <p>
-     * @attr description
-     * Inner padding between the bottom edge of the Card and children of the CardView.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#contentPaddingBottom}
+     * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -10222,13 +9502,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:contentPaddingBottom
+     * @attr name app.byted.camp.todolist:contentPaddingBottom
      */
     public static final int CardView_contentPaddingBottom=9;
     /**
-     * <p>
-     * @attr description
-     * Inner padding between the left edge of the Card and children of the CardView.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#contentPaddingLeft}
+     * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -10236,13 +9515,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:contentPaddingLeft
+     * @attr name app.byted.camp.todolist:contentPaddingLeft
      */
     public static final int CardView_contentPaddingLeft=10;
     /**
-     * <p>
-     * @attr description
-     * Inner padding between the right edge of the Card and children of the CardView.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#contentPaddingRight}
+     * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -10250,13 +9528,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:contentPaddingRight
+     * @attr name app.byted.camp.todolist:contentPaddingRight
      */
     public static final int CardView_contentPaddingRight=11;
     /**
-     * <p>
-     * @attr description
-     * Inner padding between the top edge of the Card and children of the CardView.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#contentPaddingTop}
+     * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -10264,7 +9541,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:contentPaddingTop
+     * @attr name app.byted.camp.todolist:contentPaddingTop
      */
     public static final int CardView_contentPaddingTop=12;
     /**
@@ -10279,35 +9556,35 @@ public final class R {
      * <tr><td><code>{@link #Chip_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #Chip_android_text android:text}</code></td><td></td></tr>
      * <tr><td><code>{@link #Chip_android_checkable android:checkable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_checkedIcon com.byted.camp.todolist:checkedIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_checkedIconEnabled com.byted.camp.todolist:checkedIconEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_checkedIconVisible com.byted.camp.todolist:checkedIconVisible}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipBackgroundColor com.byted.camp.todolist:chipBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipCornerRadius com.byted.camp.todolist:chipCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipEndPadding com.byted.camp.todolist:chipEndPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipIcon com.byted.camp.todolist:chipIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipIconEnabled com.byted.camp.todolist:chipIconEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipIconSize com.byted.camp.todolist:chipIconSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipIconTint com.byted.camp.todolist:chipIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipIconVisible com.byted.camp.todolist:chipIconVisible}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipMinHeight com.byted.camp.todolist:chipMinHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipStartPadding com.byted.camp.todolist:chipStartPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipStrokeColor com.byted.camp.todolist:chipStrokeColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipStrokeWidth com.byted.camp.todolist:chipStrokeWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIcon com.byted.camp.todolist:closeIcon}</code></td><td>Close button icon</td></tr>
-     * <tr><td><code>{@link #Chip_closeIconEnabled com.byted.camp.todolist:closeIconEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIconEndPadding com.byted.camp.todolist:closeIconEndPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIconSize com.byted.camp.todolist:closeIconSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIconStartPadding com.byted.camp.todolist:closeIconStartPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIconTint com.byted.camp.todolist:closeIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIconVisible com.byted.camp.todolist:closeIconVisible}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_hideMotionSpec com.byted.camp.todolist:hideMotionSpec}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_iconEndPadding com.byted.camp.todolist:iconEndPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_iconStartPadding com.byted.camp.todolist:iconStartPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_rippleColor com.byted.camp.todolist:rippleColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_showMotionSpec com.byted.camp.todolist:showMotionSpec}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_textEndPadding com.byted.camp.todolist:textEndPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_textStartPadding com.byted.camp.todolist:textStartPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_checkedIcon app.byted.camp.todolist:checkedIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_checkedIconEnabled app.byted.camp.todolist:checkedIconEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_checkedIconVisible app.byted.camp.todolist:checkedIconVisible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipBackgroundColor app.byted.camp.todolist:chipBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipCornerRadius app.byted.camp.todolist:chipCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipEndPadding app.byted.camp.todolist:chipEndPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipIcon app.byted.camp.todolist:chipIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipIconEnabled app.byted.camp.todolist:chipIconEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipIconSize app.byted.camp.todolist:chipIconSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipIconTint app.byted.camp.todolist:chipIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipIconVisible app.byted.camp.todolist:chipIconVisible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipMinHeight app.byted.camp.todolist:chipMinHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipStartPadding app.byted.camp.todolist:chipStartPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipStrokeColor app.byted.camp.todolist:chipStrokeColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipStrokeWidth app.byted.camp.todolist:chipStrokeWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIcon app.byted.camp.todolist:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIconEnabled app.byted.camp.todolist:closeIconEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIconEndPadding app.byted.camp.todolist:closeIconEndPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIconSize app.byted.camp.todolist:closeIconSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIconStartPadding app.byted.camp.todolist:closeIconStartPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIconTint app.byted.camp.todolist:closeIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIconVisible app.byted.camp.todolist:closeIconVisible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_hideMotionSpec app.byted.camp.todolist:hideMotionSpec}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_iconEndPadding app.byted.camp.todolist:iconEndPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_iconStartPadding app.byted.camp.todolist:iconStartPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_rippleColor app.byted.camp.todolist:rippleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_showMotionSpec app.byted.camp.todolist:showMotionSpec}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_textEndPadding app.byted.camp.todolist:textEndPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_textStartPadding app.byted.camp.todolist:textStartPadding}</code></td><td></td></tr>
      * </table>
      * @see #Chip_android_textAppearance
      * @see #Chip_android_ellipsize
@@ -10421,7 +9698,7 @@ public final class R {
      */
     public static final int Chip_android_checkable=4;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#checkedIcon}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#checkedIcon}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10429,42 +9706,42 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:checkedIcon
+     * @attr name app.byted.camp.todolist:checkedIcon
      */
     public static final int Chip_checkedIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#checkedIconEnabled}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#checkedIconEnabled}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:checkedIconEnabled
+     * @attr name app.byted.camp.todolist:checkedIconEnabled
      */
     public static final int Chip_checkedIconEnabled=6;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#checkedIconVisible}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#checkedIconVisible}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:checkedIconVisible
+     * @attr name app.byted.camp.todolist:checkedIconVisible
      */
     public static final int Chip_checkedIconVisible=7;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#chipBackgroundColor}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#chipBackgroundColor}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:chipBackgroundColor
+     * @attr name app.byted.camp.todolist:chipBackgroundColor
      */
     public static final int Chip_chipBackgroundColor=8;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#chipCornerRadius}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#chipCornerRadius}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10473,11 +9750,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:chipCornerRadius
+     * @attr name app.byted.camp.todolist:chipCornerRadius
      */
     public static final int Chip_chipCornerRadius=9;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#chipEndPadding}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#chipEndPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10486,11 +9763,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:chipEndPadding
+     * @attr name app.byted.camp.todolist:chipEndPadding
      */
     public static final int Chip_chipEndPadding=10;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#chipIcon}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#chipIcon}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10498,21 +9775,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:chipIcon
+     * @attr name app.byted.camp.todolist:chipIcon
      */
     public static final int Chip_chipIcon=11;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#chipIconEnabled}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#chipIconEnabled}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:chipIconEnabled
+     * @attr name app.byted.camp.todolist:chipIconEnabled
      */
     public static final int Chip_chipIconEnabled=12;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#chipIconSize}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#chipIconSize}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10521,32 +9798,32 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:chipIconSize
+     * @attr name app.byted.camp.todolist:chipIconSize
      */
     public static final int Chip_chipIconSize=13;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#chipIconTint}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#chipIconTint}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:chipIconTint
+     * @attr name app.byted.camp.todolist:chipIconTint
      */
     public static final int Chip_chipIconTint=14;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#chipIconVisible}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#chipIconVisible}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:chipIconVisible
+     * @attr name app.byted.camp.todolist:chipIconVisible
      */
     public static final int Chip_chipIconVisible=15;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#chipMinHeight}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#chipMinHeight}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10555,11 +9832,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:chipMinHeight
+     * @attr name app.byted.camp.todolist:chipMinHeight
      */
     public static final int Chip_chipMinHeight=16;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#chipStartPadding}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#chipStartPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10568,22 +9845,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:chipStartPadding
+     * @attr name app.byted.camp.todolist:chipStartPadding
      */
     public static final int Chip_chipStartPadding=17;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#chipStrokeColor}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#chipStrokeColor}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:chipStrokeColor
+     * @attr name app.byted.camp.todolist:chipStrokeColor
      */
     public static final int Chip_chipStrokeColor=18;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#chipStrokeWidth}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#chipStrokeWidth}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10592,34 +9869,33 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:chipStrokeWidth
+     * @attr name app.byted.camp.todolist:chipStrokeWidth
      */
     public static final int Chip_chipStrokeWidth=19;
     /**
-     * <p>
-     * @attr description
-     * Close button icon
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#closeIcon}
+     * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:closeIcon
+     * @attr name app.byted.camp.todolist:closeIcon
      */
     public static final int Chip_closeIcon=20;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#closeIconEnabled}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#closeIconEnabled}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:closeIconEnabled
+     * @attr name app.byted.camp.todolist:closeIconEnabled
      */
     public static final int Chip_closeIconEnabled=21;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#closeIconEndPadding}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#closeIconEndPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10628,11 +9904,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:closeIconEndPadding
+     * @attr name app.byted.camp.todolist:closeIconEndPadding
      */
     public static final int Chip_closeIconEndPadding=22;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#closeIconSize}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#closeIconSize}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10641,11 +9917,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:closeIconSize
+     * @attr name app.byted.camp.todolist:closeIconSize
      */
     public static final int Chip_closeIconSize=23;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#closeIconStartPadding}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#closeIconStartPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10654,32 +9930,32 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:closeIconStartPadding
+     * @attr name app.byted.camp.todolist:closeIconStartPadding
      */
     public static final int Chip_closeIconStartPadding=24;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#closeIconTint}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#closeIconTint}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:closeIconTint
+     * @attr name app.byted.camp.todolist:closeIconTint
      */
     public static final int Chip_closeIconTint=25;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#closeIconVisible}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#closeIconVisible}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:closeIconVisible
+     * @attr name app.byted.camp.todolist:closeIconVisible
      */
     public static final int Chip_closeIconVisible=26;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#hideMotionSpec}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#hideMotionSpec}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10687,11 +9963,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:hideMotionSpec
+     * @attr name app.byted.camp.todolist:hideMotionSpec
      */
     public static final int Chip_hideMotionSpec=27;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#iconEndPadding}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#iconEndPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10700,11 +9976,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:iconEndPadding
+     * @attr name app.byted.camp.todolist:iconEndPadding
      */
     public static final int Chip_iconEndPadding=28;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#iconStartPadding}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#iconStartPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10713,22 +9989,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:iconStartPadding
+     * @attr name app.byted.camp.todolist:iconStartPadding
      */
     public static final int Chip_iconStartPadding=29;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#rippleColor}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#rippleColor}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:rippleColor
+     * @attr name app.byted.camp.todolist:rippleColor
      */
     public static final int Chip_rippleColor=30;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#showMotionSpec}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#showMotionSpec}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10736,11 +10012,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:showMotionSpec
+     * @attr name app.byted.camp.todolist:showMotionSpec
      */
     public static final int Chip_showMotionSpec=31;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#textEndPadding}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#textEndPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10749,11 +10025,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:textEndPadding
+     * @attr name app.byted.camp.todolist:textEndPadding
      */
     public static final int Chip_textEndPadding=32;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#textStartPadding}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#textStartPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10762,7 +10038,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:textStartPadding
+     * @attr name app.byted.camp.todolist:textStartPadding
      */
     public static final int Chip_textStartPadding=33;
     /**
@@ -10772,12 +10048,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ChipGroup_checkedChip com.byted.camp.todolist:checkedChip}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipGroup_chipSpacing com.byted.camp.todolist:chipSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipGroup_chipSpacingHorizontal com.byted.camp.todolist:chipSpacingHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipGroup_chipSpacingVertical com.byted.camp.todolist:chipSpacingVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipGroup_singleLine com.byted.camp.todolist:singleLine}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipGroup_singleSelection com.byted.camp.todolist:singleSelection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_checkedChip app.byted.camp.todolist:checkedChip}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_chipSpacing app.byted.camp.todolist:chipSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_chipSpacingHorizontal app.byted.camp.todolist:chipSpacingHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_chipSpacingVertical app.byted.camp.todolist:chipSpacingVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_singleLine app.byted.camp.todolist:singleLine}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_singleSelection app.byted.camp.todolist:singleSelection}</code></td><td></td></tr>
      * </table>
      * @see #ChipGroup_checkedChip
      * @see #ChipGroup_chipSpacing
@@ -10791,7 +10067,7 @@ public final class R {
       0x7f030196, 0x7f030197
     };
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#checkedChip}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#checkedChip}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10799,11 +10075,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:checkedChip
+     * @attr name app.byted.camp.todolist:checkedChip
      */
     public static final int ChipGroup_checkedChip=0;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#chipSpacing}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#chipSpacing}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10812,11 +10088,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:chipSpacing
+     * @attr name app.byted.camp.todolist:chipSpacing
      */
     public static final int ChipGroup_chipSpacing=1;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#chipSpacingHorizontal}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#chipSpacingHorizontal}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10825,11 +10101,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:chipSpacingHorizontal
+     * @attr name app.byted.camp.todolist:chipSpacingHorizontal
      */
     public static final int ChipGroup_chipSpacingHorizontal=2;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#chipSpacingVertical}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#chipSpacingVertical}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10838,27 +10114,27 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:chipSpacingVertical
+     * @attr name app.byted.camp.todolist:chipSpacingVertical
      */
     public static final int ChipGroup_chipSpacingVertical=3;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#singleLine}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#singleLine}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:singleLine
+     * @attr name app.byted.camp.todolist:singleLine
      */
     public static final int ChipGroup_singleLine=4;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#singleSelection}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#singleSelection}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:singleSelection
+     * @attr name app.byted.camp.todolist:singleSelection
      */
     public static final int ChipGroup_singleSelection=5;
     /**
@@ -10868,22 +10144,22 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.byted.camp.todolist:collapsedTitleGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.byted.camp.todolist:collapsedTitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.byted.camp.todolist:contentScrim}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.byted.camp.todolist:expandedTitleGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.byted.camp.todolist:expandedTitleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.byted.camp.todolist:expandedTitleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.byted.camp.todolist:expandedTitleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.byted.camp.todolist:expandedTitleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.byted.camp.todolist:expandedTitleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.byted.camp.todolist:expandedTitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration com.byted.camp.todolist:scrimAnimationDuration}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger com.byted.camp.todolist:scrimVisibleHeightTrigger}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.byted.camp.todolist:statusBarScrim}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_title com.byted.camp.todolist:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.byted.camp.todolist:titleEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.byted.camp.todolist:toolbarId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity app.byted.camp.todolist:collapsedTitleGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance app.byted.camp.todolist:collapsedTitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim app.byted.camp.todolist:contentScrim}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity app.byted.camp.todolist:expandedTitleGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin app.byted.camp.todolist:expandedTitleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom app.byted.camp.todolist:expandedTitleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd app.byted.camp.todolist:expandedTitleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart app.byted.camp.todolist:expandedTitleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop app.byted.camp.todolist:expandedTitleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance app.byted.camp.todolist:expandedTitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration app.byted.camp.todolist:scrimAnimationDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger app.byted.camp.todolist:scrimVisibleHeightTrigger}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim app.byted.camp.todolist:statusBarScrim}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_title app.byted.camp.todolist:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled app.byted.camp.todolist:titleEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId app.byted.camp.todolist:toolbarId}</code></td><td></td></tr>
      * </table>
      * @see #CollapsingToolbarLayout_collapsedTitleGravity
      * @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
@@ -10909,7 +10185,7 @@ public final class R {
       0x7f0301a7, 0x7f0301f4, 0x7f0301f5, 0x7f0301ff
     };
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#collapsedTitleGravity}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#collapsedTitleGravity}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10930,11 +10206,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:collapsedTitleGravity
+     * @attr name app.byted.camp.todolist:collapsedTitleGravity
      */
     public static final int CollapsingToolbarLayout_collapsedTitleGravity=0;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#collapsedTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#collapsedTitleTextAppearance}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10942,22 +10218,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:collapsedTitleTextAppearance
+     * @attr name app.byted.camp.todolist:collapsedTitleTextAppearance
      */
     public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance=1;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#contentScrim}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#contentScrim}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:contentScrim
+     * @attr name app.byted.camp.todolist:contentScrim
      */
     public static final int CollapsingToolbarLayout_contentScrim=2;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#expandedTitleGravity}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#expandedTitleGravity}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10978,11 +10254,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:expandedTitleGravity
+     * @attr name app.byted.camp.todolist:expandedTitleGravity
      */
     public static final int CollapsingToolbarLayout_expandedTitleGravity=3;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#expandedTitleMargin}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#expandedTitleMargin}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10991,11 +10267,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:expandedTitleMargin
+     * @attr name app.byted.camp.todolist:expandedTitleMargin
      */
     public static final int CollapsingToolbarLayout_expandedTitleMargin=4;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#expandedTitleMarginBottom}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#expandedTitleMarginBottom}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11004,11 +10280,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:expandedTitleMarginBottom
+     * @attr name app.byted.camp.todolist:expandedTitleMarginBottom
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginBottom=5;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#expandedTitleMarginEnd}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#expandedTitleMarginEnd}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11017,11 +10293,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:expandedTitleMarginEnd
+     * @attr name app.byted.camp.todolist:expandedTitleMarginEnd
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginEnd=6;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#expandedTitleMarginStart}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#expandedTitleMarginStart}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11030,11 +10306,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:expandedTitleMarginStart
+     * @attr name app.byted.camp.todolist:expandedTitleMarginStart
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginStart=7;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#expandedTitleMarginTop}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#expandedTitleMarginTop}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11043,11 +10319,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:expandedTitleMarginTop
+     * @attr name app.byted.camp.todolist:expandedTitleMarginTop
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginTop=8;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#expandedTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#expandedTitleTextAppearance}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11055,20 +10331,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:expandedTitleTextAppearance
+     * @attr name app.byted.camp.todolist:expandedTitleTextAppearance
      */
     public static final int CollapsingToolbarLayout_expandedTitleTextAppearance=9;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#scrimAnimationDuration}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#scrimAnimationDuration}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.byted.camp.todolist:scrimAnimationDuration
+     * @attr name app.byted.camp.todolist:scrimAnimationDuration
      */
     public static final int CollapsingToolbarLayout_scrimAnimationDuration=10;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#scrimVisibleHeightTrigger}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#scrimVisibleHeightTrigger}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11077,42 +10353,42 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:scrimVisibleHeightTrigger
+     * @attr name app.byted.camp.todolist:scrimVisibleHeightTrigger
      */
     public static final int CollapsingToolbarLayout_scrimVisibleHeightTrigger=11;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#statusBarScrim}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#statusBarScrim}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:statusBarScrim
+     * @attr name app.byted.camp.todolist:statusBarScrim
      */
     public static final int CollapsingToolbarLayout_statusBarScrim=12;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#title}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#title}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.byted.camp.todolist:title
+     * @attr name app.byted.camp.todolist:title
      */
     public static final int CollapsingToolbarLayout_title=13;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#titleEnabled}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#titleEnabled}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:titleEnabled
+     * @attr name app.byted.camp.todolist:titleEnabled
      */
     public static final int CollapsingToolbarLayout_titleEnabled=14;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#toolbarId}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#toolbarId}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11120,7 +10396,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:toolbarId
+     * @attr name app.byted.camp.todolist:toolbarId
      */
     public static final int CollapsingToolbarLayout_toolbarId=15;
     /**
@@ -11130,8 +10406,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode com.byted.camp.todolist:layout_collapseMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier com.byted.camp.todolist:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode app.byted.camp.todolist:layout_collapseMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier app.byted.camp.todolist:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
      * </table>
      * @see #CollapsingToolbarLayout_Layout_layout_collapseMode
      * @see #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier
@@ -11140,7 +10416,7 @@ public final class R {
       0x7f030115, 0x7f030116
     };
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_collapseMode}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_collapseMode}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11154,16 +10430,16 @@ public final class R {
      * <tr><td>pin</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_collapseMode
+     * @attr name app.byted.camp.todolist:layout_collapseMode
      */
     public static final int CollapsingToolbarLayout_Layout_layout_collapseMode=0;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_collapseParallaxMultiplier}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_collapseParallaxMultiplier}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.byted.camp.todolist:layout_collapseParallaxMultiplier
+     * @attr name app.byted.camp.todolist:layout_collapseParallaxMultiplier
      */
     public static final int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier=1;
     /**
@@ -11175,7 +10451,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha com.byted.camp.todolist:alpha}</code></td><td>Alpha multiplier applied to the base color.</td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha app.byted.camp.todolist:alpha}</code></td><td></td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -11185,9 +10461,8 @@ public final class R {
       0x010101a5, 0x0101031f, 0x7f030027
     };
     /**
-     * <p>
-     * @attr description
-     * Base color for this state.
+     * <p>This symbol is the offset where the {@link android.R.attr#color}
+     * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -11206,13 +10481,12 @@ public final class R {
      */
     public static final int ColorStateListItem_android_alpha=1;
     /**
-     * <p>
-     * @attr description
-     * Alpha multiplier applied to the base color.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#alpha}
+     * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.byted.camp.todolist:alpha
+     * @attr name app.byted.camp.todolist:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -11223,8 +10497,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint com.byted.camp.todolist:buttonTint}</code></td><td>Tint to apply to the button drawable.</td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.byted.camp.todolist:buttonTintMode}</code></td><td>Blending mode used to apply the button tint.</td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint app.byted.camp.todolist:buttonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode app.byted.camp.todolist:buttonTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonTint
@@ -11246,21 +10520,19 @@ public final class R {
      */
     public static final int CompoundButton_android_button=0;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the button drawable.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#buttonTint}
+     * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:buttonTint
+     * @attr name app.byted.camp.todolist:buttonTint
      */
     public static final int CompoundButton_buttonTint=1;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the button tint.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#buttonTintMode}
+     * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -11268,20 +10540,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and icon color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:buttonTintMode
+     * @attr name app.byted.camp.todolist:buttonTintMode
      */
     public static final int CompoundButton_buttonTintMode=2;
     /**
@@ -11296,61 +10563,61 @@ public final class R {
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_maxHeight android:maxHeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierAllowsGoneWidgets com.byted.camp.todolist:barrierAllowsGoneWidgets}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierDirection com.byted.camp.todolist:barrierDirection}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_chainUseRtl com.byted.camp.todolist:chainUseRtl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.byted.camp.todolist:constraintSet}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_ids com.byted.camp.todolist:constraint_referenced_ids}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedHeight com.byted.camp.todolist:layout_constrainedHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedWidth com.byted.camp.todolist:layout_constrainedWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.byted.camp.todolist:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.byted.camp.todolist:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.byted.camp.todolist:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.byted.camp.todolist:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.byted.camp.todolist:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircle com.byted.camp.todolist:layout_constraintCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleAngle com.byted.camp.todolist:layout_constraintCircleAngle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleRadius com.byted.camp.todolist:layout_constraintCircleRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.byted.camp.todolist:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.byted.camp.todolist:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.byted.camp.todolist:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.byted.camp.todolist:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.byted.camp.todolist:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.byted.camp.todolist:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.byted.camp.todolist:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.byted.camp.todolist:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.byted.camp.todolist:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_percent com.byted.camp.todolist:layout_constraintHeight_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.byted.camp.todolist:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.byted.camp.todolist:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.byted.camp.todolist:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.byted.camp.todolist:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.byted.camp.todolist:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.byted.camp.todolist:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.byted.camp.todolist:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.byted.camp.todolist:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.byted.camp.todolist:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.byted.camp.todolist:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.byted.camp.todolist:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.byted.camp.todolist:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.byted.camp.todolist:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.byted.camp.todolist:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.byted.camp.todolist:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.byted.camp.todolist:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.byted.camp.todolist:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.byted.camp.todolist:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.byted.camp.todolist:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.byted.camp.todolist:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_percent com.byted.camp.todolist:layout_constraintWidth_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.byted.camp.todolist:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.byted.camp.todolist:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.byted.camp.todolist:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.byted.camp.todolist:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.byted.camp.todolist:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.byted.camp.todolist:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.byted.camp.todolist:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.byted.camp.todolist:layout_goneMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.byted.camp.todolist:layout_optimizationLevel}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierAllowsGoneWidgets app.byted.camp.todolist:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierDirection app.byted.camp.todolist:barrierDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_chainUseRtl app.byted.camp.todolist:chainUseRtl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet app.byted.camp.todolist:constraintSet}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_ids app.byted.camp.todolist:constraint_referenced_ids}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedHeight app.byted.camp.todolist:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedWidth app.byted.camp.todolist:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator app.byted.camp.todolist:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf app.byted.camp.todolist:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator app.byted.camp.todolist:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf app.byted.camp.todolist:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf app.byted.camp.todolist:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircle app.byted.camp.todolist:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleAngle app.byted.camp.todolist:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleRadius app.byted.camp.todolist:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio app.byted.camp.todolist:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf app.byted.camp.todolist:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf app.byted.camp.todolist:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin app.byted.camp.todolist:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end app.byted.camp.todolist:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent app.byted.camp.todolist:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default app.byted.camp.todolist:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max app.byted.camp.todolist:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min app.byted.camp.todolist:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_percent app.byted.camp.todolist:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias app.byted.camp.todolist:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle app.byted.camp.todolist:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight app.byted.camp.todolist:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator app.byted.camp.todolist:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf app.byted.camp.todolist:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf app.byted.camp.todolist:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator app.byted.camp.todolist:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf app.byted.camp.todolist:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf app.byted.camp.todolist:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf app.byted.camp.todolist:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf app.byted.camp.todolist:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator app.byted.camp.todolist:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf app.byted.camp.todolist:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf app.byted.camp.todolist:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias app.byted.camp.todolist:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle app.byted.camp.todolist:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight app.byted.camp.todolist:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default app.byted.camp.todolist:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max app.byted.camp.todolist:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min app.byted.camp.todolist:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_percent app.byted.camp.todolist:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX app.byted.camp.todolist:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY app.byted.camp.todolist:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom app.byted.camp.todolist:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd app.byted.camp.todolist:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft app.byted.camp.todolist:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight app.byted.camp.todolist:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart app.byted.camp.todolist:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop app.byted.camp.todolist:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel app.byted.camp.todolist:layout_optimizationLevel}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintLayout_Layout_android_orientation
      * @see #ConstraintLayout_Layout_android_maxWidth
@@ -11500,17 +10767,17 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_android_minHeight=4;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#barrierAllowsGoneWidgets}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#barrierAllowsGoneWidgets}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:barrierAllowsGoneWidgets
+     * @attr name app.byted.camp.todolist:barrierAllowsGoneWidgets
      */
     public static final int ConstraintLayout_Layout_barrierAllowsGoneWidgets=5;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#barrierDirection}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#barrierDirection}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11527,21 +10794,21 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:barrierDirection
+     * @attr name app.byted.camp.todolist:barrierDirection
      */
     public static final int ConstraintLayout_Layout_barrierDirection=6;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#chainUseRtl}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#chainUseRtl}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:chainUseRtl
+     * @attr name app.byted.camp.todolist:chainUseRtl
      */
     public static final int ConstraintLayout_Layout_chainUseRtl=7;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#constraintSet}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#constraintSet}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11549,50 +10816,50 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:constraintSet
+     * @attr name app.byted.camp.todolist:constraintSet
      */
     public static final int ConstraintLayout_Layout_constraintSet=8;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#constraint_referenced_ids}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#constraint_referenced_ids}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.byted.camp.todolist:constraint_referenced_ids
+     * @attr name app.byted.camp.todolist:constraint_referenced_ids
      */
     public static final int ConstraintLayout_Layout_constraint_referenced_ids=9;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constrainedHeight}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constrainedHeight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:layout_constrainedHeight
+     * @attr name app.byted.camp.todolist:layout_constrainedHeight
      */
     public static final int ConstraintLayout_Layout_layout_constrainedHeight=10;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constrainedWidth}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constrainedWidth}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:layout_constrainedWidth
+     * @attr name app.byted.camp.todolist:layout_constrainedWidth
      */
     public static final int ConstraintLayout_Layout_layout_constrainedWidth=11;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.byted.camp.todolist:layout_constraintBaseline_creator
+     * @attr name app.byted.camp.todolist:layout_constraintBaseline_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_creator=12;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11608,20 +10875,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintBaseline_toBaselineOf
+     * @attr name app.byted.camp.todolist:layout_constraintBaseline_toBaselineOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf=13;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.byted.camp.todolist:layout_constraintBottom_creator
+     * @attr name app.byted.camp.todolist:layout_constraintBottom_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_creator=14;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11637,11 +10904,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintBottom_toBottomOf
+     * @attr name app.byted.camp.todolist:layout_constraintBottom_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf=15;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11657,11 +10924,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintBottom_toTopOf
+     * @attr name app.byted.camp.todolist:layout_constraintBottom_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toTopOf=16;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintCircle}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintCircle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11669,20 +10936,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:layout_constraintCircle
+     * @attr name app.byted.camp.todolist:layout_constraintCircle
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintCircleAngle}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintCircleAngle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.byted.camp.todolist:layout_constraintCircleAngle
+     * @attr name app.byted.camp.todolist:layout_constraintCircleAngle
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircleAngle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintCircleRadius}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintCircleRadius}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11691,21 +10958,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:layout_constraintCircleRadius
+     * @attr name app.byted.camp.todolist:layout_constraintCircleRadius
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircleRadius=19;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.byted.camp.todolist:layout_constraintDimensionRatio
+     * @attr name app.byted.camp.todolist:layout_constraintDimensionRatio
      */
     public static final int ConstraintLayout_Layout_layout_constraintDimensionRatio=20;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11721,11 +10988,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintEnd_toEndOf
+     * @attr name app.byted.camp.todolist:layout_constraintEnd_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toEndOf=21;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11741,11 +11008,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintEnd_toStartOf
+     * @attr name app.byted.camp.todolist:layout_constraintEnd_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toStartOf=22;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11754,11 +11021,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:layout_constraintGuide_begin
+     * @attr name app.byted.camp.todolist:layout_constraintGuide_begin
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_begin=23;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11767,20 +11034,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:layout_constraintGuide_end
+     * @attr name app.byted.camp.todolist:layout_constraintGuide_end
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_end=24;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.byted.camp.todolist:layout_constraintGuide_percent
+     * @attr name app.byted.camp.todolist:layout_constraintGuide_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_percent=25;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11794,11 +11061,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintHeight_default
+     * @attr name app.byted.camp.todolist:layout_constraintHeight_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_default=26;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11815,11 +11082,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintHeight_max
+     * @attr name app.byted.camp.todolist:layout_constraintHeight_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_max=27;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11836,29 +11103,29 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintHeight_min
+     * @attr name app.byted.camp.todolist:layout_constraintHeight_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_min=28;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintHeight_percent}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.byted.camp.todolist:layout_constraintHeight_percent
+     * @attr name app.byted.camp.todolist:layout_constraintHeight_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_percent=29;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.byted.camp.todolist:layout_constraintHorizontal_bias
+     * @attr name app.byted.camp.todolist:layout_constraintHorizontal_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias=30;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11872,29 +11139,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintHorizontal_chainStyle
+     * @attr name app.byted.camp.todolist:layout_constraintHorizontal_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.byted.camp.todolist:layout_constraintHorizontal_weight
+     * @attr name app.byted.camp.todolist:layout_constraintHorizontal_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_weight=32;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.byted.camp.todolist:layout_constraintLeft_creator
+     * @attr name app.byted.camp.todolist:layout_constraintLeft_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_creator=33;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11910,11 +11177,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintLeft_toLeftOf
+     * @attr name app.byted.camp.todolist:layout_constraintLeft_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf=34;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11930,20 +11197,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintLeft_toRightOf
+     * @attr name app.byted.camp.todolist:layout_constraintLeft_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toRightOf=35;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.byted.camp.todolist:layout_constraintRight_creator
+     * @attr name app.byted.camp.todolist:layout_constraintRight_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_creator=36;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11959,11 +11226,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintRight_toLeftOf
+     * @attr name app.byted.camp.todolist:layout_constraintRight_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toLeftOf=37;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11979,11 +11246,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintRight_toRightOf
+     * @attr name app.byted.camp.todolist:layout_constraintRight_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toRightOf=38;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11999,11 +11266,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintStart_toEndOf
+     * @attr name app.byted.camp.todolist:layout_constraintStart_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toEndOf=39;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12019,20 +11286,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintStart_toStartOf
+     * @attr name app.byted.camp.todolist:layout_constraintStart_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toStartOf=40;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.byted.camp.todolist:layout_constraintTop_creator
+     * @attr name app.byted.camp.todolist:layout_constraintTop_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_creator=41;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12048,11 +11315,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintTop_toBottomOf
+     * @attr name app.byted.camp.todolist:layout_constraintTop_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toBottomOf=42;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12068,20 +11335,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintTop_toTopOf
+     * @attr name app.byted.camp.todolist:layout_constraintTop_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toTopOf=43;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.byted.camp.todolist:layout_constraintVertical_bias
+     * @attr name app.byted.camp.todolist:layout_constraintVertical_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_bias=44;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12095,20 +11362,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintVertical_chainStyle
+     * @attr name app.byted.camp.todolist:layout_constraintVertical_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_chainStyle=45;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.byted.camp.todolist:layout_constraintVertical_weight
+     * @attr name app.byted.camp.todolist:layout_constraintVertical_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_weight=46;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12122,11 +11389,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintWidth_default
+     * @attr name app.byted.camp.todolist:layout_constraintWidth_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_default=47;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12143,11 +11410,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintWidth_max
+     * @attr name app.byted.camp.todolist:layout_constraintWidth_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_max=48;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12164,20 +11431,20 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintWidth_min
+     * @attr name app.byted.camp.todolist:layout_constraintWidth_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_min=49;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintWidth_percent}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintWidth_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.byted.camp.todolist:layout_constraintWidth_percent
+     * @attr name app.byted.camp.todolist:layout_constraintWidth_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_percent=50;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12186,11 +11453,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:layout_editor_absoluteX
+     * @attr name app.byted.camp.todolist:layout_editor_absoluteX
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteX=51;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12199,11 +11466,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:layout_editor_absoluteY
+     * @attr name app.byted.camp.todolist:layout_editor_absoluteY
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteY=52;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12212,11 +11479,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:layout_goneMarginBottom
+     * @attr name app.byted.camp.todolist:layout_goneMarginBottom
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginBottom=53;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12225,11 +11492,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:layout_goneMarginEnd
+     * @attr name app.byted.camp.todolist:layout_goneMarginEnd
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginEnd=54;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12238,11 +11505,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:layout_goneMarginLeft
+     * @attr name app.byted.camp.todolist:layout_goneMarginLeft
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginLeft=55;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12251,11 +11518,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:layout_goneMarginRight
+     * @attr name app.byted.camp.todolist:layout_goneMarginRight
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginRight=56;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12264,11 +11531,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:layout_goneMarginStart
+     * @attr name app.byted.camp.todolist:layout_goneMarginStart
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginStart=57;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12277,11 +11544,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:layout_goneMarginTop
+     * @attr name app.byted.camp.todolist:layout_goneMarginTop
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginTop=58;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_optimizationLevel}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_optimizationLevel}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -12293,13 +11560,13 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
+     * <tr><td>direct</td><td>1</td><td></td></tr>
      * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>7</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_optimizationLevel
+     * @attr name app.byted.camp.todolist:layout_optimizationLevel
      */
     public static final int ConstraintLayout_Layout_layout_optimizationLevel=59;
     /**
@@ -12309,8 +11576,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ConstraintLayout_placeholder_content com.byted.camp.todolist:content}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_placeholder_emptyVisibility com.byted.camp.todolist:emptyVisibility}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_placeholder_content app.byted.camp.todolist:content}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_placeholder_emptyVisibility app.byted.camp.todolist:emptyVisibility}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintLayout_placeholder_content
      * @see #ConstraintLayout_placeholder_emptyVisibility
@@ -12319,7 +11586,7 @@ public final class R {
       0x7f030095, 0x7f0300bc
     };
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#content}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#content}
      * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12327,11 +11594,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:content
+     * @attr name app.byted.camp.todolist:content
      */
     public static final int ConstraintLayout_placeholder_content=0;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#emptyVisibility}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#emptyVisibility}
      * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12344,7 +11611,7 @@ public final class R {
      * <tr><td>invisible</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:emptyVisibility
+     * @attr name app.byted.camp.todolist:emptyVisibility
      */
     public static final int ConstraintLayout_placeholder_emptyVisibility=1;
     /**
@@ -12381,59 +11648,59 @@ public final class R {
      * <tr><td><code>{@link #ConstraintSet_android_layout_marginEnd android:layout_marginEnd}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_translationZ android:translationZ}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_elevation android:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_barrierAllowsGoneWidgets com.byted.camp.todolist:barrierAllowsGoneWidgets}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_barrierDirection com.byted.camp.todolist:barrierDirection}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_chainUseRtl com.byted.camp.todolist:chainUseRtl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_constraint_referenced_ids com.byted.camp.todolist:constraint_referenced_ids}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight com.byted.camp.todolist:layout_constrainedHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth com.byted.camp.todolist:layout_constrainedWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.byted.camp.todolist:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.byted.camp.todolist:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.byted.camp.todolist:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.byted.camp.todolist:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.byted.camp.todolist:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircle com.byted.camp.todolist:layout_constraintCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleAngle com.byted.camp.todolist:layout_constraintCircleAngle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleRadius com.byted.camp.todolist:layout_constraintCircleRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.byted.camp.todolist:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.byted.camp.todolist:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.byted.camp.todolist:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.byted.camp.todolist:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.byted.camp.todolist:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.byted.camp.todolist:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.byted.camp.todolist:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.byted.camp.todolist:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.byted.camp.todolist:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_percent com.byted.camp.todolist:layout_constraintHeight_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.byted.camp.todolist:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.byted.camp.todolist:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.byted.camp.todolist:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.byted.camp.todolist:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.byted.camp.todolist:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.byted.camp.todolist:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.byted.camp.todolist:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.byted.camp.todolist:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.byted.camp.todolist:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.byted.camp.todolist:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.byted.camp.todolist:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.byted.camp.todolist:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.byted.camp.todolist:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.byted.camp.todolist:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.byted.camp.todolist:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.byted.camp.todolist:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.byted.camp.todolist:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.byted.camp.todolist:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.byted.camp.todolist:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.byted.camp.todolist:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_percent com.byted.camp.todolist:layout_constraintWidth_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.byted.camp.todolist:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.byted.camp.todolist:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.byted.camp.todolist:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.byted.camp.todolist:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.byted.camp.todolist:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.byted.camp.todolist:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.byted.camp.todolist:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.byted.camp.todolist:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_barrierAllowsGoneWidgets app.byted.camp.todolist:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_barrierDirection app.byted.camp.todolist:barrierDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_chainUseRtl app.byted.camp.todolist:chainUseRtl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_constraint_referenced_ids app.byted.camp.todolist:constraint_referenced_ids}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight app.byted.camp.todolist:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth app.byted.camp.todolist:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator app.byted.camp.todolist:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf app.byted.camp.todolist:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator app.byted.camp.todolist:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf app.byted.camp.todolist:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf app.byted.camp.todolist:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircle app.byted.camp.todolist:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleAngle app.byted.camp.todolist:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleRadius app.byted.camp.todolist:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio app.byted.camp.todolist:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf app.byted.camp.todolist:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf app.byted.camp.todolist:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin app.byted.camp.todolist:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end app.byted.camp.todolist:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent app.byted.camp.todolist:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default app.byted.camp.todolist:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max app.byted.camp.todolist:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min app.byted.camp.todolist:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_percent app.byted.camp.todolist:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias app.byted.camp.todolist:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle app.byted.camp.todolist:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight app.byted.camp.todolist:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator app.byted.camp.todolist:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf app.byted.camp.todolist:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf app.byted.camp.todolist:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator app.byted.camp.todolist:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf app.byted.camp.todolist:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf app.byted.camp.todolist:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf app.byted.camp.todolist:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf app.byted.camp.todolist:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator app.byted.camp.todolist:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf app.byted.camp.todolist:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf app.byted.camp.todolist:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias app.byted.camp.todolist:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle app.byted.camp.todolist:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight app.byted.camp.todolist:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default app.byted.camp.todolist:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max app.byted.camp.todolist:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min app.byted.camp.todolist:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_percent app.byted.camp.todolist:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX app.byted.camp.todolist:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY app.byted.camp.todolist:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom app.byted.camp.todolist:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd app.byted.camp.todolist:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft app.byted.camp.todolist:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight app.byted.camp.todolist:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart app.byted.camp.todolist:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop app.byted.camp.todolist:layout_goneMarginTop}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintSet_android_orientation
      * @see #ConstraintSet_android_id
@@ -12894,17 +12161,17 @@ public final class R {
      */
     public static final int ConstraintSet_android_elevation=26;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#barrierAllowsGoneWidgets}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#barrierAllowsGoneWidgets}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:barrierAllowsGoneWidgets
+     * @attr name app.byted.camp.todolist:barrierAllowsGoneWidgets
      */
     public static final int ConstraintSet_barrierAllowsGoneWidgets=27;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#barrierDirection}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#barrierDirection}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12921,60 +12188,60 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:barrierDirection
+     * @attr name app.byted.camp.todolist:barrierDirection
      */
     public static final int ConstraintSet_barrierDirection=28;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#chainUseRtl}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#chainUseRtl}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:chainUseRtl
+     * @attr name app.byted.camp.todolist:chainUseRtl
      */
     public static final int ConstraintSet_chainUseRtl=29;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#constraint_referenced_ids}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#constraint_referenced_ids}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.byted.camp.todolist:constraint_referenced_ids
+     * @attr name app.byted.camp.todolist:constraint_referenced_ids
      */
     public static final int ConstraintSet_constraint_referenced_ids=30;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constrainedHeight}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constrainedHeight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:layout_constrainedHeight
+     * @attr name app.byted.camp.todolist:layout_constrainedHeight
      */
     public static final int ConstraintSet_layout_constrainedHeight=31;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constrainedWidth}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constrainedWidth}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:layout_constrainedWidth
+     * @attr name app.byted.camp.todolist:layout_constrainedWidth
      */
     public static final int ConstraintSet_layout_constrainedWidth=32;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.byted.camp.todolist:layout_constraintBaseline_creator
+     * @attr name app.byted.camp.todolist:layout_constraintBaseline_creator
      */
     public static final int ConstraintSet_layout_constraintBaseline_creator=33;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12990,20 +12257,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintBaseline_toBaselineOf
+     * @attr name app.byted.camp.todolist:layout_constraintBaseline_toBaselineOf
      */
     public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf=34;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.byted.camp.todolist:layout_constraintBottom_creator
+     * @attr name app.byted.camp.todolist:layout_constraintBottom_creator
      */
     public static final int ConstraintSet_layout_constraintBottom_creator=35;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13019,11 +12286,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintBottom_toBottomOf
+     * @attr name app.byted.camp.todolist:layout_constraintBottom_toBottomOf
      */
     public static final int ConstraintSet_layout_constraintBottom_toBottomOf=36;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13039,11 +12306,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintBottom_toTopOf
+     * @attr name app.byted.camp.todolist:layout_constraintBottom_toTopOf
      */
     public static final int ConstraintSet_layout_constraintBottom_toTopOf=37;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintCircle}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintCircle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13051,20 +12318,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:layout_constraintCircle
+     * @attr name app.byted.camp.todolist:layout_constraintCircle
      */
     public static final int ConstraintSet_layout_constraintCircle=38;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintCircleAngle}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintCircleAngle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.byted.camp.todolist:layout_constraintCircleAngle
+     * @attr name app.byted.camp.todolist:layout_constraintCircleAngle
      */
     public static final int ConstraintSet_layout_constraintCircleAngle=39;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintCircleRadius}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintCircleRadius}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13073,21 +12340,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:layout_constraintCircleRadius
+     * @attr name app.byted.camp.todolist:layout_constraintCircleRadius
      */
     public static final int ConstraintSet_layout_constraintCircleRadius=40;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.byted.camp.todolist:layout_constraintDimensionRatio
+     * @attr name app.byted.camp.todolist:layout_constraintDimensionRatio
      */
     public static final int ConstraintSet_layout_constraintDimensionRatio=41;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13103,11 +12370,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintEnd_toEndOf
+     * @attr name app.byted.camp.todolist:layout_constraintEnd_toEndOf
      */
     public static final int ConstraintSet_layout_constraintEnd_toEndOf=42;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13123,11 +12390,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintEnd_toStartOf
+     * @attr name app.byted.camp.todolist:layout_constraintEnd_toStartOf
      */
     public static final int ConstraintSet_layout_constraintEnd_toStartOf=43;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13136,11 +12403,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:layout_constraintGuide_begin
+     * @attr name app.byted.camp.todolist:layout_constraintGuide_begin
      */
     public static final int ConstraintSet_layout_constraintGuide_begin=44;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13149,20 +12416,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:layout_constraintGuide_end
+     * @attr name app.byted.camp.todolist:layout_constraintGuide_end
      */
     public static final int ConstraintSet_layout_constraintGuide_end=45;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.byted.camp.todolist:layout_constraintGuide_percent
+     * @attr name app.byted.camp.todolist:layout_constraintGuide_percent
      */
     public static final int ConstraintSet_layout_constraintGuide_percent=46;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13176,11 +12443,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintHeight_default
+     * @attr name app.byted.camp.todolist:layout_constraintHeight_default
      */
     public static final int ConstraintSet_layout_constraintHeight_default=47;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13197,11 +12464,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintHeight_max
+     * @attr name app.byted.camp.todolist:layout_constraintHeight_max
      */
     public static final int ConstraintSet_layout_constraintHeight_max=48;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13218,29 +12485,29 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintHeight_min
+     * @attr name app.byted.camp.todolist:layout_constraintHeight_min
      */
     public static final int ConstraintSet_layout_constraintHeight_min=49;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintHeight_percent}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.byted.camp.todolist:layout_constraintHeight_percent
+     * @attr name app.byted.camp.todolist:layout_constraintHeight_percent
      */
     public static final int ConstraintSet_layout_constraintHeight_percent=50;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.byted.camp.todolist:layout_constraintHorizontal_bias
+     * @attr name app.byted.camp.todolist:layout_constraintHorizontal_bias
      */
     public static final int ConstraintSet_layout_constraintHorizontal_bias=51;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13254,29 +12521,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintHorizontal_chainStyle
+     * @attr name app.byted.camp.todolist:layout_constraintHorizontal_chainStyle
      */
     public static final int ConstraintSet_layout_constraintHorizontal_chainStyle=52;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.byted.camp.todolist:layout_constraintHorizontal_weight
+     * @attr name app.byted.camp.todolist:layout_constraintHorizontal_weight
      */
     public static final int ConstraintSet_layout_constraintHorizontal_weight=53;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.byted.camp.todolist:layout_constraintLeft_creator
+     * @attr name app.byted.camp.todolist:layout_constraintLeft_creator
      */
     public static final int ConstraintSet_layout_constraintLeft_creator=54;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13292,11 +12559,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintLeft_toLeftOf
+     * @attr name app.byted.camp.todolist:layout_constraintLeft_toLeftOf
      */
     public static final int ConstraintSet_layout_constraintLeft_toLeftOf=55;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13312,20 +12579,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintLeft_toRightOf
+     * @attr name app.byted.camp.todolist:layout_constraintLeft_toRightOf
      */
     public static final int ConstraintSet_layout_constraintLeft_toRightOf=56;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.byted.camp.todolist:layout_constraintRight_creator
+     * @attr name app.byted.camp.todolist:layout_constraintRight_creator
      */
     public static final int ConstraintSet_layout_constraintRight_creator=57;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13341,11 +12608,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintRight_toLeftOf
+     * @attr name app.byted.camp.todolist:layout_constraintRight_toLeftOf
      */
     public static final int ConstraintSet_layout_constraintRight_toLeftOf=58;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13361,11 +12628,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintRight_toRightOf
+     * @attr name app.byted.camp.todolist:layout_constraintRight_toRightOf
      */
     public static final int ConstraintSet_layout_constraintRight_toRightOf=59;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13381,11 +12648,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintStart_toEndOf
+     * @attr name app.byted.camp.todolist:layout_constraintStart_toEndOf
      */
     public static final int ConstraintSet_layout_constraintStart_toEndOf=60;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13401,20 +12668,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintStart_toStartOf
+     * @attr name app.byted.camp.todolist:layout_constraintStart_toStartOf
      */
     public static final int ConstraintSet_layout_constraintStart_toStartOf=61;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.byted.camp.todolist:layout_constraintTop_creator
+     * @attr name app.byted.camp.todolist:layout_constraintTop_creator
      */
     public static final int ConstraintSet_layout_constraintTop_creator=62;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13430,11 +12697,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintTop_toBottomOf
+     * @attr name app.byted.camp.todolist:layout_constraintTop_toBottomOf
      */
     public static final int ConstraintSet_layout_constraintTop_toBottomOf=63;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13450,20 +12717,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintTop_toTopOf
+     * @attr name app.byted.camp.todolist:layout_constraintTop_toTopOf
      */
     public static final int ConstraintSet_layout_constraintTop_toTopOf=64;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.byted.camp.todolist:layout_constraintVertical_bias
+     * @attr name app.byted.camp.todolist:layout_constraintVertical_bias
      */
     public static final int ConstraintSet_layout_constraintVertical_bias=65;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13477,20 +12744,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintVertical_chainStyle
+     * @attr name app.byted.camp.todolist:layout_constraintVertical_chainStyle
      */
     public static final int ConstraintSet_layout_constraintVertical_chainStyle=66;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.byted.camp.todolist:layout_constraintVertical_weight
+     * @attr name app.byted.camp.todolist:layout_constraintVertical_weight
      */
     public static final int ConstraintSet_layout_constraintVertical_weight=67;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13504,11 +12771,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintWidth_default
+     * @attr name app.byted.camp.todolist:layout_constraintWidth_default
      */
     public static final int ConstraintSet_layout_constraintWidth_default=68;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13525,11 +12792,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintWidth_max
+     * @attr name app.byted.camp.todolist:layout_constraintWidth_max
      */
     public static final int ConstraintSet_layout_constraintWidth_max=69;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13546,20 +12813,20 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_constraintWidth_min
+     * @attr name app.byted.camp.todolist:layout_constraintWidth_min
      */
     public static final int ConstraintSet_layout_constraintWidth_min=70;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_constraintWidth_percent}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_constraintWidth_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.byted.camp.todolist:layout_constraintWidth_percent
+     * @attr name app.byted.camp.todolist:layout_constraintWidth_percent
      */
     public static final int ConstraintSet_layout_constraintWidth_percent=71;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13568,11 +12835,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:layout_editor_absoluteX
+     * @attr name app.byted.camp.todolist:layout_editor_absoluteX
      */
     public static final int ConstraintSet_layout_editor_absoluteX=72;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13581,11 +12848,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:layout_editor_absoluteY
+     * @attr name app.byted.camp.todolist:layout_editor_absoluteY
      */
     public static final int ConstraintSet_layout_editor_absoluteY=73;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13594,11 +12861,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:layout_goneMarginBottom
+     * @attr name app.byted.camp.todolist:layout_goneMarginBottom
      */
     public static final int ConstraintSet_layout_goneMarginBottom=74;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13607,11 +12874,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:layout_goneMarginEnd
+     * @attr name app.byted.camp.todolist:layout_goneMarginEnd
      */
     public static final int ConstraintSet_layout_goneMarginEnd=75;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13620,11 +12887,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:layout_goneMarginLeft
+     * @attr name app.byted.camp.todolist:layout_goneMarginLeft
      */
     public static final int ConstraintSet_layout_goneMarginLeft=76;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13633,11 +12900,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:layout_goneMarginRight
+     * @attr name app.byted.camp.todolist:layout_goneMarginRight
      */
     public static final int ConstraintSet_layout_goneMarginRight=77;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13646,11 +12913,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:layout_goneMarginStart
+     * @attr name app.byted.camp.todolist:layout_goneMarginStart
      */
     public static final int ConstraintSet_layout_goneMarginStart=78;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13659,7 +12926,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:layout_goneMarginTop
+     * @attr name app.byted.camp.todolist:layout_goneMarginTop
      */
     public static final int ConstraintSet_layout_goneMarginTop=79;
     /**
@@ -13669,9 +12936,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_keylines com.byted.camp.todolist:keylines}</code></td><td>A reference to an array of integers representing the
-     * locations of horizontal keylines in dp from the starting edge.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.byted.camp.todolist:statusBarBackground}</code></td><td>Drawable to display behind the status bar when the view is set to draw behind it.</td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_keylines app.byted.camp.todolist:keylines}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground app.byted.camp.todolist:statusBarBackground}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_keylines
      * @see #CoordinatorLayout_statusBarBackground
@@ -13680,26 +12946,20 @@ public final class R {
       0x7f03010d, 0x7f0301a6
     };
     /**
-     * <p>
-     * @attr description
-     * A reference to an array of integers representing the
-     * locations of horizontal keylines in dp from the starting edge.
-     * Child views can refer to these keylines for alignment using
-     * layout_keyline="index" where index is a 0-based index into
-     * this array.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#keylines}
+     * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:keylines
+     * @attr name app.byted.camp.todolist:keylines
      */
     public static final int CoordinatorLayout_keylines=0;
     /**
-     * <p>
-     * @attr description
-     * Drawable to display behind the status bar when the view is set to draw behind it.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#statusBarBackground}
+     * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13709,7 +12969,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:statusBarBackground
+     * @attr name app.byted.camp.todolist:statusBarBackground
      */
     public static final int CoordinatorLayout_statusBarBackground=1;
     /**
@@ -13720,15 +12980,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.byted.camp.todolist:layout_anchor}</code></td><td>The id of an anchor view that this view should position relative to.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.byted.camp.todolist:layout_anchorGravity}</code></td><td>Specifies how an object should position relative to an anchor, on both the X and Y axes,
-     * within its parent's bounds.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.byted.camp.todolist:layout_behavior}</code></td><td>The class name of a Behavior class defining special runtime behavior
-     * for this child view.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.byted.camp.todolist:layout_dodgeInsetEdges}</code></td><td>Specifies how this view dodges the inset edges of the CoordinatorLayout.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.byted.camp.todolist:layout_insetEdge}</code></td><td>Specifies how this view insets the CoordinatorLayout and make some other views
-     * dodge it.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.byted.camp.todolist:layout_keyline}</code></td><td>The index of a keyline this view should position relative to.</td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor app.byted.camp.todolist:layout_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity app.byted.camp.todolist:layout_anchorGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior app.byted.camp.todolist:layout_behavior}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges app.byted.camp.todolist:layout_dodgeInsetEdges}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge app.byted.camp.todolist:layout_insetEdge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline app.byted.camp.todolist:layout_keyline}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_Layout_android_layout_gravity
      * @see #CoordinatorLayout_Layout_layout_anchor
@@ -13772,23 +13029,20 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_android_layout_gravity=0;
     /**
-     * <p>
-     * @attr description
-     * The id of an anchor view that this view should position relative to.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_anchor}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:layout_anchor
+     * @attr name app.byted.camp.todolist:layout_anchor
      */
     public static final int CoordinatorLayout_Layout_layout_anchor=1;
     /**
-     * <p>
-     * @attr description
-     * Specifies how an object should position relative to an anchor, on both the X and Y axes,
-     * within its parent's bounds.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_anchorGravity}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -13796,47 +13050,38 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td>Push object to the bottom of its container, not changing its size.</td></tr>
-     * <tr><td>center</td><td>11</td><td>Place the object in the center of its container in both the vertical and horizontal axis, not changing its size.</td></tr>
-     * <tr><td>center_horizontal</td><td>1</td><td>Place object in the horizontal center of its container, not changing its size.</td></tr>
-     * <tr><td>center_vertical</td><td>10</td><td>Place object in the vertical center of its container, not changing its size.</td></tr>
-     * <tr><td>clip_horizontal</td><td>8</td><td>Additional option that can be set to have the left and/or right edges of
-     * the child clipped to its container's bounds.
-     * The clip will be based on the horizontal gravity: a left gravity will clip the right
-     * edge, a right gravity will clip the left edge, and neither will clip both edges.</td></tr>
-     * <tr><td>clip_vertical</td><td>80</td><td>Additional option that can be set to have the top and/or bottom edges of
-     * the child clipped to its container's bounds.
-     * The clip will be based on the vertical gravity: a top gravity will clip the bottom
-     * edge, a bottom gravity will clip the top edge, and neither will clip both edges.</td></tr>
-     * <tr><td>end</td><td>800005</td><td>Push object to the end of its container, not changing its size.</td></tr>
-     * <tr><td>fill</td><td>77</td><td>Grow the horizontal and vertical size of the object if needed so it completely fills its container.</td></tr>
-     * <tr><td>fill_horizontal</td><td>7</td><td>Grow the horizontal size of the object if needed so it completely fills its container.</td></tr>
-     * <tr><td>fill_vertical</td><td>70</td><td>Grow the vertical size of the object if needed so it completely fills its container.</td></tr>
-     * <tr><td>left</td><td>3</td><td>Push object to the left of its container, not changing its size.</td></tr>
-     * <tr><td>right</td><td>5</td><td>Push object to the right of its container, not changing its size.</td></tr>
-     * <tr><td>start</td><td>800003</td><td>Push object to the beginning of its container, not changing its size.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Push object to the top of its container, not changing its size.</td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>center</td><td>11</td><td></td></tr>
+     * <tr><td>center_horizontal</td><td>1</td><td></td></tr>
+     * <tr><td>center_vertical</td><td>10</td><td></td></tr>
+     * <tr><td>clip_horizontal</td><td>8</td><td></td></tr>
+     * <tr><td>clip_vertical</td><td>80</td><td></td></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>fill</td><td>77</td><td></td></tr>
+     * <tr><td>fill_horizontal</td><td>7</td><td></td></tr>
+     * <tr><td>fill_vertical</td><td>70</td><td></td></tr>
+     * <tr><td>left</td><td>3</td><td></td></tr>
+     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_anchorGravity
+     * @attr name app.byted.camp.todolist:layout_anchorGravity
      */
     public static final int CoordinatorLayout_Layout_layout_anchorGravity=2;
     /**
-     * <p>
-     * @attr description
-     * The class name of a Behavior class defining special runtime behavior
-     * for this child view.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_behavior}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.byted.camp.todolist:layout_behavior
+     * @attr name app.byted.camp.todolist:layout_behavior
      */
     public static final int CoordinatorLayout_Layout_layout_behavior=3;
     /**
-     * <p>
-     * @attr description
-     * Specifies how this view dodges the inset edges of the CoordinatorLayout.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_dodgeInsetEdges}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -13844,24 +13089,22 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>all</td><td>77</td><td>Dodge all the inset edges.</td></tr>
-     * <tr><td>bottom</td><td>50</td><td>Dodge the bottom inset edge.</td></tr>
-     * <tr><td>end</td><td>800005</td><td>Dodge the end inset edge.</td></tr>
-     * <tr><td>left</td><td>3</td><td>Dodge the left inset edge.</td></tr>
-     * <tr><td>none</td><td>0</td><td>Don't dodge any edges</td></tr>
-     * <tr><td>right</td><td>5</td><td>Dodge the right inset edge.</td></tr>
-     * <tr><td>start</td><td>800003</td><td>Dodge the start inset edge.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Dodge the top inset edge.</td></tr>
+     * <tr><td>all</td><td>77</td><td></td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>left</td><td>3</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_dodgeInsetEdges
+     * @attr name app.byted.camp.todolist:layout_dodgeInsetEdges
      */
     public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges=4;
     /**
-     * <p>
-     * @attr description
-     * Specifies how this view insets the CoordinatorLayout and make some other views
-     * dodge it.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_insetEdge}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -13869,28 +13112,25 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td>Inset the bottom edge.</td></tr>
-     * <tr><td>end</td><td>800005</td><td>Inset the end edge.</td></tr>
-     * <tr><td>left</td><td>3</td><td>Inset the left edge.</td></tr>
-     * <tr><td>none</td><td>0</td><td>Don't inset.</td></tr>
-     * <tr><td>right</td><td>5</td><td>Inset the right edge.</td></tr>
-     * <tr><td>start</td><td>800003</td><td>Inset the start edge.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Inset the top edge.</td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>left</td><td>3</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:layout_insetEdge
+     * @attr name app.byted.camp.todolist:layout_insetEdge
      */
     public static final int CoordinatorLayout_Layout_layout_insetEdge=5;
     /**
-     * <p>
-     * @attr description
-     * The index of a keyline this view should position relative to.
-     * android:layout_gravity will affect how the view aligns to the
-     * specified keyline.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout_keyline}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.byted.camp.todolist:layout_keyline
+     * @attr name app.byted.camp.todolist:layout_keyline
      */
     public static final int CoordinatorLayout_Layout_layout_keyline=6;
     /**
@@ -13900,8 +13140,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme com.byted.camp.todolist:bottomSheetDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DesignTheme_bottomSheetStyle com.byted.camp.todolist:bottomSheetStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme app.byted.camp.todolist:bottomSheetDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_bottomSheetStyle app.byted.camp.todolist:bottomSheetStyle}</code></td><td></td></tr>
      * </table>
      * @see #DesignTheme_bottomSheetDialogTheme
      * @see #DesignTheme_bottomSheetStyle
@@ -13910,7 +13150,7 @@ public final class R {
       0x7f030043, 0x7f030044
     };
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#bottomSheetDialogTheme}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#bottomSheetDialogTheme}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13918,11 +13158,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:bottomSheetDialogTheme
+     * @attr name app.byted.camp.todolist:bottomSheetDialogTheme
      */
     public static final int DesignTheme_bottomSheetDialogTheme=0;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#bottomSheetStyle}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#bottomSheetStyle}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13930,7 +13170,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:bottomSheetStyle
+     * @attr name app.byted.camp.todolist:bottomSheetStyle
      */
     public static final int DesignTheme_bottomSheetStyle=1;
     /**
@@ -13940,14 +13180,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.byted.camp.todolist:arrowHeadLength}</code></td><td>The length of the arrow head when formed to make an arrow</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.byted.camp.todolist:arrowShaftLength}</code></td><td>The length of the shaft when formed to make an arrow</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.byted.camp.todolist:barLength}</code></td><td>The length of the bars when they are parallel to each other</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color com.byted.camp.todolist:color}</code></td><td>The drawing color for the bars</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.byted.camp.todolist:drawableSize}</code></td><td>The total size of the drawable</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.byted.camp.todolist:gapBetweenBars}</code></td><td>The max gap between the bars when they are parallel to each other</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.byted.camp.todolist:spinBars}</code></td><td>Whether bars should rotate or not during transition</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.byted.camp.todolist:thickness}</code></td><td>The thickness (stroke size) for the bar paint</td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength app.byted.camp.todolist:arrowHeadLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength app.byted.camp.todolist:arrowShaftLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength app.byted.camp.todolist:barLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color app.byted.camp.todolist:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize app.byted.camp.todolist:drawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars app.byted.camp.todolist:gapBetweenBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars app.byted.camp.todolist:spinBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness app.byted.camp.todolist:thickness}</code></td><td></td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -13963,9 +13203,8 @@ public final class R {
       0x7f0300b4, 0x7f0300e3, 0x7f03019b, 0x7f0301eb
     };
     /**
-     * <p>
-     * @attr description
-     * The length of the arrow head when formed to make an arrow
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#arrowHeadLength}
+     * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -13973,13 +13212,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:arrowHeadLength
+     * @attr name app.byted.camp.todolist:arrowHeadLength
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
-     * <p>
-     * @attr description
-     * The length of the shaft when formed to make an arrow
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#arrowShaftLength}
+     * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -13987,13 +13225,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:arrowShaftLength
+     * @attr name app.byted.camp.todolist:arrowShaftLength
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
-     * <p>
-     * @attr description
-     * The length of the bars when they are parallel to each other
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#barLength}
+     * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -14001,25 +13238,23 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:barLength
+     * @attr name app.byted.camp.todolist:barLength
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
-     * <p>
-     * @attr description
-     * The drawing color for the bars
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#color}
+     * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:color
+     * @attr name app.byted.camp.todolist:color
      */
     public static final int DrawerArrowToggle_color=3;
     /**
-     * <p>
-     * @attr description
-     * The total size of the drawable
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#drawableSize}
+     * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -14027,13 +13262,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:drawableSize
+     * @attr name app.byted.camp.todolist:drawableSize
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
-     * <p>
-     * @attr description
-     * The max gap between the bars when they are parallel to each other
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#gapBetweenBars}
+     * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -14041,24 +13275,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:gapBetweenBars
+     * @attr name app.byted.camp.todolist:gapBetweenBars
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
-     * <p>
-     * @attr description
-     * Whether bars should rotate or not during transition
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#spinBars}
+     * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:spinBars
+     * @attr name app.byted.camp.todolist:spinBars
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
-     * <p>
-     * @attr description
-     * The thickness (stroke size) for the bar paint
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#thickness}
+     * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -14066,7 +13298,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:thickness
+     * @attr name app.byted.camp.todolist:thickness
      */
     public static final int DrawerArrowToggle_thickness=7;
     /**
@@ -14076,19 +13308,19 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTint com.byted.camp.todolist:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.byted.camp.todolist:backgroundTintMode}</code></td><td>Blending mode used to apply the background tint.</td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_borderWidth com.byted.camp.todolist:borderWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_elevation com.byted.camp.todolist:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_fabCustomSize com.byted.camp.todolist:fabCustomSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_fabSize com.byted.camp.todolist:fabSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_hideMotionSpec com.byted.camp.todolist:hideMotionSpec}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_hoveredFocusedTranslationZ com.byted.camp.todolist:hoveredFocusedTranslationZ}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_maxImageSize com.byted.camp.todolist:maxImageSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.byted.camp.todolist:pressedTranslationZ}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_rippleColor com.byted.camp.todolist:rippleColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_showMotionSpec com.byted.camp.todolist:showMotionSpec}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_useCompatPadding com.byted.camp.todolist:useCompatPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTint app.byted.camp.todolist:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode app.byted.camp.todolist:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_borderWidth app.byted.camp.todolist:borderWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_elevation app.byted.camp.todolist:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_fabCustomSize app.byted.camp.todolist:fabCustomSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_fabSize app.byted.camp.todolist:fabSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_hideMotionSpec app.byted.camp.todolist:hideMotionSpec}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_hoveredFocusedTranslationZ app.byted.camp.todolist:hoveredFocusedTranslationZ}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_maxImageSize app.byted.camp.todolist:maxImageSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ app.byted.camp.todolist:pressedTranslationZ}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_rippleColor app.byted.camp.todolist:rippleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_showMotionSpec app.byted.camp.todolist:showMotionSpec}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_useCompatPadding app.byted.camp.todolist:useCompatPadding}</code></td><td></td></tr>
      * </table>
      * @see #FloatingActionButton_backgroundTint
      * @see #FloatingActionButton_backgroundTintMode
@@ -14111,21 +13343,19 @@ public final class R {
       0x7f030209
     };
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the background.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#backgroundTint}
+     * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:backgroundTint
+     * @attr name app.byted.camp.todolist:backgroundTint
      */
     public static final int FloatingActionButton_backgroundTint=0;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the background tint.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#backgroundTintMode}
+     * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -14133,24 +13363,19 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and icon color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:backgroundTintMode
+     * @attr name app.byted.camp.todolist:backgroundTintMode
      */
     public static final int FloatingActionButton_backgroundTintMode=1;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#borderWidth}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#borderWidth}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14159,25 +13384,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:borderWidth
+     * @attr name app.byted.camp.todolist:borderWidth
      */
     public static final int FloatingActionButton_borderWidth=2;
     /**
-     * <p>
-     * @attr description
-     * Elevation for the action bar itself
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.byted.camp.todolist:elevation
-     */
-    public static final int FloatingActionButton_elevation=3;
-    /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#fabCustomSize}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#elevation}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14186,11 +13397,24 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:fabCustomSize
+     * @attr name app.byted.camp.todolist:elevation
+     */
+    public static final int FloatingActionButton_elevation=3;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#fabCustomSize}
+     * attribute's value can be found in the {@link #FloatingActionButton} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.byted.camp.todolist:fabCustomSize
      */
     public static final int FloatingActionButton_fabCustomSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#fabSize}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#fabSize}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14204,11 +13428,11 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:fabSize
+     * @attr name app.byted.camp.todolist:fabSize
      */
     public static final int FloatingActionButton_fabSize=5;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#hideMotionSpec}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#hideMotionSpec}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14216,11 +13440,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:hideMotionSpec
+     * @attr name app.byted.camp.todolist:hideMotionSpec
      */
     public static final int FloatingActionButton_hideMotionSpec=6;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#hoveredFocusedTranslationZ}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#hoveredFocusedTranslationZ}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14229,11 +13453,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:hoveredFocusedTranslationZ
+     * @attr name app.byted.camp.todolist:hoveredFocusedTranslationZ
      */
     public static final int FloatingActionButton_hoveredFocusedTranslationZ=7;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#maxImageSize}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#maxImageSize}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14242,11 +13466,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:maxImageSize
+     * @attr name app.byted.camp.todolist:maxImageSize
      */
     public static final int FloatingActionButton_maxImageSize=8;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#pressedTranslationZ}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#pressedTranslationZ}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14255,22 +13479,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:pressedTranslationZ
+     * @attr name app.byted.camp.todolist:pressedTranslationZ
      */
     public static final int FloatingActionButton_pressedTranslationZ=9;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#rippleColor}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#rippleColor}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:rippleColor
+     * @attr name app.byted.camp.todolist:rippleColor
      */
     public static final int FloatingActionButton_rippleColor=10;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#showMotionSpec}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#showMotionSpec}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14278,17 +13502,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:showMotionSpec
+     * @attr name app.byted.camp.todolist:showMotionSpec
      */
     public static final int FloatingActionButton_showMotionSpec=11;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#useCompatPadding}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#useCompatPadding}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:useCompatPadding
+     * @attr name app.byted.camp.todolist:useCompatPadding
      */
     public static final int FloatingActionButton_useCompatPadding=12;
     /**
@@ -14298,7 +13522,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide com.byted.camp.todolist:behavior_autoHide}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide app.byted.camp.todolist:behavior_autoHide}</code></td><td></td></tr>
      * </table>
      * @see #FloatingActionButton_Behavior_Layout_behavior_autoHide
      */
@@ -14306,13 +13530,13 @@ public final class R {
       0x7f030039
     };
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#behavior_autoHide}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#behavior_autoHide}
      * attribute's value can be found in the {@link #FloatingActionButton_Behavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:behavior_autoHide
+     * @attr name app.byted.camp.todolist:behavior_autoHide
      */
     public static final int FloatingActionButton_Behavior_Layout_behavior_autoHide=0;
     /**
@@ -14322,8 +13546,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FlowLayout_itemSpacing com.byted.camp.todolist:itemSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FlowLayout_lineSpacing com.byted.camp.todolist:lineSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlowLayout_itemSpacing app.byted.camp.todolist:itemSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlowLayout_lineSpacing app.byted.camp.todolist:lineSpacing}</code></td><td></td></tr>
      * </table>
      * @see #FlowLayout_itemSpacing
      * @see #FlowLayout_lineSpacing
@@ -14332,7 +13556,7 @@ public final class R {
       0x7f030108, 0x7f030150
     };
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#itemSpacing}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#itemSpacing}
      * attribute's value can be found in the {@link #FlowLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14341,11 +13565,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:itemSpacing
+     * @attr name app.byted.camp.todolist:itemSpacing
      */
     public static final int FlowLayout_itemSpacing=0;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#lineSpacing}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#lineSpacing}
      * attribute's value can be found in the {@link #FlowLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14354,7 +13578,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:lineSpacing
+     * @attr name app.byted.camp.todolist:lineSpacing
      */
     public static final int FlowLayout_lineSpacing=1;
     /**
@@ -14364,12 +13588,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.byted.camp.todolist:fontProviderAuthority}</code></td><td>The authority of the Font Provider to be used for the request.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.byted.camp.todolist:fontProviderCerts}</code></td><td>The sets of hashes for the certificates the provider should be signed with.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.byted.camp.todolist:fontProviderFetchStrategy}</code></td><td>The strategy to be used when fetching font data from a font provider in XML layouts.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.byted.camp.todolist:fontProviderFetchTimeout}</code></td><td>The length of the timeout during fetching.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.byted.camp.todolist:fontProviderPackage}</code></td><td>The package for the Font Provider to be used for the request.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.byted.camp.todolist:fontProviderQuery}</code></td><td>The query to be sent over to the provider.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority app.byted.camp.todolist:fontProviderAuthority}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts app.byted.camp.todolist:fontProviderCerts}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy app.byted.camp.todolist:fontProviderFetchStrategy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout app.byted.camp.todolist:fontProviderFetchTimeout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage app.byted.camp.todolist:fontProviderPackage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery app.byted.camp.todolist:fontProviderQuery}</code></td><td></td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -14383,43 +13607,30 @@ public final class R {
       0x7f0300dd, 0x7f0300de
     };
     /**
-     * <p>
-     * @attr description
-     * The authority of the Font Provider to be used for the request.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#fontProviderAuthority}
+     * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.byted.camp.todolist:fontProviderAuthority
+     * @attr name app.byted.camp.todolist:fontProviderAuthority
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
-     * <p>
-     * @attr description
-     * The sets of hashes for the certificates the provider should be signed with. This is
-     * used to verify the identity of the provider, and is only required if the provider is not
-     * part of the system image. This value may point to one list or a list of lists, where each
-     * individual list represents one collection of signature hashes. Refer to your font provider's
-     * documentation for these values.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#fontProviderCerts}
+     * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:fontProviderCerts
+     * @attr name app.byted.camp.todolist:fontProviderCerts
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
-     * <p>
-     * @attr description
-     * The strategy to be used when fetching font data from a font provider in XML layouts.
-     * This attribute is ignored when the resource is loaded from code, as it is equivalent to the
-     * choice of API between {@link
-     * androidx.core.content.res.ResourcesCompat#getFont(Context, int)} (blocking) and
-     * {@link
-     * androidx.core.content.res.ResourcesCompat#getFont(Context, int, FontCallback, Handler)}
-     * (async).
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#fontProviderFetchStrategy}
+     * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -14427,25 +13638,16 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>async</td><td>1</td><td>The async font fetch works as follows.
-     * First, check the local cache, then if the requeted font is not cached, trigger a
-     * request the font and continue with layout inflation. Once the font fetch succeeds, the
-     * target text view will be refreshed with the downloaded font data. The
-     * fontProviderFetchTimeout will be ignored if async loading is specified.</td></tr>
-     * <tr><td>blocking</td><td>0</td><td>The blocking font fetch works as follows.
-     * First, check the local cache, then if the requested font is not cached, request the
-     * font from the provider and wait until it is finished.  You can change the length of
-     * the timeout by modifying fontProviderFetchTimeout.  If the timeout happens, the
-     * default typeface will be used instead.</td></tr>
+     * <tr><td>async</td><td>1</td><td></td></tr>
+     * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:fontProviderFetchStrategy
+     * @attr name app.byted.camp.todolist:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
-     * <p>
-     * @attr description
-     * The length of the timeout during fetching.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#fontProviderFetchTimeout}
+     * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      * <p>Must be one of the following constant values.</p>
@@ -14454,35 +13656,30 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>forever</td><td>ffffffff</td><td>A special value for the timeout. In this case, the blocking font fetching will not
-     * timeout and wait until a reply is received from the font provider.</td></tr>
+     * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:fontProviderFetchTimeout
+     * @attr name app.byted.camp.todolist:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
-     * <p>
-     * @attr description
-     * The package for the Font Provider to be used for the request. This is used to verify
-     * the identity of the provider.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#fontProviderPackage}
+     * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.byted.camp.todolist:fontProviderPackage
+     * @attr name app.byted.camp.todolist:fontProviderPackage
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
-     * <p>
-     * @attr description
-     * The query to be sent over to the provider. Refer to your font provider's documentation
-     * on the format of this string.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#fontProviderQuery}
+     * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.byted.camp.todolist:fontProviderQuery
+     * @attr name app.byted.camp.todolist:fontProviderQuery
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
@@ -14497,11 +13694,11 @@ public final class R {
      * <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_ttcIndex android:ttcIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontVariationSettings android:fontVariationSettings}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font com.byted.camp.todolist:font}</code></td><td>The reference to the font file to be used.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.byted.camp.todolist:fontStyle}</code></td><td>The style of the given font file.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings com.byted.camp.todolist:fontVariationSettings}</code></td><td>The variation settings to be applied to the font.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.byted.camp.todolist:fontWeight}</code></td><td>The weight of the given font file.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_ttcIndex com.byted.camp.todolist:ttcIndex}</code></td><td>The index of the font in the tcc font file.</td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font app.byted.camp.todolist:font}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle app.byted.camp.todolist:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings app.byted.camp.todolist:fontVariationSettings}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight app.byted.camp.todolist:fontWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_ttcIndex app.byted.camp.todolist:ttcIndex}</code></td><td></td></tr>
      * </table>
      * @see #FontFamilyFont_android_font
      * @see #FontFamilyFont_android_fontWeight
@@ -14541,9 +13738,8 @@ public final class R {
      */
     public static final int FontFamilyFont_android_fontWeight=1;
     /**
-     * <p>
-     * @attr description
-     * References to the framework attrs
+     * <p>This symbol is the offset where the {@link android.R.attr#fontStyle}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -14578,25 +13774,20 @@ public final class R {
      */
     public static final int FontFamilyFont_android_fontVariationSettings=4;
     /**
-     * <p>
-     * @attr description
-     * The reference to the font file to be used. This should be a file in the res/font folder
-     * and should therefore have an R reference value. E.g. @font/myfont
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#font}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:font
+     * @attr name app.byted.camp.todolist:font
      */
     public static final int FontFamilyFont_font=5;
     /**
-     * <p>
-     * @attr description
-     * The style of the given font file. This will be used when the font is being loaded into
-     * the font stack and will override any style information in the font's header tables. If
-     * unspecified, the value in the font's header tables will be used.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#fontStyle}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -14608,46 +13799,35 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:fontStyle
+     * @attr name app.byted.camp.todolist:fontStyle
      */
     public static final int FontFamilyFont_fontStyle=6;
     /**
-     * <p>
-     * @attr description
-     * The variation settings to be applied to the font. The string should be in the following
-     * format: "'tag1' value1, 'tag2' value2, ...". If the default variation settings should be
-     * used, or the font used does not support variation settings, this attribute needs not be
-     * specified.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#fontVariationSettings}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.byted.camp.todolist:fontVariationSettings
+     * @attr name app.byted.camp.todolist:fontVariationSettings
      */
     public static final int FontFamilyFont_fontVariationSettings=7;
     /**
-     * <p>
-     * @attr description
-     * The weight of the given font file. This will be used when the font is being loaded into
-     * the font stack and will override any weight information in the font's header tables. Must
-     * be a positive number, a multiple of 100, and between 100 and 900, inclusive. The most
-     * common values are 400 for regular weight and 700 for bold weight. If unspecified, the value
-     * in the font's header tables will be used.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#fontWeight}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.byted.camp.todolist:fontWeight
+     * @attr name app.byted.camp.todolist:fontWeight
      */
     public static final int FontFamilyFont_fontWeight=8;
     /**
-     * <p>
-     * @attr description
-     * The index of the font in the tcc font file. If the font file referenced is not in the
-     * tcc format, this attribute needs not be specified.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#ttcIndex}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.byted.camp.todolist:ttcIndex
+     * @attr name app.byted.camp.todolist:ttcIndex
      */
     public static final int FontFamilyFont_ttcIndex=9;
     /**
@@ -14659,7 +13839,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
      * <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.byted.camp.todolist:foregroundInsidePadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding app.byted.camp.todolist:foregroundInsidePadding}</code></td><td></td></tr>
      * </table>
      * @see #ForegroundLinearLayout_android_foreground
      * @see #ForegroundLinearLayout_android_foregroundGravity
@@ -14711,13 +13891,13 @@ public final class R {
      */
     public static final int ForegroundLinearLayout_android_foregroundGravity=1;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#foregroundInsidePadding}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#foregroundInsidePadding}
      * attribute's value can be found in the {@link #ForegroundLinearLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:foregroundInsidePadding
+     * @attr name app.byted.camp.todolist:foregroundInsidePadding
      */
     public static final int ForegroundLinearLayout_foregroundInsidePadding=2;
     /**
@@ -14759,9 +13939,8 @@ public final class R {
       0x01010510, 0x01010511, 0x01010512, 0x01010513
     };
     /**
-     * <p>
-     * @attr description
-     * Start color of the gradient.
+     * <p>This symbol is the offset where the {@link android.R.attr#startColor}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -14771,9 +13950,8 @@ public final class R {
      */
     public static final int GradientColor_android_startColor=0;
     /**
-     * <p>
-     * @attr description
-     * End color of the gradient.
+     * <p>This symbol is the offset where the {@link android.R.attr#endColor}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -14783,9 +13961,8 @@ public final class R {
      */
     public static final int GradientColor_android_endColor=1;
     /**
-     * <p>
-     * @attr description
-     * Type of gradient. The default type is linear.
+     * <p>This symbol is the offset where the {@link android.R.attr#type}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -14802,9 +13979,8 @@ public final class R {
      */
     public static final int GradientColor_android_type=2;
     /**
-     * <p>
-     * @attr description
-     * X coordinate of the center of the gradient within the path.
+     * <p>This symbol is the offset where the {@link android.R.attr#centerX}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      * <p>May be a fractional value, which is a floating point number appended with
@@ -14816,9 +13992,8 @@ public final class R {
      */
     public static final int GradientColor_android_centerX=3;
     /**
-     * <p>
-     * @attr description
-     * Y coordinate of the center of the gradient within the path.
+     * <p>This symbol is the offset where the {@link android.R.attr#centerY}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      * <p>May be a fractional value, which is a floating point number appended with
@@ -14830,9 +14005,8 @@ public final class R {
      */
     public static final int GradientColor_android_centerY=4;
     /**
-     * <p>
-     * @attr description
-     * Radius of the gradient, used only with radial gradient.
+     * <p>This symbol is the offset where the {@link android.R.attr#gradientRadius}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14849,9 +14023,8 @@ public final class R {
      */
     public static final int GradientColor_android_gradientRadius=5;
     /**
-     * <p>
-     * @attr description
-     * Defines the tile mode of the gradient. SweepGradient doesn't support tiling.
+     * <p>This symbol is the offset where the {@link android.R.attr#tileMode}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -14869,9 +14042,8 @@ public final class R {
      */
     public static final int GradientColor_android_tileMode=6;
     /**
-     * <p>
-     * @attr description
-     * Optional center color.
+     * <p>This symbol is the offset where the {@link android.R.attr#centerColor}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -14881,10 +14053,8 @@ public final class R {
      */
     public static final int GradientColor_android_centerColor=7;
     /**
-     * <p>
-     * @attr description
-     * X coordinate of the start point origin of the gradient.
-     * Defined in same coordinates as the path itself
+     * <p>This symbol is the offset where the {@link android.R.attr#startX}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
@@ -14892,10 +14062,8 @@ public final class R {
      */
     public static final int GradientColor_android_startX=8;
     /**
-     * <p>
-     * @attr description
-     * Y coordinate of the start point of the gradient within the shape.
-     * Defined in same coordinates as the path itself
+     * <p>This symbol is the offset where the {@link android.R.attr#startY}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
@@ -14903,10 +14071,8 @@ public final class R {
      */
     public static final int GradientColor_android_startY=9;
     /**
-     * <p>
-     * @attr description
-     * X coordinate of the end point origin of the gradient.
-     * Defined in same coordinates as the path itself
+     * <p>This symbol is the offset where the {@link android.R.attr#endX}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
@@ -14914,10 +14080,8 @@ public final class R {
      */
     public static final int GradientColor_android_endX=10;
     /**
-     * <p>
-     * @attr description
-     * Y coordinate of the end point of the gradient within the shape.
-     * Defined in same coordinates as the path itself
+     * <p>This symbol is the offset where the {@link android.R.attr#endY}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
@@ -14941,9 +14105,8 @@ public final class R {
       0x010101a5, 0x01010514
     };
     /**
-     * <p>
-     * @attr description
-     * The current color for the offset inside the gradient.
+     * <p>This symbol is the offset where the {@link android.R.attr#color}
+     * attribute's value can be found in the {@link #GradientColorItem} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -14953,10 +14116,8 @@ public final class R {
      */
     public static final int GradientColorItem_android_color=0;
     /**
-     * <p>
-     * @attr description
-     * The offset (or ratio) of this current color item inside the gradient.
-     * The value is only meaningful when it is between 0 and 1.
+     * <p>This symbol is the offset where the {@link android.R.attr#offset}
+     * attribute's value can be found in the {@link #GradientColorItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
@@ -15006,11 +14167,10 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider com.byted.camp.todolist:divider}</code></td><td>Specifies the drawable used for item dividers.</td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.byted.camp.todolist:dividerPadding}</code></td><td>Size of padding on either end of a divider.</td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.byted.camp.todolist:measureWithLargestChild}</code></td><td>When set to true, all children with a weight will be considered having
-     * the minimum size of the largest child.</td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.byted.camp.todolist:showDividers}</code></td><td>Setting for which dividers to show.</td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_divider app.byted.camp.todolist:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding app.byted.camp.todolist:dividerPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild app.byted.camp.todolist:measureWithLargestChild}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers app.byted.camp.todolist:showDividers}</code></td><td></td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -15057,11 +14217,8 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_gravity=0;
     /**
-     * <p>
-     * @attr description
-     * Should the layout be a column or a row?  Use "horizontal"
-     * for a row, "vertical" for a column.  The default is
-     * horizontal.
+     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -15077,11 +14234,8 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_orientation=1;
     /**
-     * <p>
-     * @attr description
-     * When set to false, prevents the layout from aligning its children's
-     * baselines. This attribute is particularly useful when the children
-     * use different values for gravity. The default value is true.
+     * <p>This symbol is the offset where the {@link android.R.attr#baselineAligned}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -15090,11 +14244,8 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_baselineAligned=2;
     /**
-     * <p>
-     * @attr description
-     * When a linear layout is part of another layout that is baseline
-     * aligned, it can specify which of its children to baseline align to
-     * (that is, which child TextView).
+     * <p>This symbol is the offset where the {@link android.R.attr#baselineAlignedChildIndex}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -15102,13 +14253,8 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_baselineAlignedChildIndex=3;
     /**
-     * <p>
-     * @attr description
-     * Defines the maximum weight sum. If unspecified, the sum is computed
-     * by adding the layout_weight of all of the children. This can be
-     * used for instance to give a single child 50% of the total available
-     * space by giving it a layout_weight of 0.5 and setting the weightSum
-     * to 1.0.
+     * <p>This symbol is the offset where the {@link android.R.attr#weightSum}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
@@ -15116,22 +14262,20 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_weightSum=4;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use as a vertical divider between buttons.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#divider}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:divider
+     * @attr name app.byted.camp.todolist:divider
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
-     * <p>
-     * @attr description
-     * Size of padding on either end of a divider.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#dividerPadding}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -15139,26 +14283,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:dividerPadding
+     * @attr name app.byted.camp.todolist:dividerPadding
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
-     * <p>
-     * @attr description
-     * When set to true, all children with a weight will be considered having
-     * the minimum size of the largest child. If false, all children are
-     * measured normally.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#measureWithLargestChild}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:measureWithLargestChild
+     * @attr name app.byted.camp.todolist:measureWithLargestChild
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
-     * <p>
-     * @attr description
-     * Setting for which dividers to show.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#showDividers}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -15172,7 +14312,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:showDividers
+     * @attr name app.byted.camp.todolist:showDividers
      */
     public static final int LinearLayoutCompat_showDividers=8;
     /**
@@ -15296,9 +14436,8 @@ public final class R {
       0x010102ac, 0x010102ad
     };
     /**
-     * <p>
-     * @attr description
-     * Amount of pixels by which the drop down should be offset horizontally.
+     * <p>This symbol is the offset where the {@link android.R.attr#dropDownHorizontalOffset}
+     * attribute's value can be found in the {@link #ListPopupWindow} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -15310,9 +14449,8 @@ public final class R {
      */
     public static final int ListPopupWindow_android_dropDownHorizontalOffset=0;
     /**
-     * <p>
-     * @attr description
-     * Amount of pixels by which the drop down should be offset vertically.
+     * <p>This symbol is the offset where the {@link android.R.attr#dropDownVerticalOffset}
+     * attribute's value can be found in the {@link #ListPopupWindow} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -15334,18 +14472,18 @@ public final class R {
      * <tr><td><code>{@link #MaterialButton_android_insetRight android:insetRight}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_android_insetTop android:insetTop}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_android_insetBottom android:insetBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_backgroundTint com.byted.camp.todolist:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
-     * <tr><td><code>{@link #MaterialButton_backgroundTintMode com.byted.camp.todolist:backgroundTintMode}</code></td><td>Blending mode used to apply the background tint.</td></tr>
-     * <tr><td><code>{@link #MaterialButton_cornerRadius com.byted.camp.todolist:cornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_icon com.byted.camp.todolist:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconGravity com.byted.camp.todolist:iconGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconPadding com.byted.camp.todolist:iconPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconSize com.byted.camp.todolist:iconSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconTint com.byted.camp.todolist:iconTint}</code></td><td>Tint to apply to the icon.</td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconTintMode com.byted.camp.todolist:iconTintMode}</code></td><td>Blending mode used to apply the icon tint.</td></tr>
-     * <tr><td><code>{@link #MaterialButton_rippleColor com.byted.camp.todolist:rippleColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_strokeColor com.byted.camp.todolist:strokeColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_strokeWidth com.byted.camp.todolist:strokeWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_backgroundTint app.byted.camp.todolist:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_backgroundTintMode app.byted.camp.todolist:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_cornerRadius app.byted.camp.todolist:cornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_icon app.byted.camp.todolist:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconGravity app.byted.camp.todolist:iconGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconPadding app.byted.camp.todolist:iconPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconSize app.byted.camp.todolist:iconSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconTint app.byted.camp.todolist:iconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconTintMode app.byted.camp.todolist:iconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_rippleColor app.byted.camp.todolist:rippleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_strokeColor app.byted.camp.todolist:strokeColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_strokeWidth app.byted.camp.todolist:strokeWidth}</code></td><td></td></tr>
      * </table>
      * @see #MaterialButton_android_insetLeft
      * @see #MaterialButton_android_insetRight
@@ -15439,21 +14577,19 @@ public final class R {
      */
     public static final int MaterialButton_android_insetBottom=3;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the background.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#backgroundTint}
+     * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:backgroundTint
+     * @attr name app.byted.camp.todolist:backgroundTint
      */
     public static final int MaterialButton_backgroundTint=4;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the background tint.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#backgroundTintMode}
+     * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -15461,24 +14597,19 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and icon color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:backgroundTintMode
+     * @attr name app.byted.camp.todolist:backgroundTintMode
      */
     public static final int MaterialButton_backgroundTintMode=5;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#cornerRadius}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#cornerRadius}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15487,11 +14618,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:cornerRadius
+     * @attr name app.byted.camp.todolist:cornerRadius
      */
     public static final int MaterialButton_cornerRadius=6;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#icon}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#icon}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15499,11 +14630,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:icon
+     * @attr name app.byted.camp.todolist:icon
      */
     public static final int MaterialButton_icon=7;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#iconGravity}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#iconGravity}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -15516,11 +14647,11 @@ public final class R {
      * <tr><td>textStart</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:iconGravity
+     * @attr name app.byted.camp.todolist:iconGravity
      */
     public static final int MaterialButton_iconGravity=8;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#iconPadding}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#iconPadding}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15529,11 +14660,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:iconPadding
+     * @attr name app.byted.camp.todolist:iconPadding
      */
     public static final int MaterialButton_iconPadding=9;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#iconSize}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#iconSize}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15542,25 +14673,23 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:iconSize
+     * @attr name app.byted.camp.todolist:iconSize
      */
     public static final int MaterialButton_iconSize=10;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the icon.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#iconTint}
+     * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:iconTint
+     * @attr name app.byted.camp.todolist:iconTint
      */
     public static final int MaterialButton_iconTint=11;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the icon tint.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#iconTintMode}
+     * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -15568,46 +14697,41 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and icon color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the icon with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the icon, but with the icon’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the icon. The icon’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the icon.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:iconTintMode
+     * @attr name app.byted.camp.todolist:iconTintMode
      */
     public static final int MaterialButton_iconTintMode=12;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#rippleColor}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#rippleColor}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:rippleColor
+     * @attr name app.byted.camp.todolist:rippleColor
      */
     public static final int MaterialButton_rippleColor=13;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#strokeColor}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#strokeColor}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:strokeColor
+     * @attr name app.byted.camp.todolist:strokeColor
      */
     public static final int MaterialButton_strokeColor=14;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#strokeWidth}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#strokeWidth}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15616,7 +14740,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:strokeWidth
+     * @attr name app.byted.camp.todolist:strokeWidth
      */
     public static final int MaterialButton_strokeWidth=15;
     /**
@@ -15626,8 +14750,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #MaterialCardView_strokeColor com.byted.camp.todolist:strokeColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialCardView_strokeWidth com.byted.camp.todolist:strokeWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialCardView_strokeColor app.byted.camp.todolist:strokeColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialCardView_strokeWidth app.byted.camp.todolist:strokeWidth}</code></td><td></td></tr>
      * </table>
      * @see #MaterialCardView_strokeColor
      * @see #MaterialCardView_strokeWidth
@@ -15636,18 +14760,18 @@ public final class R {
       0x7f0301a8, 0x7f0301a9
     };
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#strokeColor}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#strokeColor}
      * attribute's value can be found in the {@link #MaterialCardView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:strokeColor
+     * @attr name app.byted.camp.todolist:strokeColor
      */
     public static final int MaterialCardView_strokeColor=0;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#strokeWidth}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#strokeWidth}
      * attribute's value can be found in the {@link #MaterialCardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15656,7 +14780,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:strokeWidth
+     * @attr name app.byted.camp.todolist:strokeWidth
      */
     public static final int MaterialCardView_strokeWidth=1;
     /**
@@ -15666,38 +14790,38 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_bottomSheetDialogTheme com.byted.camp.todolist:bottomSheetDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_bottomSheetStyle com.byted.camp.todolist:bottomSheetStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_chipGroupStyle com.byted.camp.todolist:chipGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_chipStandaloneStyle com.byted.camp.todolist:chipStandaloneStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_chipStyle com.byted.camp.todolist:chipStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorAccent com.byted.camp.todolist:colorAccent}</code></td><td>Bright complement to the primary branding color.</td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorBackgroundFloating com.byted.camp.todolist:colorBackgroundFloating}</code></td><td>Default color of background imagery for floating components, ex.</td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorPrimary com.byted.camp.todolist:colorPrimary}</code></td><td>The primary branding color for the app.</td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorPrimaryDark com.byted.camp.todolist:colorPrimaryDark}</code></td><td>Dark variant of the primary branding color.</td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorSecondary com.byted.camp.todolist:colorSecondary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_editTextStyle com.byted.camp.todolist:editTextStyle}</code></td><td>Default EditText style.</td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_floatingActionButtonStyle com.byted.camp.todolist:floatingActionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_materialButtonStyle com.byted.camp.todolist:materialButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_materialCardViewStyle com.byted.camp.todolist:materialCardViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_navigationViewStyle com.byted.camp.todolist:navigationViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_scrimBackground com.byted.camp.todolist:scrimBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_snackbarButtonStyle com.byted.camp.todolist:snackbarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_tabStyle com.byted.camp.todolist:tabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceBody1 com.byted.camp.todolist:textAppearanceBody1}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceBody2 com.byted.camp.todolist:textAppearanceBody2}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceButton com.byted.camp.todolist:textAppearanceButton}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceCaption com.byted.camp.todolist:textAppearanceCaption}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline1 com.byted.camp.todolist:textAppearanceHeadline1}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline2 com.byted.camp.todolist:textAppearanceHeadline2}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline3 com.byted.camp.todolist:textAppearanceHeadline3}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline4 com.byted.camp.todolist:textAppearanceHeadline4}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline5 com.byted.camp.todolist:textAppearanceHeadline5}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline6 com.byted.camp.todolist:textAppearanceHeadline6}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceOverline com.byted.camp.todolist:textAppearanceOverline}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceSubtitle1 com.byted.camp.todolist:textAppearanceSubtitle1}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceSubtitle2 com.byted.camp.todolist:textAppearanceSubtitle2}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textInputStyle com.byted.camp.todolist:textInputStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_bottomSheetDialogTheme app.byted.camp.todolist:bottomSheetDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_bottomSheetStyle app.byted.camp.todolist:bottomSheetStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_chipGroupStyle app.byted.camp.todolist:chipGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_chipStandaloneStyle app.byted.camp.todolist:chipStandaloneStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_chipStyle app.byted.camp.todolist:chipStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorAccent app.byted.camp.todolist:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorBackgroundFloating app.byted.camp.todolist:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorPrimary app.byted.camp.todolist:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorPrimaryDark app.byted.camp.todolist:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorSecondary app.byted.camp.todolist:colorSecondary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_editTextStyle app.byted.camp.todolist:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_floatingActionButtonStyle app.byted.camp.todolist:floatingActionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_materialButtonStyle app.byted.camp.todolist:materialButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_materialCardViewStyle app.byted.camp.todolist:materialCardViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_navigationViewStyle app.byted.camp.todolist:navigationViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_scrimBackground app.byted.camp.todolist:scrimBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_snackbarButtonStyle app.byted.camp.todolist:snackbarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_tabStyle app.byted.camp.todolist:tabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceBody1 app.byted.camp.todolist:textAppearanceBody1}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceBody2 app.byted.camp.todolist:textAppearanceBody2}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceButton app.byted.camp.todolist:textAppearanceButton}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceCaption app.byted.camp.todolist:textAppearanceCaption}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline1 app.byted.camp.todolist:textAppearanceHeadline1}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline2 app.byted.camp.todolist:textAppearanceHeadline2}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline3 app.byted.camp.todolist:textAppearanceHeadline3}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline4 app.byted.camp.todolist:textAppearanceHeadline4}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline5 app.byted.camp.todolist:textAppearanceHeadline5}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline6 app.byted.camp.todolist:textAppearanceHeadline6}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceOverline app.byted.camp.todolist:textAppearanceOverline}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceSubtitle1 app.byted.camp.todolist:textAppearanceSubtitle1}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceSubtitle2 app.byted.camp.todolist:textAppearanceSubtitle2}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textInputStyle app.byted.camp.todolist:textInputStyle}</code></td><td></td></tr>
      * </table>
      * @see #MaterialComponentsTheme_bottomSheetDialogTheme
      * @see #MaterialComponentsTheme_bottomSheetStyle
@@ -15743,7 +14867,7 @@ public final class R {
       0x7f0301de, 0x7f0301e3, 0x7f0301e4, 0x7f0301e8
     };
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#bottomSheetDialogTheme}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#bottomSheetDialogTheme}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15751,11 +14875,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:bottomSheetDialogTheme
+     * @attr name app.byted.camp.todolist:bottomSheetDialogTheme
      */
     public static final int MaterialComponentsTheme_bottomSheetDialogTheme=0;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#bottomSheetStyle}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#bottomSheetStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15763,11 +14887,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:bottomSheetStyle
+     * @attr name app.byted.camp.todolist:bottomSheetStyle
      */
     public static final int MaterialComponentsTheme_bottomSheetStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#chipGroupStyle}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#chipGroupStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15775,11 +14899,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:chipGroupStyle
+     * @attr name app.byted.camp.todolist:chipGroupStyle
      */
     public static final int MaterialComponentsTheme_chipGroupStyle=2;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#chipStandaloneStyle}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#chipStandaloneStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15787,11 +14911,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:chipStandaloneStyle
+     * @attr name app.byted.camp.todolist:chipStandaloneStyle
      */
     public static final int MaterialComponentsTheme_chipStandaloneStyle=3;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#chipStyle}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#chipStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15799,86 +14923,78 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:chipStyle
+     * @attr name app.byted.camp.todolist:chipStyle
      */
     public static final int MaterialComponentsTheme_chipStyle=4;
     /**
-     * <p>
-     * @attr description
-     * Bright complement to the primary branding color. By default, this is the color applied
-     * to framework controls (via colorControlActivated).
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:colorAccent
-     */
-    public static final int MaterialComponentsTheme_colorAccent=5;
-    /**
-     * <p>
-     * @attr description
-     * Default color of background imagery for floating components, ex. dialogs, popups, and cards.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:colorBackgroundFloating
-     */
-    public static final int MaterialComponentsTheme_colorBackgroundFloating=6;
-    /**
-     * <p>
-     * @attr description
-     * The primary branding color for the app. By default, this is the color applied to the
-     * action bar background.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:colorPrimary
-     */
-    public static final int MaterialComponentsTheme_colorPrimary=7;
-    /**
-     * <p>
-     * @attr description
-     * Dark variant of the primary branding color. By default, this is the color applied to
-     * the status bar (via statusBarColor) and navigation bar (via navigationBarColor).
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.byted.camp.todolist:colorPrimaryDark
-     */
-    public static final int MaterialComponentsTheme_colorPrimaryDark=8;
-    /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#colorSecondary}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#colorAccent}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:colorSecondary
+     * @attr name app.byted.camp.todolist:colorAccent
+     */
+    public static final int MaterialComponentsTheme_colorAccent=5;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#colorBackgroundFloating}
+     * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:colorBackgroundFloating
+     */
+    public static final int MaterialComponentsTheme_colorBackgroundFloating=6;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#colorPrimary}
+     * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:colorPrimary
+     */
+    public static final int MaterialComponentsTheme_colorPrimary=7;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#colorPrimaryDark}
+     * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:colorPrimaryDark
+     */
+    public static final int MaterialComponentsTheme_colorPrimaryDark=8;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#colorSecondary}
+     * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name app.byted.camp.todolist:colorSecondary
      */
     public static final int MaterialComponentsTheme_colorSecondary=9;
     /**
-     * <p>
-     * @attr description
-     * Default EditText style.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#editTextStyle}
+     * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:editTextStyle
+     * @attr name app.byted.camp.todolist:editTextStyle
      */
     public static final int MaterialComponentsTheme_editTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#floatingActionButtonStyle}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#floatingActionButtonStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15904,11 +15020,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.byted.camp.todolist:floatingActionButtonStyle
+     * @attr name app.byted.camp.todolist:floatingActionButtonStyle
      */
     public static final int MaterialComponentsTheme_floatingActionButtonStyle=11;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#materialButtonStyle}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#materialButtonStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15916,11 +15032,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:materialButtonStyle
+     * @attr name app.byted.camp.todolist:materialButtonStyle
      */
     public static final int MaterialComponentsTheme_materialButtonStyle=12;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#materialCardViewStyle}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#materialCardViewStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15928,11 +15044,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:materialCardViewStyle
+     * @attr name app.byted.camp.todolist:materialCardViewStyle
      */
     public static final int MaterialComponentsTheme_materialCardViewStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#navigationViewStyle}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#navigationViewStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15940,11 +15056,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:navigationViewStyle
+     * @attr name app.byted.camp.todolist:navigationViewStyle
      */
     public static final int MaterialComponentsTheme_navigationViewStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#scrimBackground}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#scrimBackground}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15955,11 +15071,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:scrimBackground
+     * @attr name app.byted.camp.todolist:scrimBackground
      */
     public static final int MaterialComponentsTheme_scrimBackground=15;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#snackbarButtonStyle}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#snackbarButtonStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15967,11 +15083,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:snackbarButtonStyle
+     * @attr name app.byted.camp.todolist:snackbarButtonStyle
      */
     public static final int MaterialComponentsTheme_snackbarButtonStyle=16;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#tabStyle}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tabStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15979,11 +15095,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:tabStyle
+     * @attr name app.byted.camp.todolist:tabStyle
      */
     public static final int MaterialComponentsTheme_tabStyle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#textAppearanceBody1}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#textAppearanceBody1}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15991,11 +15107,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:textAppearanceBody1
+     * @attr name app.byted.camp.todolist:textAppearanceBody1
      */
     public static final int MaterialComponentsTheme_textAppearanceBody1=18;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#textAppearanceBody2}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#textAppearanceBody2}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16003,11 +15119,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:textAppearanceBody2
+     * @attr name app.byted.camp.todolist:textAppearanceBody2
      */
     public static final int MaterialComponentsTheme_textAppearanceBody2=19;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#textAppearanceButton}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#textAppearanceButton}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16015,11 +15131,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:textAppearanceButton
+     * @attr name app.byted.camp.todolist:textAppearanceButton
      */
     public static final int MaterialComponentsTheme_textAppearanceButton=20;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#textAppearanceCaption}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#textAppearanceCaption}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16027,11 +15143,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:textAppearanceCaption
+     * @attr name app.byted.camp.todolist:textAppearanceCaption
      */
     public static final int MaterialComponentsTheme_textAppearanceCaption=21;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#textAppearanceHeadline1}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#textAppearanceHeadline1}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16039,11 +15155,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:textAppearanceHeadline1
+     * @attr name app.byted.camp.todolist:textAppearanceHeadline1
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline1=22;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#textAppearanceHeadline2}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#textAppearanceHeadline2}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16051,11 +15167,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:textAppearanceHeadline2
+     * @attr name app.byted.camp.todolist:textAppearanceHeadline2
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline2=23;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#textAppearanceHeadline3}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#textAppearanceHeadline3}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16063,11 +15179,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:textAppearanceHeadline3
+     * @attr name app.byted.camp.todolist:textAppearanceHeadline3
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline3=24;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#textAppearanceHeadline4}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#textAppearanceHeadline4}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16075,11 +15191,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:textAppearanceHeadline4
+     * @attr name app.byted.camp.todolist:textAppearanceHeadline4
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline4=25;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#textAppearanceHeadline5}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#textAppearanceHeadline5}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16087,11 +15203,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:textAppearanceHeadline5
+     * @attr name app.byted.camp.todolist:textAppearanceHeadline5
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline5=26;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#textAppearanceHeadline6}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#textAppearanceHeadline6}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16099,11 +15215,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:textAppearanceHeadline6
+     * @attr name app.byted.camp.todolist:textAppearanceHeadline6
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline6=27;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#textAppearanceOverline}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#textAppearanceOverline}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16111,11 +15227,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:textAppearanceOverline
+     * @attr name app.byted.camp.todolist:textAppearanceOverline
      */
     public static final int MaterialComponentsTheme_textAppearanceOverline=28;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#textAppearanceSubtitle1}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#textAppearanceSubtitle1}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16123,11 +15239,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:textAppearanceSubtitle1
+     * @attr name app.byted.camp.todolist:textAppearanceSubtitle1
      */
     public static final int MaterialComponentsTheme_textAppearanceSubtitle1=29;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#textAppearanceSubtitle2}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#textAppearanceSubtitle2}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16135,11 +15251,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:textAppearanceSubtitle2
+     * @attr name app.byted.camp.todolist:textAppearanceSubtitle2
      */
     public static final int MaterialComponentsTheme_textAppearanceSubtitle2=30;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#textInputStyle}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#textInputStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16147,7 +15263,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:textInputStyle
+     * @attr name app.byted.camp.todolist:textInputStyle
      */
     public static final int MaterialComponentsTheme_textInputStyle=31;
     /**
@@ -16176,9 +15292,8 @@ public final class R {
       0x010101df, 0x010101e0
     };
     /**
-     * <p>
-     * @attr description
-     * Whether the items are enabled.
+     * <p>This symbol is the offset where the {@link android.R.attr#enabled}
+     * attribute's value can be found in the {@link #MenuGroup} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -16187,9 +15302,8 @@ public final class R {
      */
     public static final int MenuGroup_android_enabled=0;
     /**
-     * <p>
-     * @attr description
-     * The ID of the group.
+     * <p>This symbol is the offset where the {@link android.R.attr#id}
+     * attribute's value can be found in the {@link #MenuGroup} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16200,9 +15314,8 @@ public final class R {
      */
     public static final int MenuGroup_android_id=1;
     /**
-     * <p>
-     * @attr description
-     * Whether the items are shown/visible.
+     * <p>This symbol is the offset where the {@link android.R.attr#visible}
+     * attribute's value can be found in the {@link #MenuGroup} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -16211,10 +15324,8 @@ public final class R {
      */
     public static final int MenuGroup_android_visible=2;
     /**
-     * <p>
-     * @attr description
-     * The category applied to all items within this group.
-     * (This will be or'ed with the orderInCategory attribute.)
+     * <p>This symbol is the offset where the {@link android.R.attr#menuCategory}
+     * attribute's value can be found in the {@link #MenuGroup} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -16232,10 +15343,8 @@ public final class R {
      */
     public static final int MenuGroup_android_menuCategory=3;
     /**
-     * <p>
-     * @attr description
-     * The order within the category applied to all items within this group.
-     * (This will be or'ed with the category attribute.)
+     * <p>This symbol is the offset where the {@link android.R.attr#orderInCategory}
+     * attribute's value can be found in the {@link #MenuGroup} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -16243,9 +15352,8 @@ public final class R {
      */
     public static final int MenuGroup_android_orderInCategory=4;
     /**
-     * <p>
-     * @attr description
-     * Whether the items are capable of displaying a check mark.
+     * <p>This symbol is the offset where the {@link android.R.attr#checkableBehavior}
+     * attribute's value can be found in the {@link #MenuGroup} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -16281,18 +15389,16 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout com.byted.camp.todolist:actionLayout}</code></td><td>An optional layout to be used as an action view.</td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass com.byted.camp.todolist:actionProviderClass}</code></td><td>The name of an optional ActionProvider class to instantiate an action view
-     * and perform operations such as default action for that menu item.</td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass com.byted.camp.todolist:actionViewClass}</code></td><td>The name of an optional View class to instantiate and use as an
-     * action view.</td></tr>
-     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.byted.camp.todolist:alphabeticModifiers}</code></td><td>The alphabetic modifier key.</td></tr>
-     * <tr><td><code>{@link #MenuItem_contentDescription com.byted.camp.todolist:contentDescription}</code></td><td>The content description associated with the item.</td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTint com.byted.camp.todolist:iconTint}</code></td><td>Tint to apply to the icon.</td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTintMode com.byted.camp.todolist:iconTintMode}</code></td><td>Blending mode used to apply the icon tint.</td></tr>
-     * <tr><td><code>{@link #MenuItem_numericModifiers com.byted.camp.todolist:numericModifiers}</code></td><td>The numeric modifier key.</td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction com.byted.camp.todolist:showAsAction}</code></td><td>How this item should display in the Action Bar, if present.</td></tr>
-     * <tr><td><code>{@link #MenuItem_tooltipText com.byted.camp.todolist:tooltipText}</code></td><td>The tooltip text associated with the item.</td></tr>
+     * <tr><td><code>{@link #MenuItem_actionLayout app.byted.camp.todolist:actionLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass app.byted.camp.todolist:actionProviderClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionViewClass app.byted.camp.todolist:actionViewClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_alphabeticModifiers app.byted.camp.todolist:alphabeticModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_contentDescription app.byted.camp.todolist:contentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTint app.byted.camp.todolist:iconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTintMode app.byted.camp.todolist:iconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_numericModifiers app.byted.camp.todolist:numericModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction app.byted.camp.todolist:showAsAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_tooltipText app.byted.camp.todolist:tooltipText}</code></td><td></td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -16327,10 +15433,8 @@ public final class R {
       0x7f03016a, 0x7f030190, 0x7f030204
     };
     /**
-     * <p>
-     * @attr description
-     * The icon associated with this item.  This icon will not always be shown, so
-     * the title should be sufficient in describing this item.
+     * <p>This symbol is the offset where the {@link android.R.attr#icon}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16341,9 +15445,8 @@ public final class R {
      */
     public static final int MenuItem_android_icon=0;
     /**
-     * <p>
-     * @attr description
-     * Whether the item is enabled.
+     * <p>This symbol is the offset where the {@link android.R.attr#enabled}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -16352,9 +15455,8 @@ public final class R {
      */
     public static final int MenuItem_android_enabled=1;
     /**
-     * <p>
-     * @attr description
-     * The ID of the item.
+     * <p>This symbol is the offset where the {@link android.R.attr#id}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16365,10 +15467,8 @@ public final class R {
      */
     public static final int MenuItem_android_id=2;
     /**
-     * <p>
-     * @attr description
-     * Whether the item is checked.  Note that you must first have enabled checking with
-     * the checkable attribute or else the check mark will not appear.
+     * <p>This symbol is the offset where the {@link android.R.attr#checked}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -16377,9 +15477,8 @@ public final class R {
      */
     public static final int MenuItem_android_checked=3;
     /**
-     * <p>
-     * @attr description
-     * Whether the item is shown/visible.
+     * <p>This symbol is the offset where the {@link android.R.attr#visible}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -16388,10 +15487,8 @@ public final class R {
      */
     public static final int MenuItem_android_visible=4;
     /**
-     * <p>
-     * @attr description
-     * The category applied to the item.
-     * (This will be or'ed with the orderInCategory attribute.)
+     * <p>This symbol is the offset where the {@link android.R.attr#menuCategory}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -16409,10 +15506,8 @@ public final class R {
      */
     public static final int MenuItem_android_menuCategory=5;
     /**
-     * <p>
-     * @attr description
-     * The order within the category applied to the item.
-     * (This will be or'ed with the category attribute.)
+     * <p>This symbol is the offset where the {@link android.R.attr#orderInCategory}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -16420,9 +15515,8 @@ public final class R {
      */
     public static final int MenuItem_android_orderInCategory=6;
     /**
-     * <p>
-     * @attr description
-     * The title associated with the item.
+     * <p>This symbol is the offset where the {@link android.R.attr#title}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -16431,10 +15525,8 @@ public final class R {
      */
     public static final int MenuItem_android_title=7;
     /**
-     * <p>
-     * @attr description
-     * The condensed title associated with the item.  This is used in situations where the
-     * normal title may be too long to be displayed.
+     * <p>This symbol is the offset where the {@link android.R.attr#titleCondensed}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -16443,10 +15535,8 @@ public final class R {
      */
     public static final int MenuItem_android_titleCondensed=8;
     /**
-     * <p>
-     * @attr description
-     * The alphabetic shortcut key.  This is the shortcut when using a keyboard
-     * with alphabetic keys.
+     * <p>This symbol is the offset where the {@link android.R.attr#alphabeticShortcut}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -16455,10 +15545,8 @@ public final class R {
      */
     public static final int MenuItem_android_alphabeticShortcut=9;
     /**
-     * <p>
-     * @attr description
-     * The numeric shortcut key.  This is the shortcut when using a numeric (e.g., 12-key)
-     * keyboard.
+     * <p>This symbol is the offset where the {@link android.R.attr#numericShortcut}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -16467,9 +15555,8 @@ public final class R {
      */
     public static final int MenuItem_android_numericShortcut=10;
     /**
-     * <p>
-     * @attr description
-     * Whether the item is capable of displaying a check mark.
+     * <p>This symbol is the offset where the {@link android.R.attr#checkable}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -16478,10 +15565,8 @@ public final class R {
      */
     public static final int MenuItem_android_checkable=11;
     /**
-     * <p>
-     * @attr description
-     * Name of a method on the Context used to inflate the menu that will be
-     * called when the item is clicked.
+     * <p>This symbol is the offset where the {@link android.R.attr#onClick}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -16490,52 +15575,40 @@ public final class R {
      */
     public static final int MenuItem_android_onClick=12;
     /**
-     * <p>
-     * @attr description
-     * An optional layout to be used as an action view.
-     * See {@link android.view.MenuItem#setActionView(android.view.View)}
-     * for more info.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionLayout}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:actionLayout
+     * @attr name app.byted.camp.todolist:actionLayout
      */
     public static final int MenuItem_actionLayout=13;
     /**
-     * <p>
-     * @attr description
-     * The name of an optional ActionProvider class to instantiate an action view
-     * and perform operations such as default action for that menu item.
-     * See {@link android.view.MenuItem#setActionProvider(android.view.ActionProvider)}
-     * for more info.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionProviderClass}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.byted.camp.todolist:actionProviderClass
+     * @attr name app.byted.camp.todolist:actionProviderClass
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
-     * <p>
-     * @attr description
-     * The name of an optional View class to instantiate and use as an
-     * action view. See {@link android.view.MenuItem#setActionView(android.view.View)}
-     * for more info.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#actionViewClass}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.byted.camp.todolist:actionViewClass
+     * @attr name app.byted.camp.todolist:actionViewClass
      */
     public static final int MenuItem_actionViewClass=15;
     /**
-     * <p>
-     * @attr description
-     * The alphabetic modifier key. This is the modifier when using a keyboard
-     * with alphabetic keys. The values should be kept in sync with KeyEvent
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#alphabeticModifiers}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -16551,36 +15624,33 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:alphabeticModifiers
+     * @attr name app.byted.camp.todolist:alphabeticModifiers
      */
     public static final int MenuItem_alphabeticModifiers=16;
     /**
-     * <p>
-     * @attr description
-     * The content description associated with the item.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#contentDescription}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.byted.camp.todolist:contentDescription
+     * @attr name app.byted.camp.todolist:contentDescription
      */
     public static final int MenuItem_contentDescription=17;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the icon.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#iconTint}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:iconTint
+     * @attr name app.byted.camp.todolist:iconTint
      */
     public static final int MenuItem_iconTint=18;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the icon tint.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#iconTintMode}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -16588,27 +15658,20 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and icon color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the icon with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the icon, but with the icon’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the icon. The icon’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the icon.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:iconTintMode
+     * @attr name app.byted.camp.todolist:iconTintMode
      */
     public static final int MenuItem_iconTintMode=19;
     /**
-     * <p>
-     * @attr description
-     * The numeric modifier key. This is the modifier when using a numeric (e.g., 12-key)
-     * keyboard. The values should be kept in sync with KeyEvent
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#numericModifiers}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -16624,13 +15687,12 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:numericModifiers
+     * @attr name app.byted.camp.todolist:numericModifiers
      */
     public static final int MenuItem_numericModifiers=20;
     /**
-     * <p>
-     * @attr description
-     * How this item should display in the Action Bar, if present.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#showAsAction}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -16638,34 +15700,24 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>always</td><td>2</td><td>Always show this item in an actionbar, even if it would override
-     * the system's limits of how much stuff to put there. This may make
-     * your action bar look bad on some screens. In most cases you should
-     * use "ifRoom" instead. Mutually exclusive with "ifRoom" and "never".</td></tr>
-     * <tr><td>collapseActionView</td><td>8</td><td>This item's action view collapses to a normal menu
-     * item. When expanded, the action view takes over a
-     * larger segment of its container.</td></tr>
-     * <tr><td>ifRoom</td><td>1</td><td>Show this item in an action bar if there is room for it as determined
-     * by the system. Favor this option over "always" where possible.
-     * Mutually exclusive with "never" and "always".</td></tr>
-     * <tr><td>never</td><td>0</td><td>Never show this item in an action bar, show it in the overflow menu instead.
-     * Mutually exclusive with "ifRoom" and "always".</td></tr>
-     * <tr><td>withText</td><td>4</td><td>When this item is shown as an action in the action bar, show a text
-     * label with it even if it has an icon representation.</td></tr>
+     * <tr><td>always</td><td>2</td><td></td></tr>
+     * <tr><td>collapseActionView</td><td>8</td><td></td></tr>
+     * <tr><td>ifRoom</td><td>1</td><td></td></tr>
+     * <tr><td>never</td><td>0</td><td></td></tr>
+     * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:showAsAction
+     * @attr name app.byted.camp.todolist:showAsAction
      */
     public static final int MenuItem_showAsAction=21;
     /**
-     * <p>
-     * @attr description
-     * The tooltip text associated with the item.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tooltipText}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.byted.camp.todolist:tooltipText
+     * @attr name app.byted.camp.todolist:tooltipText
      */
     public static final int MenuItem_tooltipText=22;
     /**
@@ -16682,8 +15734,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.byted.camp.todolist:preserveIconSpacing}</code></td><td>Whether space should be reserved in layout when an icon is missing.</td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow com.byted.camp.todolist:subMenuArrow}</code></td><td>Drawable for the arrow icon indicating a particular item is a submenu.</td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing app.byted.camp.todolist:preserveIconSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow app.byted.camp.todolist:subMenuArrow}</code></td><td></td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -16701,9 +15753,8 @@ public final class R {
       0x7f0301aa
     };
     /**
-     * <p>
-     * @attr description
-     * Default animations for the menu.
+     * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16714,9 +15765,8 @@ public final class R {
      */
     public static final int MenuView_android_windowAnimationStyle=0;
     /**
-     * <p>
-     * @attr description
-     * Default appearance of menu item text.
+     * <p>This symbol is the offset where the {@link android.R.attr#itemTextAppearance}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16727,9 +15777,8 @@ public final class R {
      */
     public static final int MenuView_android_itemTextAppearance=1;
     /**
-     * <p>
-     * @attr description
-     * Default horizontal divider between rows of menu items.
+     * <p>This symbol is the offset where the {@link android.R.attr#horizontalDivider}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16740,9 +15789,8 @@ public final class R {
      */
     public static final int MenuView_android_horizontalDivider=2;
     /**
-     * <p>
-     * @attr description
-     * Default vertical divider between menu items.
+     * <p>This symbol is the offset where the {@link android.R.attr#verticalDivider}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16753,9 +15801,8 @@ public final class R {
      */
     public static final int MenuView_android_verticalDivider=3;
     /**
-     * <p>
-     * @attr description
-     * Default background for the menu header.
+     * <p>This symbol is the offset where the {@link android.R.attr#headerBackground}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16769,9 +15816,8 @@ public final class R {
      */
     public static final int MenuView_android_headerBackground=4;
     /**
-     * <p>
-     * @attr description
-     * Default background for each menu item.
+     * <p>This symbol is the offset where the {@link android.R.attr#itemBackground}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16785,9 +15831,8 @@ public final class R {
      */
     public static final int MenuView_android_itemBackground=5;
     /**
-     * <p>
-     * @attr description
-     * Default disabled icon alpha for each menu item that shows an icon.
+     * <p>This symbol is the offset where the {@link android.R.attr#itemIconDisabledAlpha}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
@@ -16795,27 +15840,25 @@ public final class R {
      */
     public static final int MenuView_android_itemIconDisabledAlpha=6;
     /**
-     * <p>
-     * @attr description
-     * Whether space should be reserved in layout when an icon is missing.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#preserveIconSpacing}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:preserveIconSpacing
+     * @attr name app.byted.camp.todolist:preserveIconSpacing
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
-     * <p>
-     * @attr description
-     * Drawable for the arrow icon indicating a particular item is a submenu.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#subMenuArrow}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:subMenuArrow
+     * @attr name app.byted.camp.todolist:subMenuArrow
      */
     public static final int MenuView_subMenuArrow=8;
     /**
@@ -16828,15 +15871,15 @@ public final class R {
      * <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_elevation com.byted.camp.todolist:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
-     * <tr><td><code>{@link #NavigationView_headerLayout com.byted.camp.todolist:headerLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemBackground com.byted.camp.todolist:itemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemHorizontalPadding com.byted.camp.todolist:itemHorizontalPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemIconPadding com.byted.camp.todolist:itemIconPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemIconTint com.byted.camp.todolist:itemIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemTextAppearance com.byted.camp.todolist:itemTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemTextColor com.byted.camp.todolist:itemTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_menu com.byted.camp.todolist:menu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_elevation app.byted.camp.todolist:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_headerLayout app.byted.camp.todolist:headerLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemBackground app.byted.camp.todolist:itemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemHorizontalPadding app.byted.camp.todolist:itemHorizontalPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemIconPadding app.byted.camp.todolist:itemIconPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemIconTint app.byted.camp.todolist:itemIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemTextAppearance app.byted.camp.todolist:itemTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemTextColor app.byted.camp.todolist:itemTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_menu app.byted.camp.todolist:menu}</code></td><td></td></tr>
      * </table>
      * @see #NavigationView_android_background
      * @see #NavigationView_android_fitsSystemWindows
@@ -16895,9 +15938,8 @@ public final class R {
      */
     public static final int NavigationView_android_maxWidth=2;
     /**
-     * <p>
-     * @attr description
-     * Elevation for the action bar itself
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#elevation}
+     * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -16905,11 +15947,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:elevation
+     * @attr name app.byted.camp.todolist:elevation
      */
     public static final int NavigationView_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#headerLayout}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#headerLayout}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16917,11 +15959,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:headerLayout
+     * @attr name app.byted.camp.todolist:headerLayout
      */
     public static final int NavigationView_headerLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#itemBackground}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#itemBackground}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16929,11 +15971,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:itemBackground
+     * @attr name app.byted.camp.todolist:itemBackground
      */
     public static final int NavigationView_itemBackground=5;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#itemHorizontalPadding}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#itemHorizontalPadding}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16942,11 +15984,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:itemHorizontalPadding
+     * @attr name app.byted.camp.todolist:itemHorizontalPadding
      */
     public static final int NavigationView_itemHorizontalPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#itemIconPadding}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#itemIconPadding}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16955,22 +15997,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:itemIconPadding
+     * @attr name app.byted.camp.todolist:itemIconPadding
      */
     public static final int NavigationView_itemIconPadding=7;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#itemIconTint}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#itemIconTint}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:itemIconTint
+     * @attr name app.byted.camp.todolist:itemIconTint
      */
     public static final int NavigationView_itemIconTint=8;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#itemTextAppearance}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#itemTextAppearance}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16978,22 +16020,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:itemTextAppearance
+     * @attr name app.byted.camp.todolist:itemTextAppearance
      */
     public static final int NavigationView_itemTextAppearance=9;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#itemTextColor}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#itemTextColor}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:itemTextColor
+     * @attr name app.byted.camp.todolist:itemTextColor
      */
     public static final int NavigationView_itemTextColor=10;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#menu}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#menu}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17001,7 +16043,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:menu
+     * @attr name app.byted.camp.todolist:menu
      */
     public static final int NavigationView_menu=11;
     /**
@@ -17013,7 +16055,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.byted.camp.todolist:overlapAnchor}</code></td><td>Whether the popup window should overlap its anchor view.</td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor app.byted.camp.todolist:overlapAnchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
@@ -17050,14 +16092,13 @@ public final class R {
      */
     public static final int PopupWindow_android_popupAnimationStyle=1;
     /**
-     * <p>
-     * @attr description
-     * Whether the popup window should overlap its anchor view.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#overlapAnchor}
+     * attribute's value can be found in the {@link #PopupWindow} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:overlapAnchor
+     * @attr name app.byted.camp.todolist:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
     /**
@@ -17067,7 +16108,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.byted.camp.todolist:state_above_anchor}</code></td><td>State identifier indicating the popup will be above the anchor.</td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor app.byted.camp.todolist:state_above_anchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
@@ -17075,14 +16116,13 @@ public final class R {
       0x7f0301a1
     };
     /**
-     * <p>
-     * @attr description
-     * State identifier indicating the popup will be above the anchor.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#state_above_anchor}
+     * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:state_above_anchor
+     * @attr name app.byted.camp.todolist:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
     /**
@@ -17092,8 +16132,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.byted.camp.todolist:paddingBottomNoButtons}</code></td><td>Bottom padding to use when no buttons are present.</td></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.byted.camp.todolist:paddingTopNoTitle}</code></td><td>Top padding to use when no title is present.</td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons app.byted.camp.todolist:paddingBottomNoButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle app.byted.camp.todolist:paddingTopNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #RecycleListView_paddingBottomNoButtons
      * @see #RecycleListView_paddingTopNoTitle
@@ -17102,9 +16142,8 @@ public final class R {
       0x7f03016c, 0x7f03016f
     };
     /**
-     * <p>
-     * @attr description
-     * Bottom padding to use when no buttons are present.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#paddingBottomNoButtons}
+     * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -17112,13 +16151,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:paddingBottomNoButtons
+     * @attr name app.byted.camp.todolist:paddingBottomNoButtons
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
-     * <p>
-     * @attr description
-     * Top padding to use when no title is present.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#paddingTopNoTitle}
+     * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -17126,7 +16164,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:paddingTopNoTitle
+     * @attr name app.byted.camp.todolist:paddingTopNoTitle
      */
     public static final int RecycleListView_paddingTopNoTitle=1;
     /**
@@ -17138,15 +16176,15 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
      * <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollEnabled com.byted.camp.todolist:fastScrollEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable com.byted.camp.todolist:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable com.byted.camp.todolist:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable com.byted.camp.todolist:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable com.byted.camp.todolist:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_layoutManager com.byted.camp.todolist:layoutManager}</code></td><td>Class name of the Layout Manager to be used.</td></tr>
-     * <tr><td><code>{@link #RecyclerView_reverseLayout com.byted.camp.todolist:reverseLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_spanCount com.byted.camp.todolist:spanCount}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_stackFromEnd com.byted.camp.todolist:stackFromEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollEnabled app.byted.camp.todolist:fastScrollEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable app.byted.camp.todolist:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable app.byted.camp.todolist:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable app.byted.camp.todolist:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable app.byted.camp.todolist:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_layoutManager app.byted.camp.todolist:layoutManager}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_reverseLayout app.byted.camp.todolist:reverseLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_spanCount app.byted.camp.todolist:spanCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_stackFromEnd app.byted.camp.todolist:stackFromEnd}</code></td><td></td></tr>
      * </table>
      * @see #RecyclerView_android_orientation
      * @see #RecyclerView_android_descendantFocusability
@@ -17201,17 +16239,17 @@ public final class R {
      */
     public static final int RecyclerView_android_descendantFocusability=1;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#fastScrollEnabled}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#fastScrollEnabled}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:fastScrollEnabled
+     * @attr name app.byted.camp.todolist:fastScrollEnabled
      */
     public static final int RecyclerView_fastScrollEnabled=2;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#fastScrollHorizontalThumbDrawable}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#fastScrollHorizontalThumbDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17219,11 +16257,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:fastScrollHorizontalThumbDrawable
+     * @attr name app.byted.camp.todolist:fastScrollHorizontalThumbDrawable
      */
     public static final int RecyclerView_fastScrollHorizontalThumbDrawable=3;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#fastScrollHorizontalTrackDrawable}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#fastScrollHorizontalTrackDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17231,11 +16269,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:fastScrollHorizontalTrackDrawable
+     * @attr name app.byted.camp.todolist:fastScrollHorizontalTrackDrawable
      */
     public static final int RecyclerView_fastScrollHorizontalTrackDrawable=4;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#fastScrollVerticalThumbDrawable}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#fastScrollVerticalThumbDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17243,11 +16281,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:fastScrollVerticalThumbDrawable
+     * @attr name app.byted.camp.todolist:fastScrollVerticalThumbDrawable
      */
     public static final int RecyclerView_fastScrollVerticalThumbDrawable=5;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#fastScrollVerticalTrackDrawable}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#fastScrollVerticalTrackDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17255,55 +16293,46 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:fastScrollVerticalTrackDrawable
+     * @attr name app.byted.camp.todolist:fastScrollVerticalTrackDrawable
      */
     public static final int RecyclerView_fastScrollVerticalTrackDrawable=6;
     /**
-     * <p>
-     * @attr description
-     * Class name of the Layout Manager to be used.
-     * <p/>
-     * The class must extandroidx.recyclerview.widget.RecyclerViewView$LayoutManager
-     * and have either a default constructor or constructor with the signature
-     * (android.content.Context, android.util.AttributeSet, int, int).
-     * <p/>
-     * If the name starts with a '.', application package is prefixed.
-     * Else, if the name contains a '.', the classname is assumed to be a full class name.
-     * Else, the recycler view package naandroidx.appcompat.widgetdget) is prefixed.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layoutManager}
+     * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.byted.camp.todolist:layoutManager
+     * @attr name app.byted.camp.todolist:layoutManager
      */
     public static final int RecyclerView_layoutManager=7;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#reverseLayout}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#reverseLayout}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:reverseLayout
+     * @attr name app.byted.camp.todolist:reverseLayout
      */
     public static final int RecyclerView_reverseLayout=8;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#spanCount}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#spanCount}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.byted.camp.todolist:spanCount
+     * @attr name app.byted.camp.todolist:spanCount
      */
     public static final int RecyclerView_spanCount=9;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#stackFromEnd}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#stackFromEnd}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:stackFromEnd
+     * @attr name app.byted.camp.todolist:stackFromEnd
      */
     public static final int RecyclerView_stackFromEnd=10;
     /**
@@ -17313,7 +16342,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.byted.camp.todolist:insetForeground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground app.byted.camp.todolist:insetForeground}</code></td><td></td></tr>
      * </table>
      * @see #ScrimInsetsFrameLayout_insetForeground
      */
@@ -17321,7 +16350,7 @@ public final class R {
       0x7f0300ff
     };
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#insetForeground}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#insetForeground}
      * attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17332,7 +16361,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:insetForeground
+     * @attr name app.byted.camp.todolist:insetForeground
      */
     public static final int ScrimInsetsFrameLayout_insetForeground=0;
     /**
@@ -17342,7 +16371,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop com.byted.camp.todolist:behavior_overlapTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop app.byted.camp.todolist:behavior_overlapTop}</code></td><td></td></tr>
      * </table>
      * @see #ScrollingViewBehavior_Layout_behavior_overlapTop
      */
@@ -17350,7 +16379,7 @@ public final class R {
       0x7f03003c
     };
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#behavior_overlapTop}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#behavior_overlapTop}
      * attribute's value can be found in the {@link #ScrollingViewBehavior_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17359,7 +16388,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:behavior_overlapTop
+     * @attr name app.byted.camp.todolist:behavior_overlapTop
      */
     public static final int ScrollingViewBehavior_Layout_behavior_overlapTop=0;
     /**
@@ -17373,20 +16402,19 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon com.byted.camp.todolist:closeIcon}</code></td><td>Close button icon</td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon com.byted.camp.todolist:commitIcon}</code></td><td>Commit icon shown in the query suggestion row</td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint com.byted.camp.todolist:defaultQueryHint}</code></td><td>Default query hint used when {@code queryHint} is undefined and
-     * the search view's {@code SearchableInfo} does not provide a hint.</td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon com.byted.camp.todolist:goIcon}</code></td><td>Go button icon</td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.byted.camp.todolist:iconifiedByDefault}</code></td><td>The default state of the SearchView.</td></tr>
-     * <tr><td><code>{@link #SearchView_layout com.byted.camp.todolist:layout}</code></td><td>The layout to use for the search view.</td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground com.byted.camp.todolist:queryBackground}</code></td><td>Background for the section containing the search query</td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint com.byted.camp.todolist:queryHint}</code></td><td>An optional user-defined query hint string to be displayed in the empty query field.</td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon com.byted.camp.todolist:searchHintIcon}</code></td><td>Search icon displayed as a text field hint</td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon com.byted.camp.todolist:searchIcon}</code></td><td>Search icon</td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground com.byted.camp.todolist:submitBackground}</code></td><td>Background for the section containing the action (e.g.</td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.byted.camp.todolist:suggestionRowLayout}</code></td><td>Layout for query suggestion rows</td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon com.byted.camp.todolist:voiceIcon}</code></td><td>Voice button icon</td></tr>
+     * <tr><td><code>{@link #SearchView_closeIcon app.byted.camp.todolist:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon app.byted.camp.todolist:commitIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint app.byted.camp.todolist:defaultQueryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon app.byted.camp.todolist:goIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault app.byted.camp.todolist:iconifiedByDefault}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_layout app.byted.camp.todolist:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground app.byted.camp.todolist:queryBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint app.byted.camp.todolist:queryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon app.byted.camp.todolist:searchHintIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon app.byted.camp.todolist:searchIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground app.byted.camp.todolist:submitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout app.byted.camp.todolist:suggestionRowLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon app.byted.camp.todolist:voiceIcon}</code></td><td></td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -17432,9 +16460,8 @@ public final class R {
      */
     public static final int SearchView_android_focusable=0;
     /**
-     * <p>
-     * @attr description
-     * An optional maximum width of the SearchView.
+     * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -17446,9 +16473,8 @@ public final class R {
      */
     public static final int SearchView_android_maxWidth=1;
     /**
-     * <p>
-     * @attr description
-     * The input type to set on the query text field.
+     * <p>This symbol is the offset where the {@link android.R.attr#inputType}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -17494,9 +16520,8 @@ public final class R {
      */
     public static final int SearchView_android_inputType=2;
     /**
-     * <p>
-     * @attr description
-     * The IME options to set on the query text field.
+     * <p>This symbol is the offset where the {@link android.R.attr#imeOptions}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -17527,168 +16552,153 @@ public final class R {
      */
     public static final int SearchView_android_imeOptions=3;
     /**
-     * <p>
-     * @attr description
-     * Close button icon
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#closeIcon}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:closeIcon
+     * @attr name app.byted.camp.todolist:closeIcon
      */
     public static final int SearchView_closeIcon=4;
     /**
-     * <p>
-     * @attr description
-     * Commit icon shown in the query suggestion row
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#commitIcon}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:commitIcon
+     * @attr name app.byted.camp.todolist:commitIcon
      */
     public static final int SearchView_commitIcon=5;
     /**
-     * <p>
-     * @attr description
-     * Default query hint used when {@code queryHint} is undefined and
-     * the search view's {@code SearchableInfo} does not provide a hint.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#defaultQueryHint}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.byted.camp.todolist:defaultQueryHint
+     * @attr name app.byted.camp.todolist:defaultQueryHint
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
-     * <p>
-     * @attr description
-     * Go button icon
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#goIcon}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:goIcon
+     * @attr name app.byted.camp.todolist:goIcon
      */
     public static final int SearchView_goIcon=7;
     /**
-     * <p>
-     * @attr description
-     * The default state of the SearchView. If true, it will be iconified when not in
-     * use and expanded when clicked.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#iconifiedByDefault}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:iconifiedByDefault
+     * @attr name app.byted.camp.todolist:iconifiedByDefault
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
-     * <p>
-     * @attr description
-     * The layout to use for the search view.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#layout}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:layout
+     * @attr name app.byted.camp.todolist:layout
      */
     public static final int SearchView_layout=9;
     /**
-     * <p>
-     * @attr description
-     * Background for the section containing the search query
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#queryBackground}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:queryBackground
+     * @attr name app.byted.camp.todolist:queryBackground
      */
     public static final int SearchView_queryBackground=10;
     /**
-     * <p>
-     * @attr description
-     * An optional user-defined query hint string to be displayed in the empty query field.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#queryHint}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.byted.camp.todolist:queryHint
+     * @attr name app.byted.camp.todolist:queryHint
      */
     public static final int SearchView_queryHint=11;
     /**
-     * <p>
-     * @attr description
-     * Search icon displayed as a text field hint
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#searchHintIcon}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:searchHintIcon
+     * @attr name app.byted.camp.todolist:searchHintIcon
      */
     public static final int SearchView_searchHintIcon=12;
     /**
-     * <p>
-     * @attr description
-     * Search icon
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#searchIcon}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:searchIcon
+     * @attr name app.byted.camp.todolist:searchIcon
      */
     public static final int SearchView_searchIcon=13;
     /**
-     * <p>
-     * @attr description
-     * Background for the section containing the action (e.g. voice search)
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#submitBackground}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:submitBackground
+     * @attr name app.byted.camp.todolist:submitBackground
      */
     public static final int SearchView_submitBackground=14;
     /**
-     * <p>
-     * @attr description
-     * Layout for query suggestion rows
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#suggestionRowLayout}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:suggestionRowLayout
+     * @attr name app.byted.camp.todolist:suggestionRowLayout
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
-     * <p>
-     * @attr description
-     * Voice button icon
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#voiceIcon}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:voiceIcon
+     * @attr name app.byted.camp.todolist:voiceIcon
      */
     public static final int SearchView_voiceIcon=16;
     /**
@@ -17698,8 +16708,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #Snackbar_snackbarButtonStyle com.byted.camp.todolist:snackbarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Snackbar_snackbarStyle com.byted.camp.todolist:snackbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Snackbar_snackbarButtonStyle app.byted.camp.todolist:snackbarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Snackbar_snackbarStyle app.byted.camp.todolist:snackbarStyle}</code></td><td></td></tr>
      * </table>
      * @see #Snackbar_snackbarButtonStyle
      * @see #Snackbar_snackbarStyle
@@ -17708,7 +16718,7 @@ public final class R {
       0x7f030198, 0x7f030199
     };
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#snackbarButtonStyle}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#snackbarButtonStyle}
      * attribute's value can be found in the {@link #Snackbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17716,11 +16726,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:snackbarButtonStyle
+     * @attr name app.byted.camp.todolist:snackbarButtonStyle
      */
     public static final int Snackbar_snackbarButtonStyle=0;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#snackbarStyle}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#snackbarStyle}
      * attribute's value can be found in the {@link #Snackbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17728,7 +16738,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:snackbarStyle
+     * @attr name app.byted.camp.todolist:snackbarStyle
      */
     public static final int Snackbar_snackbarStyle=1;
     /**
@@ -17739,8 +16749,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SnackbarLayout_elevation com.byted.camp.todolist:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
-     * <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.byted.camp.todolist:maxActionInlineWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SnackbarLayout_elevation app.byted.camp.todolist:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth app.byted.camp.todolist:maxActionInlineWidth}</code></td><td></td></tr>
      * </table>
      * @see #SnackbarLayout_android_maxWidth
      * @see #SnackbarLayout_elevation
@@ -17763,21 +16773,7 @@ public final class R {
      */
     public static final int SnackbarLayout_android_maxWidth=0;
     /**
-     * <p>
-     * @attr description
-     * Elevation for the action bar itself
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.byted.camp.todolist:elevation
-     */
-    public static final int SnackbarLayout_elevation=1;
-    /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#maxActionInlineWidth}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#elevation}
      * attribute's value can be found in the {@link #SnackbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17786,7 +16782,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:maxActionInlineWidth
+     * @attr name app.byted.camp.todolist:elevation
+     */
+    public static final int SnackbarLayout_elevation=1;
+    /**
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#maxActionInlineWidth}
+     * attribute's value can be found in the {@link #SnackbarLayout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name app.byted.camp.todolist:maxActionInlineWidth
      */
     public static final int SnackbarLayout_maxActionInlineWidth=2;
     /**
@@ -17800,8 +16809,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme com.byted.camp.todolist:popupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
-     * shown by widgets in the action bar.</td></tr>
+     * <tr><td><code>{@link #Spinner_popupTheme app.byted.camp.todolist:popupTheme}</code></td><td></td></tr>
      * </table>
      * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
@@ -17814,9 +16822,8 @@ public final class R {
       0x7f030179
     };
     /**
-     * <p>
-     * @attr description
-     * Reference to an array resource that will populate the Spinner.
+     * <p>This symbol is the offset where the {@link android.R.attr#entries}
+     * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -17827,9 +16834,8 @@ public final class R {
      */
     public static final int Spinner_android_entries=0;
     /**
-     * <p>
-     * @attr description
-     * Background drawable to use for the dropdown in spinnerMode="dropdown".
+     * <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
+     * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -17843,9 +16849,8 @@ public final class R {
      */
     public static final int Spinner_android_popupBackground=1;
     /**
-     * <p>
-     * @attr description
-     * The prompt to display when the spinner's dialog is shown.
+     * <p>This symbol is the offset where the {@link android.R.attr#prompt}
+     * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -17856,9 +16861,8 @@ public final class R {
      */
     public static final int Spinner_android_prompt=2;
     /**
-     * <p>
-     * @attr description
-     * Width of the dropdown in spinnerMode="dropdown".
+     * <p>This symbol is the offset where the {@link android.R.attr#dropDownWidth}
+     * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -17880,16 +16884,15 @@ public final class R {
      */
     public static final int Spinner_android_dropDownWidth=3;
     /**
-     * <p>
-     * @attr description
-     * Theme to use for the drop-down or dialog popup window.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#popupTheme}
+     * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:popupTheme
+     * @attr name app.byted.camp.todolist:popupTheme
      */
     public static final int Spinner_popupTheme=4;
     /**
@@ -17918,11 +16921,8 @@ public final class R {
       0x0101030c, 0x0101030d
     };
     /**
-     * <p>
-     * @attr description
-     * Enables or disables dithering of the bitmap if the bitmap does not have the
-     * same pixel configuration as the screen (for instance: a ARGB 8888 bitmap with
-     * an RGB 565 screen).
+     * <p>This symbol is the offset where the {@link android.R.attr#dither}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -17931,9 +16931,8 @@ public final class R {
      */
     public static final int StateListDrawable_android_dither=0;
     /**
-     * <p>
-     * @attr description
-     * Indicates whether the drawable should be initially visible.
+     * <p>This symbol is the offset where the {@link android.R.attr#visible}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -17942,14 +16941,8 @@ public final class R {
      */
     public static final int StateListDrawable_android_visible=1;
     /**
-     * <p>
-     * @attr description
-     * If true, allows the drawable's padding to change based on the
-     * current state that is selected.  If false, the padding will
-     * stay the same (based on the maximum padding of all the states).
-     * Enabling this feature requires that the owner of the drawable
-     * deal with performing layout when the state changes, which is
-     * often not supported.
+     * <p>This symbol is the offset where the {@link android.R.attr#variablePadding}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -17958,12 +16951,8 @@ public final class R {
      */
     public static final int StateListDrawable_android_variablePadding=2;
     /**
-     * <p>
-     * @attr description
-     * If true, the drawable's reported internal size will remain
-     * constant as the state changes; the size is the maximum of all
-     * of the states.  If false, the size will vary based on the
-     * current state.
+     * <p>This symbol is the offset where the {@link android.R.attr#constantSize}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -17972,9 +16961,8 @@ public final class R {
      */
     public static final int StateListDrawable_android_constantSize=3;
     /**
-     * <p>
-     * @attr description
-     * Amount of time (in milliseconds) to fade in a new state drawable.
+     * <p>This symbol is the offset where the {@link android.R.attr#enterFadeDuration}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -17982,9 +16970,8 @@ public final class R {
      */
     public static final int StateListDrawable_android_enterFadeDuration=4;
     /**
-     * <p>
-     * @attr description
-     * Amount of time (in milliseconds) to fade out an old state drawable.
+     * <p>This symbol is the offset where the {@link android.R.attr#exitFadeDuration}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -18006,10 +16993,8 @@ public final class R {
       0x01010199
     };
     /**
-     * <p>
-     * @attr description
-     * Reference to a drawable resource to use for the state. If not
-     * given, the drawable must be defined by the first child tag.
+     * <p>This symbol is the offset where the {@link android.R.attr#drawable}
+     * attribute's value can be found in the {@link #StateListDrawableItem} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -18029,17 +17014,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText com.byted.camp.todolist:showText}</code></td><td>Whether to draw on/off text.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack com.byted.camp.todolist:splitTrack}</code></td><td>Whether to split the track and leave a gap for the thumb drawable.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.byted.camp.todolist:switchMinWidth}</code></td><td>Minimum width for the switch component</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding com.byted.camp.todolist:switchPadding}</code></td><td>Minimum space between the switch and caption text</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.byted.camp.todolist:switchTextAppearance}</code></td><td>TextAppearance style for text displayed on the switch thumb.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.byted.camp.todolist:thumbTextPadding}</code></td><td>Amount of padding on either side of text within the switch thumb.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint com.byted.camp.todolist:thumbTint}</code></td><td>Tint to apply to the thumb drawable.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.byted.camp.todolist:thumbTintMode}</code></td><td>Blending mode used to apply the thumb tint.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track com.byted.camp.todolist:track}</code></td><td>Drawable to use as the "track" that the switch thumb slides within.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint com.byted.camp.todolist:trackTint}</code></td><td>Tint to apply to the track.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.byted.camp.todolist:trackTintMode}</code></td><td>Blending mode used to apply the track tint.</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText app.byted.camp.todolist:showText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack app.byted.camp.todolist:splitTrack}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth app.byted.camp.todolist:switchMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding app.byted.camp.todolist:switchPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance app.byted.camp.todolist:switchTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding app.byted.camp.todolist:thumbTextPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint app.byted.camp.todolist:thumbTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode app.byted.camp.todolist:thumbTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track app.byted.camp.todolist:track}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint app.byted.camp.todolist:trackTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode app.byted.camp.todolist:trackTintMode}</code></td><td></td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -18063,9 +17048,8 @@ public final class R {
       0x7f030206, 0x7f030207
     };
     /**
-     * <p>
-     * @attr description
-     * Text to use when the switch is in the checked/"on" state.
+     * <p>This symbol is the offset where the {@link android.R.attr#textOn}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -18074,9 +17058,8 @@ public final class R {
      */
     public static final int SwitchCompat_android_textOn=0;
     /**
-     * <p>
-     * @attr description
-     * Text to use when the switch is in the unchecked/"off" state.
+     * <p>This symbol is the offset where the {@link android.R.attr#textOff}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -18085,9 +17068,8 @@ public final class R {
      */
     public static final int SwitchCompat_android_textOff=1;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use as the "thumb" that switches back and forth.
+     * <p>This symbol is the offset where the {@link android.R.attr#thumb}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -18098,31 +17080,28 @@ public final class R {
      */
     public static final int SwitchCompat_android_thumb=2;
     /**
-     * <p>
-     * @attr description
-     * Whether to draw on/off text.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#showText}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:showText
+     * @attr name app.byted.camp.todolist:showText
      */
     public static final int SwitchCompat_showText=3;
     /**
-     * <p>
-     * @attr description
-     * Whether to split the track and leave a gap for the thumb drawable.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#splitTrack}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:splitTrack
+     * @attr name app.byted.camp.todolist:splitTrack
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
-     * <p>
-     * @attr description
-     * Minimum width for the switch component
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#switchMinWidth}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -18130,13 +17109,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:switchMinWidth
+     * @attr name app.byted.camp.todolist:switchMinWidth
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
-     * <p>
-     * @attr description
-     * Minimum space between the switch and caption text
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#switchPadding}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -18144,26 +17122,24 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:switchPadding
+     * @attr name app.byted.camp.todolist:switchPadding
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
-     * <p>
-     * @attr description
-     * TextAppearance style for text displayed on the switch thumb.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#switchTextAppearance}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:switchTextAppearance
+     * @attr name app.byted.camp.todolist:switchTextAppearance
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
-     * <p>
-     * @attr description
-     * Amount of padding on either side of text within the switch thumb.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#thumbTextPadding}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -18171,25 +17147,23 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:thumbTextPadding
+     * @attr name app.byted.camp.todolist:thumbTextPadding
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the thumb drawable.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#thumbTint}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:thumbTint
+     * @attr name app.byted.camp.todolist:thumbTint
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the thumb tint.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#thumbTintMode}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -18197,51 +17171,43 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and drawable color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:thumbTintMode
+     * @attr name app.byted.camp.todolist:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use as the "track" that the switch thumb slides within.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#track}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:track
+     * @attr name app.byted.camp.todolist:track
      */
     public static final int SwitchCompat_track=11;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the track.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#trackTint}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:trackTint
+     * @attr name app.byted.camp.todolist:trackTint
      */
     public static final int SwitchCompat_trackTint=12;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the track tint.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#trackTintMode}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -18249,20 +17215,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and drawable color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:trackTintMode
+     * @attr name app.byted.camp.todolist:trackTintMode
      */
     public static final int SwitchCompat_trackTintMode=13;
     /**
@@ -18324,31 +17285,31 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #TabLayout_tabBackground com.byted.camp.todolist:tabBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabContentStart com.byted.camp.todolist:tabContentStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabGravity com.byted.camp.todolist:tabGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIconTint com.byted.camp.todolist:tabIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIconTintMode com.byted.camp.todolist:tabIconTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicator com.byted.camp.todolist:tabIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorAnimationDuration com.byted.camp.todolist:tabIndicatorAnimationDuration}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorColor com.byted.camp.todolist:tabIndicatorColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorFullWidth com.byted.camp.todolist:tabIndicatorFullWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorGravity com.byted.camp.todolist:tabIndicatorGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.byted.camp.todolist:tabIndicatorHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabInlineLabel com.byted.camp.todolist:tabInlineLabel}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMaxWidth com.byted.camp.todolist:tabMaxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMinWidth com.byted.camp.todolist:tabMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMode com.byted.camp.todolist:tabMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPadding com.byted.camp.todolist:tabPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingBottom com.byted.camp.todolist:tabPaddingBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingEnd com.byted.camp.todolist:tabPaddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingStart com.byted.camp.todolist:tabPaddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingTop com.byted.camp.todolist:tabPaddingTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabRippleColor com.byted.camp.todolist:tabRippleColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.byted.camp.todolist:tabSelectedTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabTextAppearance com.byted.camp.todolist:tabTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabTextColor com.byted.camp.todolist:tabTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabUnboundedRipple com.byted.camp.todolist:tabUnboundedRipple}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabBackground app.byted.camp.todolist:tabBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabContentStart app.byted.camp.todolist:tabContentStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabGravity app.byted.camp.todolist:tabGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIconTint app.byted.camp.todolist:tabIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIconTintMode app.byted.camp.todolist:tabIconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicator app.byted.camp.todolist:tabIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorAnimationDuration app.byted.camp.todolist:tabIndicatorAnimationDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorColor app.byted.camp.todolist:tabIndicatorColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorFullWidth app.byted.camp.todolist:tabIndicatorFullWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorGravity app.byted.camp.todolist:tabIndicatorGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorHeight app.byted.camp.todolist:tabIndicatorHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabInlineLabel app.byted.camp.todolist:tabInlineLabel}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMaxWidth app.byted.camp.todolist:tabMaxWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMinWidth app.byted.camp.todolist:tabMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMode app.byted.camp.todolist:tabMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPadding app.byted.camp.todolist:tabPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingBottom app.byted.camp.todolist:tabPaddingBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingEnd app.byted.camp.todolist:tabPaddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingStart app.byted.camp.todolist:tabPaddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingTop app.byted.camp.todolist:tabPaddingTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabRippleColor app.byted.camp.todolist:tabRippleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabSelectedTextColor app.byted.camp.todolist:tabSelectedTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabTextAppearance app.byted.camp.todolist:tabTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabTextColor app.byted.camp.todolist:tabTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabUnboundedRipple app.byted.camp.todolist:tabUnboundedRipple}</code></td><td></td></tr>
      * </table>
      * @see #TabLayout_tabBackground
      * @see #TabLayout_tabContentStart
@@ -18386,7 +17347,7 @@ public final class R {
       0x7f0301ce
     };
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#tabBackground}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tabBackground}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18394,11 +17355,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:tabBackground
+     * @attr name app.byted.camp.todolist:tabBackground
      */
     public static final int TabLayout_tabBackground=0;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#tabContentStart}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tabContentStart}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18407,11 +17368,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:tabContentStart
+     * @attr name app.byted.camp.todolist:tabContentStart
      */
     public static final int TabLayout_tabContentStart=1;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#tabGravity}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tabGravity}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18424,22 +17385,22 @@ public final class R {
      * <tr><td>fill</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:tabGravity
+     * @attr name app.byted.camp.todolist:tabGravity
      */
     public static final int TabLayout_tabGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#tabIconTint}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tabIconTint}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:tabIconTint
+     * @attr name app.byted.camp.todolist:tabIconTint
      */
     public static final int TabLayout_tabIconTint=3;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#tabIconTintMode}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tabIconTintMode}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18456,11 +17417,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:tabIconTintMode
+     * @attr name app.byted.camp.todolist:tabIconTintMode
      */
     public static final int TabLayout_tabIconTintMode=4;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#tabIndicator}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tabIndicator}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18468,41 +17429,41 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:tabIndicator
+     * @attr name app.byted.camp.todolist:tabIndicator
      */
     public static final int TabLayout_tabIndicator=5;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#tabIndicatorAnimationDuration}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tabIndicatorAnimationDuration}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.byted.camp.todolist:tabIndicatorAnimationDuration
+     * @attr name app.byted.camp.todolist:tabIndicatorAnimationDuration
      */
     public static final int TabLayout_tabIndicatorAnimationDuration=6;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#tabIndicatorColor}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tabIndicatorColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:tabIndicatorColor
+     * @attr name app.byted.camp.todolist:tabIndicatorColor
      */
     public static final int TabLayout_tabIndicatorColor=7;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#tabIndicatorFullWidth}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tabIndicatorFullWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:tabIndicatorFullWidth
+     * @attr name app.byted.camp.todolist:tabIndicatorFullWidth
      */
     public static final int TabLayout_tabIndicatorFullWidth=8;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#tabIndicatorGravity}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tabIndicatorGravity}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18517,11 +17478,11 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:tabIndicatorGravity
+     * @attr name app.byted.camp.todolist:tabIndicatorGravity
      */
     public static final int TabLayout_tabIndicatorGravity=9;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#tabIndicatorHeight}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tabIndicatorHeight}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18530,21 +17491,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:tabIndicatorHeight
+     * @attr name app.byted.camp.todolist:tabIndicatorHeight
      */
     public static final int TabLayout_tabIndicatorHeight=10;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#tabInlineLabel}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tabInlineLabel}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:tabInlineLabel
+     * @attr name app.byted.camp.todolist:tabInlineLabel
      */
     public static final int TabLayout_tabInlineLabel=11;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#tabMaxWidth}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tabMaxWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18553,11 +17514,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:tabMaxWidth
+     * @attr name app.byted.camp.todolist:tabMaxWidth
      */
     public static final int TabLayout_tabMaxWidth=12;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#tabMinWidth}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tabMinWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18566,11 +17527,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:tabMinWidth
+     * @attr name app.byted.camp.todolist:tabMinWidth
      */
     public static final int TabLayout_tabMinWidth=13;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#tabMode}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tabMode}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18583,11 +17544,11 @@ public final class R {
      * <tr><td>scrollable</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:tabMode
+     * @attr name app.byted.camp.todolist:tabMode
      */
     public static final int TabLayout_tabMode=14;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#tabPadding}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tabPadding}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18596,11 +17557,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:tabPadding
+     * @attr name app.byted.camp.todolist:tabPadding
      */
     public static final int TabLayout_tabPadding=15;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#tabPaddingBottom}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tabPaddingBottom}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18609,11 +17570,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:tabPaddingBottom
+     * @attr name app.byted.camp.todolist:tabPaddingBottom
      */
     public static final int TabLayout_tabPaddingBottom=16;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#tabPaddingEnd}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tabPaddingEnd}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18622,11 +17583,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:tabPaddingEnd
+     * @attr name app.byted.camp.todolist:tabPaddingEnd
      */
     public static final int TabLayout_tabPaddingEnd=17;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#tabPaddingStart}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tabPaddingStart}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18635,11 +17596,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:tabPaddingStart
+     * @attr name app.byted.camp.todolist:tabPaddingStart
      */
     public static final int TabLayout_tabPaddingStart=18;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#tabPaddingTop}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tabPaddingTop}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18648,33 +17609,33 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:tabPaddingTop
+     * @attr name app.byted.camp.todolist:tabPaddingTop
      */
     public static final int TabLayout_tabPaddingTop=19;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#tabRippleColor}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tabRippleColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:tabRippleColor
+     * @attr name app.byted.camp.todolist:tabRippleColor
      */
     public static final int TabLayout_tabRippleColor=20;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#tabSelectedTextColor}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tabSelectedTextColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:tabSelectedTextColor
+     * @attr name app.byted.camp.todolist:tabSelectedTextColor
      */
     public static final int TabLayout_tabSelectedTextColor=21;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#tabTextAppearance}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tabTextAppearance}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18682,28 +17643,28 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:tabTextAppearance
+     * @attr name app.byted.camp.todolist:tabTextAppearance
      */
     public static final int TabLayout_tabTextAppearance=22;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#tabTextColor}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tabTextColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:tabTextColor
+     * @attr name app.byted.camp.todolist:tabTextColor
      */
     public static final int TabLayout_tabTextColor=23;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#tabUnboundedRipple}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#tabUnboundedRipple}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:tabUnboundedRipple
+     * @attr name app.byted.camp.todolist:tabUnboundedRipple
      */
     public static final int TabLayout_tabUnboundedRipple=24;
     /**
@@ -18724,8 +17685,8 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_fontFamily android:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontFamily com.byted.camp.todolist:fontFamily}</code></td><td>The attribute for the font family.</td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps com.byted.camp.todolist:textAllCaps}</code></td><td>Present the text in ALL CAPS.</td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontFamily app.byted.camp.todolist:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps app.byted.camp.todolist:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -18891,20 +17852,18 @@ public final class R {
      */
     public static final int TextAppearance_android_fontFamily=10;
     /**
-     * <p>
-     * @attr description
-     * The attribute for the font family.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#fontFamily}
+     * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.byted.camp.todolist:fontFamily
+     * @attr name app.byted.camp.todolist:fontFamily
      */
     public static final int TextAppearance_fontFamily=11;
     /**
-     * <p>
-     * @attr description
-     * Present the text in ALL CAPS. This may use a small-caps form when available.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#textAllCaps}
+     * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -18913,7 +17872,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:textAllCaps
+     * @attr name app.byted.camp.todolist:textAllCaps
      */
     public static final int TextAppearance_textAllCaps=12;
     /**
@@ -18925,32 +17884,32 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxBackgroundColor com.byted.camp.todolist:boxBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxBackgroundMode com.byted.camp.todolist:boxBackgroundMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxCollapsedPaddingTop com.byted.camp.todolist:boxCollapsedPaddingTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusBottomEnd com.byted.camp.todolist:boxCornerRadiusBottomEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusBottomStart com.byted.camp.todolist:boxCornerRadiusBottomStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusTopEnd com.byted.camp.todolist:boxCornerRadiusTopEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusTopStart com.byted.camp.todolist:boxCornerRadiusTopStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxStrokeColor com.byted.camp.todolist:boxStrokeColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxStrokeWidth com.byted.camp.todolist:boxStrokeWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterEnabled com.byted.camp.todolist:counterEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterMaxLength com.byted.camp.todolist:counterMaxLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.byted.camp.todolist:counterOverflowTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.byted.camp.todolist:counterTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_errorEnabled com.byted.camp.todolist:errorEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.byted.camp.todolist:errorTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_helperText com.byted.camp.todolist:helperText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_helperTextEnabled com.byted.camp.todolist:helperTextEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_helperTextTextAppearance com.byted.camp.todolist:helperTextTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.byted.camp.todolist:hintAnimationEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintEnabled com.byted.camp.todolist:hintEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.byted.camp.todolist:hintTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription com.byted.camp.todolist:passwordToggleContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable com.byted.camp.todolist:passwordToggleDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled com.byted.camp.todolist:passwordToggleEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleTint com.byted.camp.todolist:passwordToggleTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode com.byted.camp.todolist:passwordToggleTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxBackgroundColor app.byted.camp.todolist:boxBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxBackgroundMode app.byted.camp.todolist:boxBackgroundMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxCollapsedPaddingTop app.byted.camp.todolist:boxCollapsedPaddingTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusBottomEnd app.byted.camp.todolist:boxCornerRadiusBottomEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusBottomStart app.byted.camp.todolist:boxCornerRadiusBottomStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusTopEnd app.byted.camp.todolist:boxCornerRadiusTopEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusTopStart app.byted.camp.todolist:boxCornerRadiusTopStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxStrokeColor app.byted.camp.todolist:boxStrokeColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxStrokeWidth app.byted.camp.todolist:boxStrokeWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterEnabled app.byted.camp.todolist:counterEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterMaxLength app.byted.camp.todolist:counterMaxLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance app.byted.camp.todolist:counterOverflowTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterTextAppearance app.byted.camp.todolist:counterTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_errorEnabled app.byted.camp.todolist:errorEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_errorTextAppearance app.byted.camp.todolist:errorTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_helperText app.byted.camp.todolist:helperText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_helperTextEnabled app.byted.camp.todolist:helperTextEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_helperTextTextAppearance app.byted.camp.todolist:helperTextTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled app.byted.camp.todolist:hintAnimationEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintEnabled app.byted.camp.todolist:hintEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintTextAppearance app.byted.camp.todolist:hintTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription app.byted.camp.todolist:passwordToggleContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable app.byted.camp.todolist:passwordToggleDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled app.byted.camp.todolist:passwordToggleEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleTint app.byted.camp.todolist:passwordToggleTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode app.byted.camp.todolist:passwordToggleTintMode}</code></td><td></td></tr>
      * </table>
      * @see #TextInputLayout_android_textColorHint
      * @see #TextInputLayout_android_hint
@@ -19016,18 +17975,18 @@ public final class R {
      */
     public static final int TextInputLayout_android_hint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#boxBackgroundColor}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#boxBackgroundColor}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:boxBackgroundColor
+     * @attr name app.byted.camp.todolist:boxBackgroundColor
      */
     public static final int TextInputLayout_boxBackgroundColor=2;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#boxBackgroundMode}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#boxBackgroundMode}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -19041,11 +18000,11 @@ public final class R {
      * <tr><td>outline</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:boxBackgroundMode
+     * @attr name app.byted.camp.todolist:boxBackgroundMode
      */
     public static final int TextInputLayout_boxBackgroundMode=3;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#boxCollapsedPaddingTop}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#boxCollapsedPaddingTop}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19054,11 +18013,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:boxCollapsedPaddingTop
+     * @attr name app.byted.camp.todolist:boxCollapsedPaddingTop
      */
     public static final int TextInputLayout_boxCollapsedPaddingTop=4;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#boxCornerRadiusBottomEnd}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#boxCornerRadiusBottomEnd}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19067,11 +18026,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:boxCornerRadiusBottomEnd
+     * @attr name app.byted.camp.todolist:boxCornerRadiusBottomEnd
      */
     public static final int TextInputLayout_boxCornerRadiusBottomEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#boxCornerRadiusBottomStart}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#boxCornerRadiusBottomStart}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19080,11 +18039,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:boxCornerRadiusBottomStart
+     * @attr name app.byted.camp.todolist:boxCornerRadiusBottomStart
      */
     public static final int TextInputLayout_boxCornerRadiusBottomStart=6;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#boxCornerRadiusTopEnd}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#boxCornerRadiusTopEnd}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19093,11 +18052,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:boxCornerRadiusTopEnd
+     * @attr name app.byted.camp.todolist:boxCornerRadiusTopEnd
      */
     public static final int TextInputLayout_boxCornerRadiusTopEnd=7;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#boxCornerRadiusTopStart}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#boxCornerRadiusTopStart}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19106,22 +18065,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:boxCornerRadiusTopStart
+     * @attr name app.byted.camp.todolist:boxCornerRadiusTopStart
      */
     public static final int TextInputLayout_boxCornerRadiusTopStart=8;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#boxStrokeColor}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#boxStrokeColor}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:boxStrokeColor
+     * @attr name app.byted.camp.todolist:boxStrokeColor
      */
     public static final int TextInputLayout_boxStrokeColor=9;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#boxStrokeWidth}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#boxStrokeWidth}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19130,30 +18089,30 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:boxStrokeWidth
+     * @attr name app.byted.camp.todolist:boxStrokeWidth
      */
     public static final int TextInputLayout_boxStrokeWidth=10;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#counterEnabled}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#counterEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:counterEnabled
+     * @attr name app.byted.camp.todolist:counterEnabled
      */
     public static final int TextInputLayout_counterEnabled=11;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#counterMaxLength}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#counterMaxLength}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.byted.camp.todolist:counterMaxLength
+     * @attr name app.byted.camp.todolist:counterMaxLength
      */
     public static final int TextInputLayout_counterMaxLength=12;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#counterOverflowTextAppearance}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#counterOverflowTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19161,11 +18120,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:counterOverflowTextAppearance
+     * @attr name app.byted.camp.todolist:counterOverflowTextAppearance
      */
     public static final int TextInputLayout_counterOverflowTextAppearance=13;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#counterTextAppearance}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#counterTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19173,21 +18132,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:counterTextAppearance
+     * @attr name app.byted.camp.todolist:counterTextAppearance
      */
     public static final int TextInputLayout_counterTextAppearance=14;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#errorEnabled}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#errorEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:errorEnabled
+     * @attr name app.byted.camp.todolist:errorEnabled
      */
     public static final int TextInputLayout_errorEnabled=15;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#errorTextAppearance}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#errorTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19195,31 +18154,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:errorTextAppearance
+     * @attr name app.byted.camp.todolist:errorTextAppearance
      */
     public static final int TextInputLayout_errorTextAppearance=16;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#helperText}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#helperText}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.byted.camp.todolist:helperText
+     * @attr name app.byted.camp.todolist:helperText
      */
     public static final int TextInputLayout_helperText=17;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#helperTextEnabled}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#helperTextEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:helperTextEnabled
+     * @attr name app.byted.camp.todolist:helperTextEnabled
      */
     public static final int TextInputLayout_helperTextEnabled=18;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#helperTextTextAppearance}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#helperTextTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19227,31 +18186,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:helperTextTextAppearance
+     * @attr name app.byted.camp.todolist:helperTextTextAppearance
      */
     public static final int TextInputLayout_helperTextTextAppearance=19;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#hintAnimationEnabled}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#hintAnimationEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:hintAnimationEnabled
+     * @attr name app.byted.camp.todolist:hintAnimationEnabled
      */
     public static final int TextInputLayout_hintAnimationEnabled=20;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#hintEnabled}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#hintEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:hintEnabled
+     * @attr name app.byted.camp.todolist:hintEnabled
      */
     public static final int TextInputLayout_hintEnabled=21;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#hintTextAppearance}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#hintTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19259,21 +18218,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:hintTextAppearance
+     * @attr name app.byted.camp.todolist:hintTextAppearance
      */
     public static final int TextInputLayout_hintTextAppearance=22;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#passwordToggleContentDescription}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#passwordToggleContentDescription}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.byted.camp.todolist:passwordToggleContentDescription
+     * @attr name app.byted.camp.todolist:passwordToggleContentDescription
      */
     public static final int TextInputLayout_passwordToggleContentDescription=23;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#passwordToggleDrawable}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#passwordToggleDrawable}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19281,32 +18240,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:passwordToggleDrawable
+     * @attr name app.byted.camp.todolist:passwordToggleDrawable
      */
     public static final int TextInputLayout_passwordToggleDrawable=24;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#passwordToggleEnabled}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#passwordToggleEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:passwordToggleEnabled
+     * @attr name app.byted.camp.todolist:passwordToggleEnabled
      */
     public static final int TextInputLayout_passwordToggleEnabled=25;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#passwordToggleTint}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#passwordToggleTint}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:passwordToggleTint
+     * @attr name app.byted.camp.todolist:passwordToggleTint
      */
     public static final int TextInputLayout_passwordToggleTint=26;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#passwordToggleTintMode}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#passwordToggleTintMode}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -19322,7 +18281,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:passwordToggleTintMode
+     * @attr name app.byted.camp.todolist:passwordToggleTintMode
      */
     public static final int TextInputLayout_passwordToggleTintMode=27;
     /**
@@ -19333,8 +18292,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ThemeEnforcement_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ThemeEnforcement_enforceMaterialTheme com.byted.camp.todolist:enforceMaterialTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ThemeEnforcement_enforceTextAppearance com.byted.camp.todolist:enforceTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ThemeEnforcement_enforceMaterialTheme app.byted.camp.todolist:enforceMaterialTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ThemeEnforcement_enforceTextAppearance app.byted.camp.todolist:enforceTextAppearance}</code></td><td></td></tr>
      * </table>
      * @see #ThemeEnforcement_android_textAppearance
      * @see #ThemeEnforcement_enforceMaterialTheme
@@ -19356,23 +18315,23 @@ public final class R {
      */
     public static final int ThemeEnforcement_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#enforceMaterialTheme}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#enforceMaterialTheme}
      * attribute's value can be found in the {@link #ThemeEnforcement} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:enforceMaterialTheme
+     * @attr name app.byted.camp.todolist:enforceMaterialTheme
      */
     public static final int ThemeEnforcement_enforceMaterialTheme=1;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#enforceTextAppearance}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#enforceTextAppearance}
      * attribute's value can be found in the {@link #ThemeEnforcement} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.byted.camp.todolist:enforceTextAppearance
+     * @attr name app.byted.camp.todolist:enforceTextAppearance
      */
     public static final int ThemeEnforcement_enforceTextAppearance=2;
     /**
@@ -19384,40 +18343,33 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_buttonGravity com.byted.camp.todolist:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.byted.camp.todolist:collapseContentDescription}</code></td><td>Text to set as the content description for the collapse button.</td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon com.byted.camp.todolist:collapseIcon}</code></td><td>Icon drawable to use for the collapse button.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.byted.camp.todolist:contentInsetEnd}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.byted.camp.todolist:contentInsetEndWithActions}</code></td><td>Minimum inset for content views within a bar when actions from a menu
-     * are present.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.byted.camp.todolist:contentInsetLeft}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight com.byted.camp.todolist:contentInsetRight}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart com.byted.camp.todolist:contentInsetStart}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.byted.camp.todolist:contentInsetStartWithNavigation}</code></td><td>Minimum inset for content views within a bar when a navigation button
-     * is present, such as the Up button.</td></tr>
-     * <tr><td><code>{@link #Toolbar_logo com.byted.camp.todolist:logo}</code></td><td>Specifies the drawable used for the application logo.</td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription com.byted.camp.todolist:logoDescription}</code></td><td>A content description string to describe the appearance of the
-     * associated logo image.</td></tr>
-     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.byted.camp.todolist:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.byted.camp.todolist:navigationContentDescription}</code></td><td>Text to set as the content description for the navigation button
-     * located at the start of the toolbar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon com.byted.camp.todolist:navigationIcon}</code></td><td>Icon drawable to use for the navigation button located at
-     * the start of the toolbar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme com.byted.camp.todolist:popupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
-     * shown by widgets in the action bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle com.byted.camp.todolist:subtitle}</code></td><td>Specifies subtitle text used for navigationMode="normal"</td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.byted.camp.todolist:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.byted.camp.todolist:subtitleTextColor}</code></td><td>A color to apply to the subtitle string.</td></tr>
-     * <tr><td><code>{@link #Toolbar_title com.byted.camp.todolist:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin com.byted.camp.todolist:titleMargin}</code></td><td>Specifies extra space on the left, start, right and end sides
-     * of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.byted.camp.todolist:titleMarginBottom}</code></td><td>Specifies extra space on the bottom side of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.byted.camp.todolist:titleMarginEnd}</code></td><td>Specifies extra space on the end side of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart com.byted.camp.todolist:titleMarginStart}</code></td><td>Specifies extra space on the start side of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop com.byted.camp.todolist:titleMarginTop}</code></td><td>Specifies extra space on the top side of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins com.byted.camp.todolist:titleMargins}</code></td><td>{@deprecated Use titleMargin}</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.byted.camp.todolist:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor com.byted.camp.todolist:titleTextColor}</code></td><td>A color to apply to the title string.</td></tr>
+     * <tr><td><code>{@link #Toolbar_buttonGravity app.byted.camp.todolist:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription app.byted.camp.todolist:collapseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon app.byted.camp.todolist:collapseIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd app.byted.camp.todolist:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions app.byted.camp.todolist:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft app.byted.camp.todolist:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight app.byted.camp.todolist:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart app.byted.camp.todolist:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation app.byted.camp.todolist:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logo app.byted.camp.todolist:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription app.byted.camp.todolist:logoDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_maxButtonHeight app.byted.camp.todolist:maxButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription app.byted.camp.todolist:navigationContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationIcon app.byted.camp.todolist:navigationIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_popupTheme app.byted.camp.todolist:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitle app.byted.camp.todolist:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance app.byted.camp.todolist:subtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor app.byted.camp.todolist:subtitleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_title app.byted.camp.todolist:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin app.byted.camp.todolist:titleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom app.byted.camp.todolist:titleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd app.byted.camp.todolist:titleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart app.byted.camp.todolist:titleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop app.byted.camp.todolist:titleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins app.byted.camp.todolist:titleMargins}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextAppearance app.byted.camp.todolist:titleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor app.byted.camp.todolist:titleTextColor}</code></td><td></td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -19449,7 +18401,6 @@ public final class R {
      * @see #Toolbar_titleTextAppearance
      * @see #Toolbar_titleTextColor
      */
-    @Deprecated
     public static final int[] Toolbar={
       0x010100af, 0x01010140, 0x7f030053, 0x7f030082, 
       0x7f030083, 0x7f030097, 0x7f030098, 0x7f030099, 
@@ -19503,7 +18454,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -19512,42 +18463,38 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td>Push object to the bottom of its container, not changing its size.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Push object to the top of its container, not changing its size.</td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:buttonGravity
+     * @attr name app.byted.camp.todolist:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
-     * <p>
-     * @attr description
-     * Text to set as the content description for the collapse button.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#collapseContentDescription}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.byted.camp.todolist:collapseContentDescription
+     * @attr name app.byted.camp.todolist:collapseContentDescription
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
-     * <p>
-     * @attr description
-     * Icon drawable to use for the collapse button.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#collapseIcon}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:collapseIcon
+     * @attr name app.byted.camp.todolist:collapseIcon
      */
     public static final int Toolbar_collapseIcon=4;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#contentInsetEnd}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -19555,14 +18502,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:contentInsetEnd
+     * @attr name app.byted.camp.todolist:contentInsetEnd
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar when actions from a menu
-     * are present. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#contentInsetEndWithActions}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -19570,14 +18515,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:contentInsetEndWithActions
+     * @attr name app.byted.camp.todolist:contentInsetEndWithActions
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#contentInsetLeft}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -19585,14 +18528,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:contentInsetLeft
+     * @attr name app.byted.camp.todolist:contentInsetLeft
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#contentInsetRight}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -19600,14 +18541,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:contentInsetRight
+     * @attr name app.byted.camp.todolist:contentInsetRight
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#contentInsetStart}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -19615,14 +18554,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:contentInsetStart
+     * @attr name app.byted.camp.todolist:contentInsetStart
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar when a navigation button
-     * is present, such as the Up button. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#contentInsetStartWithNavigation}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -19630,37 +18567,33 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:contentInsetStartWithNavigation
+     * @attr name app.byted.camp.todolist:contentInsetStartWithNavigation
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
-     * <p>
-     * @attr description
-     * Drawable to set as the logo that appears at the starting side of
-     * the Toolbar, just after the navigation button.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#logo}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:logo
+     * @attr name app.byted.camp.todolist:logo
      */
     public static final int Toolbar_logo=11;
     /**
-     * <p>
-     * @attr description
-     * A content description string to describe the appearance of the
-     * associated logo image.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#logoDescription}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.byted.camp.todolist:logoDescription
+     * @attr name app.byted.camp.todolist:logoDescription
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19669,62 +18602,55 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:maxButtonHeight
+     * @attr name app.byted.camp.todolist:maxButtonHeight
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
-     * <p>
-     * @attr description
-     * Text to set as the content description for the navigation button
-     * located at the start of the toolbar.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#navigationContentDescription}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.byted.camp.todolist:navigationContentDescription
+     * @attr name app.byted.camp.todolist:navigationContentDescription
      */
     public static final int Toolbar_navigationContentDescription=14;
     /**
-     * <p>
-     * @attr description
-     * Icon drawable to use for the navigation button located at
-     * the start of the toolbar.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#navigationIcon}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:navigationIcon
+     * @attr name app.byted.camp.todolist:navigationIcon
      */
     public static final int Toolbar_navigationIcon=15;
     /**
-     * <p>
-     * @attr description
-     * Reference to a theme that should be used to inflate popups
-     * shown by widgets in the toolbar.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#popupTheme}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:popupTheme
+     * @attr name app.byted.camp.todolist:popupTheme
      */
     public static final int Toolbar_popupTheme=16;
     /**
-     * <p>
-     * @attr description
-     * Specifies subtitle text used for navigationMode="normal"
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#subtitle}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.byted.camp.todolist:subtitle
+     * @attr name app.byted.camp.todolist:subtitle
      */
     public static final int Toolbar_subtitle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19732,36 +18658,33 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:subtitleTextAppearance
+     * @attr name app.byted.camp.todolist:subtitleTextAppearance
      */
     public static final int Toolbar_subtitleTextAppearance=18;
     /**
-     * <p>
-     * @attr description
-     * A color to apply to the subtitle string.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#subtitleTextColor}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:subtitleTextColor
+     * @attr name app.byted.camp.todolist:subtitleTextColor
      */
     public static final int Toolbar_subtitleTextColor=19;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#title}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.byted.camp.todolist:title
+     * @attr name app.byted.camp.todolist:title
      */
     public static final int Toolbar_title=20;
     /**
-     * <p>
-     * @attr description
-     * Specifies extra space on the left, start, right and end sides
-     * of the toolbar's title. Margin values should be positive.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#titleMargin}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -19769,15 +18692,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:titleMargin
+     * @attr name app.byted.camp.todolist:titleMargin
      */
     public static final int Toolbar_titleMargin=21;
     /**
-     * <p>
-     * @attr description
-     * Specifies extra space on the bottom side of the toolbar's title.
-     * If both this attribute and titleMargin are specified, then this
-     * attribute takes precedence. Margin values should be positive.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#titleMarginBottom}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -19785,15 +18705,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:titleMarginBottom
+     * @attr name app.byted.camp.todolist:titleMarginBottom
      */
     public static final int Toolbar_titleMarginBottom=22;
     /**
-     * <p>
-     * @attr description
-     * Specifies extra space on the end side of the toolbar's title.
-     * If both this attribute and titleMargin are specified, then this
-     * attribute takes precedence. Margin values should be positive.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#titleMarginEnd}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -19801,15 +18718,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:titleMarginEnd
+     * @attr name app.byted.camp.todolist:titleMarginEnd
      */
     public static final int Toolbar_titleMarginEnd=23;
     /**
-     * <p>
-     * @attr description
-     * Specifies extra space on the start side of the toolbar's title.
-     * If both this attribute and titleMargin are specified, then this
-     * attribute takes precedence. Margin values should be positive.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#titleMarginStart}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -19817,15 +18731,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:titleMarginStart
+     * @attr name app.byted.camp.todolist:titleMarginStart
      */
     public static final int Toolbar_titleMarginStart=24;
     /**
-     * <p>
-     * @attr description
-     * Specifies extra space on the top side of the toolbar's title.
-     * If both this attribute and titleMargin are specified, then this
-     * attribute takes precedence. Margin values should be positive.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#titleMarginTop}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -19833,13 +18744,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:titleMarginTop
+     * @attr name app.byted.camp.todolist:titleMarginTop
      */
     public static final int Toolbar_titleMarginTop=25;
     /**
-     * <p>
-     * @attr description
-     * {@deprecated Use titleMargin}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#titleMargins}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -19847,12 +18757,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:titleMargins
+     * @attr name app.byted.camp.todolist:titleMargins
      */
-    @Deprecated
     public static final int Toolbar_titleMargins=26;
     /**
-     * <p>This symbol is the offset where the {@link com.byted.camp.todolist.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19860,19 +18769,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:titleTextAppearance
+     * @attr name app.byted.camp.todolist:titleTextAppearance
      */
     public static final int Toolbar_titleTextAppearance=27;
     /**
-     * <p>
-     * @attr description
-     * A color to apply to the title string.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#titleTextColor}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:titleTextColor
+     * @attr name app.byted.camp.todolist:titleTextColor
      */
     public static final int Toolbar_titleTextColor=28;
     /**
@@ -19884,9 +18792,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd com.byted.camp.todolist:paddingEnd}</code></td><td>Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.</td></tr>
-     * <tr><td><code>{@link #View_paddingStart com.byted.camp.todolist:paddingStart}</code></td><td>Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.</td></tr>
-     * <tr><td><code>{@link #View_theme com.byted.camp.todolist:theme}</code></td><td>Deprecated.</td></tr>
+     * <tr><td><code>{@link #View_paddingEnd app.byted.camp.todolist:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingStart app.byted.camp.todolist:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_theme app.byted.camp.todolist:theme}</code></td><td></td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -19899,11 +18807,8 @@ public final class R {
       0x7f0301ea
     };
     /**
-     * <p>
-     * @attr description
-     * Specifies a theme override for a view. When a theme override is set, the
-     * view will be inflated using a {@link android.content.Context} themed with
-     * the specified resource.
+     * <p>This symbol is the offset where the {@link android.R.attr#theme}
+     * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -19914,14 +18819,8 @@ public final class R {
      */
     public static final int View_android_theme=0;
     /**
-     * <p>
-     * @attr description
-     * Boolean that controls whether a view can take focus.  By default the user can not
-     * move focus to a view; by setting this attribute to true the view is
-     * allowed to take focus.  This value does not impact the behavior of
-     * directly calling {@link android.view.View#requestFocus}, which will
-     * always request focus regardless of this view.  It only impacts where
-     * focus navigation will try to move focus.
+     * <p>This symbol is the offset where the {@link android.R.attr#focusable}
+     * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -19938,9 +18837,8 @@ public final class R {
      */
     public static final int View_android_focusable=1;
     /**
-     * <p>
-     * @attr description
-     * Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#paddingEnd}
+     * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -19948,13 +18846,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:paddingEnd
+     * @attr name app.byted.camp.todolist:paddingEnd
      */
     public static final int View_paddingEnd=2;
     /**
-     * <p>
-     * @attr description
-     * Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#paddingStart}
+     * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -19962,20 +18859,19 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.byted.camp.todolist:paddingStart
+     * @attr name app.byted.camp.todolist:paddingStart
      */
     public static final int View_paddingStart=3;
     /**
-     * <p>
-     * @attr description
-     * Deprecated.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#theme}
+     * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.byted.camp.todolist:theme
+     * @attr name app.byted.camp.todolist:theme
      */
     public static final int View_theme=4;
     /**
@@ -19986,8 +18882,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.byted.camp.todolist:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.byted.camp.todolist:backgroundTintMode}</code></td><td>Blending mode used to apply the background tint.</td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint app.byted.camp.todolist:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode app.byted.camp.todolist:backgroundTintMode}</code></td><td></td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
@@ -20012,21 +18908,19 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_android_background=0;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the background.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#backgroundTint}
+     * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.byted.camp.todolist:backgroundTint
+     * @attr name app.byted.camp.todolist:backgroundTint
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the background tint.
+     * <p>This symbol is the offset where the {@link app.byted.camp.todolist.R.attr#backgroundTintMode}
+     * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -20034,20 +18928,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and icon color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.byted.camp.todolist:backgroundTintMode
+     * @attr name app.byted.camp.todolist:backgroundTintMode
      */
     public static final int ViewBackgroundHelper_backgroundTintMode=2;
     /**
@@ -20081,11 +18970,8 @@ public final class R {
      */
     public static final int ViewStubCompat_android_id=0;
     /**
-     * <p>
-     * @attr description
-     * Supply an identifier for the layout resource to inflate when the ViewStub
-     * becomes visible or when forced to do so. The layout resource must be a
-     * valid reference to a layout.
+     * <p>This symbol is the offset where the {@link android.R.attr#layout}
+     * attribute's value can be found in the {@link #ViewStubCompat} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -20096,9 +18982,8 @@ public final class R {
      */
     public static final int ViewStubCompat_android_layout=1;
     /**
-     * <p>
-     * @attr description
-     * Overrides the id of the inflated View with this value.
+     * <p>This symbol is the offset where the {@link android.R.attr#inflatedId}
+     * attribute's value can be found in the {@link #ViewStubCompat} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme

@@ -1,32 +1,22 @@
 package com.byted.camp.todolist;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
-import android.content.ContentProvider;
 import android.content.ContentValues;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteOpenHelper;
-import android.net.Uri;
 import android.os.Bundle;
-import android.os.Environment;
-import android.provider.BaseColumns;
-import android.provider.UserDictionary;
-import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
-import android.support.v4.content.CursorLoader;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.EditText;
 
 import com.byted.camp.todolist.beans.Note;
 import com.byted.camp.todolist.beans.Priority;
@@ -34,15 +24,10 @@ import com.byted.camp.todolist.beans.State;
 import com.byted.camp.todolist.db.TodoContract.TodoNote;
 import com.byted.camp.todolist.db.TodoDbHelper;
 import com.byted.camp.todolist.debug.DebugActivity;
+import com.byted.camp.todolist.debug.FileDemoActivity;
+import com.byted.camp.todolist.debug.SpDemoActivity;
 import com.byted.camp.todolist.ui.NoteListAdapter;
 
-import java.io.ByteArrayInputStream;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.Reader;
 import java.util.Collections;
 import java.util.Date;
 import java.util.LinkedList;
@@ -69,8 +54,6 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-//                        .setAction("Action", null).show();
                 startActivityForResult(
                         new Intent(MainActivity.this, NoteActivity.class),
                         REQUEST_CODE_ADD);
@@ -100,35 +83,6 @@ public class MainActivity extends AppCompatActivity {
 
         notesAdapter.refresh(loadNotesFromDatabase());
 
-//        Log.e("jimbo", "")
-        Environment.getExternalStorageDirectory();
-        getExternalFilesDir("");
-        getExternalCacheDir();
-        File file = new File("");
-        try {
-            file.createNewFile();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        Reader reader;
-        try {
-            InputStream inputStream = new FileInputStream("xxx");
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-        SharedPreferences.Editor editor;
-        BaseColumns columns;
-        SQLiteDatabase database;
-        SQLiteOpenHelper helper;
-
-        String projection=null, selectionClause=null, selectionArgs=null, sortOrder=null;
-
-        getContentResolver().query(
-                UserDictionary.Words.CONTENT_URI,  // The content URI of the words table
-                projection,                       // The columns to return for each row
-                selectionClause,                  // Either null, or the word the user entered
-                selectionArgs,                    // Either empty, or the string the user entered
-                sortOrder);
     }
 
     @Override
@@ -146,6 +100,7 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
+    @SuppressLint("NonConstantResourceId")
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
@@ -154,6 +109,12 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             case R.id.action_debug:
                 startActivity(new Intent(this, DebugActivity.class));
+                return true;
+            case R.id.action_file:
+                startActivity(new Intent(this, FileDemoActivity.class));
+                return true;
+            case R.id.action_sp:
+                startActivity(new Intent(this, SpDemoActivity.class));
                 return true;
             default:
                 break;
@@ -230,47 +191,6 @@ public class MainActivity extends AppCompatActivity {
                 new String[]{String.valueOf(note.id)});
         if (rows > 0) {
             notesAdapter.refresh(loadNotesFromDatabase());
-        }
-    }
-
-    static class MyContentProvider extends ContentProvider {
-
-        @Override
-        public boolean onCreate() {
-            // do something when create
-            return false;
-
-
-
-
-        }
-
-        @Nullable
-        @Override
-        public Cursor query(@NonNull Uri uri, @Nullable String[] projection, @Nullable String selection, @Nullable String[] selectionArgs, @Nullable String sortOrder) {
-            return null;
-        }
-
-        @Nullable
-        @Override
-        public Uri insert(@NonNull Uri uri, @Nullable ContentValues values) {
-            return null;
-        }
-
-        @Override
-        public int delete(@NonNull Uri uri, @Nullable String selection, @Nullable String[] selectionArgs) {
-            return 0;
-        }
-
-        @Override
-        public int update(@NonNull Uri uri, @Nullable ContentValues values, String selection, @Nullable String[] selectionArgs) {
-            return 0;
-        }
-
-        @Nullable
-        @Override
-        public String getType(@NonNull Uri uri) {
-            return null;
         }
     }
 }

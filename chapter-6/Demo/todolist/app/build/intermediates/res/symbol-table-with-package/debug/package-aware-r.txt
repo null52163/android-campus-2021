@@ -1,4 +1,4 @@
-com.byted.camp.todolist
+app.byted.camp.todolist
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -1045,6 +1045,7 @@ id action_container
 id action_context_bar
 id action_debug
 id action_divider
+id action_file
 id action_image
 id action_menu_divider
 id action_menu_presenter
@@ -1052,6 +1053,7 @@ id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
 id action_settings
+id action_sp
 id action_text
 id actions
 id activity_chooser_view_content
@@ -1071,7 +1073,9 @@ id btn_high
 id btn_low
 id btn_medium
 id btn_print_path
+id btn_read
 id btn_request_permission
+id btn_save
 id buttonPanel
 id center
 id center_horizontal
@@ -1098,8 +1102,11 @@ id design_navigation_view
 id dimensions
 id direct
 id disableHome
+id edit_key
 id edit_query
+id edit_read_key
 id edit_text
+id edit_value
 id end
 id enterAlways
 id enterAlwaysCollapsed
@@ -1235,6 +1242,8 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id tv_file
+id tv_read
 id uniform
 id unlabeled
 id up
@@ -1292,8 +1301,10 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_debug
+layout activity_file_demo
 layout activity_main
 layout activity_note
+layout activity_sp_demo
 layout content_main
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -1364,14 +1375,19 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string action_database_demo
 string action_debug
+string action_file_demo
 string action_settings
+string action_sp_demo
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string character_counter_content_description
 string character_counter_pattern
 string confirm
+string demo_read
+string demo_save
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
