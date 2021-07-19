@@ -79,6 +79,11 @@ public class NoteActivity extends AppCompatActivity {
     }
 
     @Override
+    protected void onStop() {
+        super.onStop();
+    }
+
+    @Override
     protected void onDestroy() {
         super.onDestroy();
         database.close();
@@ -88,16 +93,8 @@ public class NoteActivity extends AppCompatActivity {
     }
 
     private boolean saveNote2Database(String content, Priority priority) {
-        if (database == null || TextUtils.isEmpty(content)) {
-            return false;
-        }
-        ContentValues values = new ContentValues();
-        values.put(TodoNote.COLUMN_CONTENT, content);
-        values.put(TodoNote.COLUMN_STATE, State.TODO.intValue);
-        values.put(TodoNote.COLUMN_DATE, System.currentTimeMillis());
-        values.put(TodoNote.COLUMN_PRIORITY, priority.intValue);
-        long rowId = database.insert(TodoNote.TABLE_NAME, null, values);
-        return rowId != -1;
+        // TODO: 2021/7/19 8. 这里插入数据库
+        return true;
     }
 
     private Priority getSelectedPriority() {
