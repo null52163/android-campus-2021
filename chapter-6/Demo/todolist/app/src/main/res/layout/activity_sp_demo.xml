@@ -22,7 +22,7 @@
         <EditText
             android:id="@+id/edit_key"
             android:textAlignment="viewStart"
-            android:hint="write key you want to save"
+            android:hint="key you want to save"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </LinearLayout>
@@ -42,7 +42,7 @@
         <EditText
             android:id="@+id/edit_value"
             android:textAlignment="viewStart"
-            android:hint="write value you want to save"
+            android:hint="value you want to save"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </LinearLayout>
@@ -69,7 +69,7 @@
         <EditText
             android:id="@+id/edit_read_key"
             android:textAlignment="viewStart"
-            android:hint="read key you want to save"
+            android:hint="key you want to read"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </LinearLayout>

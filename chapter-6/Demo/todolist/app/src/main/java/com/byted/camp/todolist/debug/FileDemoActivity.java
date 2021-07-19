@@ -65,16 +65,16 @@ public class FileDemoActivity extends AppCompatActivity {
                     }
                 }
 
-                FileOutputStream inputStream = null;
+                FileOutputStream outputStream = null;
                 try {
-                    inputStream = new FileOutputStream(file);
-                    inputStream.write(content.getBytes());
+                    outputStream = new FileOutputStream(file);
+                    outputStream.write(content.getBytes());
                 }  catch (IOException e) {
                     e.printStackTrace();
                 } finally {
                     try {
-                        if (null != inputStream) {
-                            inputStream.close();
+                        if (null != outputStream) {
+                            outputStream.close();
                         }
                     } catch (IOException e) {
                         e.printStackTrace();
