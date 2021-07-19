@@ -19,6 +19,8 @@ import android.view.View;
 import com.byted.camp.todolist.beans.Note;
 import com.byted.camp.todolist.db.TodoDbHelper;
 import com.byted.camp.todolist.debug.DebugActivity;
+import com.byted.camp.todolist.debug.FileDemoActivity;
+import com.byted.camp.todolist.debug.SpDemoActivity;
 import com.byted.camp.todolist.ui.NoteListAdapter;
 
 import java.util.Collections;
@@ -101,6 +103,12 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             case R.id.action_debug:
                 startActivity(new Intent(this, DebugActivity.class));
+                return true;
+            case R.id.action_file:
+                startActivity(new Intent(this, FileDemoActivity.class));
+                return true;
+            case R.id.action_sp:
+                startActivity(new Intent(this, SpDemoActivity.class));
                 return true;
             default:
                 break;
