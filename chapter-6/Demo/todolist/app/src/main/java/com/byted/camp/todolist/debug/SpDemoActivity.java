@@ -12,6 +12,8 @@ import com.byted.camp.todolist.R;
 
 public class SpDemoActivity extends AppCompatActivity {
 
+    // TODO: 2021/7/19 SP的读写操作
+
     private EditText editTextWriteKey;
     private EditText editTextWriteValue;
     private EditText editTextReadKey;
