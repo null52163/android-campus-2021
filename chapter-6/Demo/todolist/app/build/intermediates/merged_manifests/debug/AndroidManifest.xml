@@ -31,6 +31,8 @@
         </activity>
         <activity android:name="com.byted.camp.todolist.debug.DebugActivity" />
         <activity android:name="com.byted.camp.todolist.NoteActivity" />
+        <activity android:name="com.byted.camp.todolist.debug.FileDemoActivity" />
+        <activity android:name="com.byted.camp.todolist.debug.SpDemoActivity" />
     </application>
 
 </manifest>
