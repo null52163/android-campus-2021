@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".PracticeActivity">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="练习"
+        android:textColor="#555555"
+        android:layout_margin="10px"
+        />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入"
+        android:maxLines="2"
+        android:layout_margin="10px"
+        />
+    <Button
+
+        android:layout_width="70px"
+        android:layout_height="80px"
+        android:gravity="center"
+        android:text="按钮"
+        android:id="@+id/btn"
+        android:layout_margin="10px"
+        />
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"
+        android:src="@mipmap/ic_launcher"
+        />
+    <AnalogClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+
+</LinearLayout>

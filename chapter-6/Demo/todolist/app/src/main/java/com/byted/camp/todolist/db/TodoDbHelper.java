@@ -15,11 +15,26 @@ public class TodoDbHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        // TODO: 2021/7/19 3. 这里执行创建数据库操作
+        db.execSQL(SQL_CREATE_ENTRIES);
+
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        // TODO: 2021/7/19 4. 这里执行升级数据库操作
-    }
+        for(int i = oldVersion;i<newVersion;i++){
+            switch (i){
+                case 1:
+                    try{
+                        db.execSQL("ALTER TABLE" + TABLE_NAME + "ADD" +EXTRA +"text");
+                    }catch(Exception e){
+                        e.printStackTrace();
+                    }
+                    break;
+                default:
+                    break;
+            }
+        }
+
 }
+}
+

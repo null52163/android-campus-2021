@@ -18,8 +18,10 @@ import java.io.IOException;
 public class FileDemoActivity extends AppCompatActivity {
 
 
-    // TODO: 2021/7/19 文件的去写操作
-
+    ContentValues values = new ContentValues();
+    values.put(TodoNote.COLUMN_NAME_TITLE, title);
+    values.put(TodoNote.COLUMN_NAME_SUBTITLE, subtitle);
+    long newRowId = db.insert(TodoNote.TABLE_NAME,null,values);
     private String mFileName = null;
 
     private EditText editText;

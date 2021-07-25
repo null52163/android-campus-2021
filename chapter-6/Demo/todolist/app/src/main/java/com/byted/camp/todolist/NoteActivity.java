@@ -95,7 +95,9 @@ public class NoteActivity extends AppCompatActivity {
     }
 
     private boolean saveNote2Database(String content, Priority priority) {
-        // TODO: 2021/7/19 8. 这里插入数据库
+        ContentValues values = new ContentValues();
+        values.put(content, database.getContent());
+        database.insert(TABLE_NAME,null,values);
         return true;
     }
 

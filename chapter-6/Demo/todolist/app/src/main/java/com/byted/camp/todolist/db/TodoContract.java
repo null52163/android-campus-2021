@@ -4,13 +4,23 @@ import android.provider.BaseColumns;
 
 public final class TodoContract {
 
-    // TODO 1. 定义创建数据库以及升级的操作
+    private  static final String SQL_CREATE_ENTRIES = "CREATE TABLE" +
+            TodoNote.TABLE_NAME + "(" + TodoNote._ID + "INTEGER PRIMARY KEY,"
+            + TodoNote.COLUME_NAME_TITLE + "TEXT," + TodoNote.COLUME_NAME_SUBTITLE
+            + "TEXT)" ;
+
+    private  static final String SQL_DELETE_ENTRIES = "DROP TABLE IF EXISTS" + TodoNote.TABLE_NAME;
+
+    private  static final String SQL_UPGRADE_ENTRIES(SQLiteDatabase db , int old Version , int new Version){};
+
 
     private TodoContract() {
     }
 
     public static class TodoNote implements BaseColumns {
-        // TODO 2.此处定义表名以及列明
+        public static final String TABLE_NAME = "entry";
+        public static final String COLUME_NAME_TITLE = "title";
+        public static final String COLUME_NAME_SUBTITLE = "subtitle";
     }
 
 }

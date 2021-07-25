@@ -12,7 +12,17 @@ import com.byted.camp.todolist.R;
 
 public class SpDemoActivity extends AppCompatActivity {
 
-    // TODO: 2021/7/19 SP的读写操作
+
+    String getString(String key,String defValue);
+    set<String> getStringSet(String key,Set<String> defValues);
+    int getInt(String key, int defValue);
+    long getLong(String key, long defValue);
+    float getFloat(String key, float defValue);
+    boolean getBoolean(String key, boolean defValue);
+    SharedPreferences sharedPref = getActivity().getPreferences(Context.MODE_PRIVATE);
+    SharedPreferences.Editor editor = sharedPref.edit();
+    editor.putInt(getString(R.string.saved_high_score_key),newHighScore);
+    editor.commit();
 
     private EditText editTextWriteKey;
     private EditText editTextWriteValue;

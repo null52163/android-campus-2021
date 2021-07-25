@@ -71,12 +71,26 @@ public class MainActivity extends AppCompatActivity {
         notesAdapter = new NoteListAdapter(new NoteOperator() {
             @Override
             public void deleteNote(Note note) {
-                // TODO: 2021/7/19 7. 此处删除数据库数据
+                String selection = TodoNote.COLUMN_NAME_TITLE + " LIKE ?";
+                String[] selectionArgs = {"MyTitle"};
+                int deleteRows = database.delete(TodoNote.TABLE_NAME,selection,selectionArgs);
             }
 
             @Override
             public void updateNote(Note note) {
-                // TODO: 2021/7/19 7. 此处更新数据库数据
+                SQLiteDatabase db = mDbHelper.getWritableDatabase();
+                String title = "MyNewTitle";
+                ContentValues values = new ContentValues();
+                values.put(TodoNote.COLUMN_NAME_TITLE, title);
+
+                String selection = TodoNote.COLUMN_NAME_TITLE + "LIKE ?";
+                String[] selectionArgs = {"MyOldTitle"};
+                int count = db.update(
+                        TodoNoteDbHelper.TodoNote.TABLE_NAME,
+                        values,
+                        selection,
+                        selectionArgs
+                );
             }
         });
         recyclerView.setAdapter(notesAdapter);
@@ -137,7 +151,32 @@ public class MainActivity extends AppCompatActivity {
             return Collections.emptyList();
         }
         List<Note> result = new LinkedList<>();
-        // TODO: 2021/7/19 7. 此处query数据库数据
+        Cursor cursor = null;
+        try {
+            cursor = database.query(TodoNote.TABLE_NAME,
+                    new Srting[]{TodoNote.COLUMN_CONTENT,TodoNote.COLUMN_DATE,
+                            TodoNote.COLUMN_STATE
+                    } ,null,null,null,null,null,
+                   TodoNote.COLUMN_DATE  + "DESC");
+            while (cursor.moveToNext()){
+                String content = cursor.getString(cursor.getColumnIndex(TodoNote.COLUMN_CONTENT));
+                long dateMs = cursor.getLong(cursor.getColumnIndex(TodoNote.COLUMN_DATE));
+                int intState = cursor.getInt(cursor.getColumnIndex(TodoNote.COLUMN_STATE));
+
+                Note note = new Note();
+                note.setContent(content);
+                note.setDate(new Date(dateMs));
+                note.setState(State.from(intState));
+                result.add(note);
+
+            }
+
+        }finally {
+            if(cursor !=null){
+                cursor.close();
+            }
+        }
+
         return result;
     }
 }
